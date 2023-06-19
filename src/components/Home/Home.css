@@ -1,0 +1,107 @@
+.Home {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100%;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1ch;
+  font-size: 1.5rem;
+
+  font-weight: 100;
+}
+
+.buildings {
+  position: fixed;
+  top: 46px;
+  left: 380px;
+  letter-spacing: 2.1vw;
+  font-size: 2vw;
+  z-index: 1000;
+}
+
+.picture1 {
+  position: fixed;
+  left: 25.3vw;
+  top: 50px;
+  width: 70vw;
+  height: 36vw;
+  z-index: -10;
+  filter: saturate(0.5);
+}
+
+.curtain1 {
+  position: fixed;
+  left: 25.3vw;
+  top: 50px;
+  width: 70vw;
+  height: 36vw;
+  background: linear-gradient(to bottom, rgb(31, 31, 32), rgba(31, 31, 32, 0));
+  z-index: -10;
+}
+
+.picture2 {
+  position: fixed;
+  left: 77px;
+  bottom: 120px;
+  width: 30vw;
+  height: 17vw;
+  z-index: -11;
+  filter: saturate(0.5);
+}
+
+.curtain2 {
+  position: fixed;
+  bottom: 120px;
+  left: 77px;
+  height: 140px;
+  width: 600px;
+  background: linear-gradient(to top, rgb(31, 31, 32), rgba(31, 31, 32, 0));
+  z-index: -10;
+}
+
+.interiorDesign {
+  position: fixed;
+  bottom: 120px;
+  right: 50px;
+  letter-spacing: 2.1vw;
+  font-size: 1.5vw;
+  margin: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    position: unset !important;
+    margin-top: 100px;
+    height: 80vh;
+    overflow: auto;
+  }
+
+  .Home::-webkit-scrollbar {
+    display: none;
+  }
+  .buildings,
+  .interiorDesign,
+  .picture1,
+  .picture2 {
+    position: unset;
+    display: block;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+  }
+
+  .picture2 {
+    width: 70vw;
+    height: 36vw;
+  }
+  .curtain1,
+  .curtain2 {
+    display: none;
+  }
+}

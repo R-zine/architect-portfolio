@@ -1,0 +1,21 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  --bgColor: #1f1f20;
+  --font: "Roboto Condensed", sans-serif;
+  cursor: url("./assets/mouseIcon.png"), default;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  background-color: var(--bgColor);
+  font-family: var(--font);
+  font-weight: 400;
+  letter-spacing: 0.5ch;
+  overflow-x: hidden;
+}

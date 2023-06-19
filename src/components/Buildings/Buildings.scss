@@ -1,0 +1,304 @@
+$width: 400px;
+$height: 250px;
+$primary_color: #1f1f20;
+$border_color--hover: lighten($primary_color, 80);
+$stroke: 2px;
+$border: $stroke solid darken($primary_color, 10);
+$transition_duration: 200ms;
+$pipeline_width: $width + $stroke;
+$pipeline_height: $height + $stroke;
+$pipes: 4;
+
+@function border-pipeline($transition_duration, $pipe) {
+  @return $transition_duration * $pipe;
+}
+
+@mixin border-animation($dimension, $easing, $pipe) {
+  transition: $transition_duration $dimension $easing
+    border-pipeline($transition_duration, $pipe);
+  -web-kit-transition: $transition_duration $dimension $easing
+    border-pipeline($transition_duration, $pipe);
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+.box {
+  width: $width;
+  height: $height;
+  background: $primary_color;
+  margin: auto;
+  border: $border;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  top: 0px;
+  cursor: pointer;
+
+  transition: ($transition_duration * $pipes) + $transition_duration ease;
+  &:before {
+    position: absolute;
+    width: 0;
+    height: $stroke;
+    content: "";
+    background: #fff;
+    top: -$stroke;
+    left: -$stroke;
+    @include border-animation(width, ease, 3);
+  }
+  &:after {
+    position: absolute;
+    width: $stroke;
+    height: 0;
+    content: "";
+    background: #fff;
+    top: -$stroke;
+    right: -$stroke;
+    @include border-animation(height, ease, 2);
+  }
+  &-inner:after {
+    position: absolute;
+    width: 0;
+    height: $stroke;
+    content: "";
+    background: #fff;
+    bottom: -$stroke;
+    right: -$stroke;
+    @include border-animation(width, ease, 1);
+  }
+  &-inner:before {
+    position: absolute;
+    width: $stroke;
+    height: 0;
+    content: "";
+    background: #fff;
+    bottom: -$stroke;
+    left: -$stroke;
+    @include border-animation(height, ease, 0);
+  }
+  &:hover {
+    border-color: transparent;
+    background: darken($primary_color, 30);
+    &:before {
+      width: $pipeline_width;
+      @include border-animation(width, ease, 0);
+    }
+    &:after {
+      height: $pipeline_height;
+      @include border-animation(height, ease, 1);
+    }
+    .box-inner:after {
+      width: $pipeline_width;
+      @include border-animation(width, ease, 2);
+    }
+    .box-inner:before {
+      height: $pipeline_height;
+      @include border-animation(height, ease, 3);
+    }
+  }
+}
+
+.box-inner img {
+  width: $width;
+  height: $height;
+  position: relative;
+  left: 0px;
+  z-index: 100;
+  object-fit: cover;
+
+  filter: saturate(0.5);
+  transition: 200ms;
+
+  &:hover {
+    filter: saturate(1);
+    cursor: url("../../assets/mouseIconHover.png"), pointer;
+  }
+}
+
+.Buildings {
+  position: absolute;
+
+  left: calc(401px);
+  top: 85px;
+
+  width: 74.5vw;
+  height: 83vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
+  grid-auto-rows: min-content;
+  transition: 100ms;
+  gap: 10px;
+  overflow-y: scroll;
+}
+
+.Buildings::-webkit-scrollbar {
+  background-color: #1f1f20;
+  width: 1px;
+}
+
+.Buildings::-webkit-scrollbar-track {
+  background-color: #1f1f20;
+}
+
+.Buildings::-webkit-scrollbar-thumb {
+  background-color: white;
+  margin: 4px;
+}
+
+.pictureModal {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 5vh;
+  left: 5vw;
+  min-width: 90vw;
+  height: 90vh;
+}
+
+.modalImg {
+  margin-left: 10%;
+  height: 80%;
+  width: 80%;
+  object-fit: contain;
+}
+
+.modal-btn {
+  z-index: 1000;
+  width: 200px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  border: 1px solid #d9d9d9;
+  padding: 10px;
+  padding-left: 12px;
+  position: absolute;
+  left: calc(50vw - 100px);
+  top: 80vh;
+}
+
+.modal-btn:hover {
+  cursor: url("../../assets/mouseIconHover.png"), pointer;
+}
+
+.BuildingPicture {
+  animation-name: animateIn;
+  animation-duration: 350ms;
+  animation-delay: calc(var(--animation-order) * 100ms);
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  z-index: 1 !important;
+}
+
+.mobile-label {
+  display: none;
+}
+
+@keyframes animateIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.6) translateY(-8px);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.transition {
+  opacity: 0;
+  margin-left: 5%;
+}
+
+.curtain {
+  width: 100vw;
+  height: 100px;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(31, 31, 32, 1) 80%,
+    rgba(31, 31, 32, 0) 100%
+  );
+  opacity: 1;
+  z-index: 1 !important;
+}
+
+.animated {
+  opacity: 0;
+  transition: 500ms;
+}
+
+.fadeIn {
+  opacity: 1;
+}
+.fadeOut {
+  opacity: 0;
+}
+
+.gallery-top-curtain {
+  display: none;
+}
+
+@media screen and (max-width: 1280px) {
+  .Buildings {
+    margin-top: 100px;
+    height: 80vh;
+    position: unset;
+    overflow-x: hidden;
+    z-index: 0;
+  }
+
+  .gallery-top-curtain {
+    display: unset;
+    position: absolute;
+    width: 85vw;
+    height: 75px;
+    background: linear-gradient(
+      to bottom,
+      rgb(31, 31, 32),
+      rgba(31, 31, 32, 0)
+    );
+    z-index: 2;
+  }
+
+  .pictureModal {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  .modalImg {
+    margin-left: 10%;
+    left: 0;
+  }
+
+  .mobile-label {
+    display: block;
+    position: relative;
+
+    top: 40px;
+    width: 250px;
+    height: min-content;
+    color: white;
+    font-size: 12px;
+    background-color: black;
+    text-align: left;
+    padding: 5px;
+    z-index: 1 !important;
+  }
+
+  .modal-btn {
+    position: fixed;
+    top: 65vh;
+    left: calc(50vw - 110px);
+  }
+}

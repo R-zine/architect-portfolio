@@ -1,0 +1,42 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.Scroll {
+  position: absolute;
+  width: 1px;
+  opacity: 0;
+  background-color: white;
+  height: 47px;
+  bottom: 165px;
+  left: calc(74.5vw + 400px);
+  animation: show 100 2.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  transition: height 3s, bottom 3s, background-color 5s;
+}
+
+.transform {
+  height: 200px;
+  background-color: #1f1f20;
+  bottom: 70vh;
+  z-index: -1;
+}
+
+@keyframes show {
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .Scroll {
+    display: none;
+  }
+}

@@ -1,0 +1,246 @@
+* {
+  --hoverCursor: url("../../assets/mouseIconHover.png"), pointer;
+}
+
+.Menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  color: white;
+  width: 154px;
+  z-index: 1000;
+}
+.l1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1px;
+  width: 93.5vw;
+  background-color: white;
+  z-index: 1000;
+}
+.l2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 58px;
+  width: 1px;
+  background-color: white;
+  z-index: 1000;
+}
+.l3 {
+  position: absolute;
+  top: 58px;
+  left: 0;
+  height: 1px;
+  width: 650px;
+  background-color: white;
+  z-index: 1000;
+}
+.l4 {
+  position: absolute;
+  top: 58px;
+  left: 650px;
+  height: 50px;
+  width: 1px;
+  background-color: white;
+  z-index: 1000;
+}
+.l5 {
+  position: absolute;
+  top: 108px;
+  left: 480px;
+  height: 1px;
+  width: 170px;
+  background-color: white;
+  z-index: 1000;
+}
+
+.menu--main--btn {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 75px;
+  left: 30px;
+  font-size: 24px;
+  height: 58px;
+  width: 100px;
+  background-color: #1f1f20;
+  z-index: 10;
+}
+
+.menu--main--btn:hover {
+  cursor: var(--hoverCursor);
+}
+
+.menu-bg {
+  position: absolute;
+  left: 77px;
+  top: 0;
+  width: 77px;
+  height: 50vh;
+  background: linear-gradient(180deg, #d9d9d9 0%, #1f1f20 100%);
+  z-index: 1;
+  transition: height 0.3s;
+}
+.btn-container {
+  position: absolute;
+  top: 190px;
+  left: 100px;
+  text-align: right;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+.menu--item--btn {
+  margin-left: -40px;
+  transition: 0.5s 0.5s;
+  margin-top: 10px;
+  width: 200px;
+  color: rgba(255, 255, 255, 0);
+}
+
+.menu--item--btn:not(.menu-open) {
+  transition: 0.2s;
+}
+
+.menu-open {
+  color: white;
+}
+
+.force-on {
+  color: white !important;
+}
+
+.menu--item--btn::before {
+  content: "";
+  position: absolute;
+  left: -43px;
+  margin-top: 5px;
+  width: 200px;
+  height: 10px;
+  border-bottom: 1px solid white;
+  transition: 0.5s;
+}
+
+.menu--item--btn:not(.menu-open)::before {
+  content: "";
+  position: absolute;
+  left: -43px;
+  margin-top: 5px;
+  width: 40px;
+  height: 10px;
+  border-bottom: 1px solid white;
+}
+
+a {
+  opacity: 0;
+}
+
+.menu--item--btn:hover {
+  cursor: var(--hoverCursor);
+}
+
+.none {
+  display: none;
+}
+
+.curtain {
+  width: 100vw;
+  height: 100px;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(31, 31, 32, 1) 80%,
+    rgba(31, 31, 32, 0) 100%
+  );
+  opacity: 1;
+  z-index: 1 !important;
+}
+
+.language-btn {
+  color: white;
+  position: fixed;
+
+  left: 94vw;
+  top: 40px;
+  z-index: 100;
+  cursor: url("../../assets/mouseIconHover.png"), pointer;
+}
+
+.mobile-curtain {
+  display: none;
+}
+
+@media screen and (max-width: 1280px) {
+  .curtain {
+    display: none;
+  }
+  .l1,
+  .l2,
+  .l3,
+  .l4,
+  .l5 {
+    display: none;
+  }
+  .menu--main--btn {
+    position: fixed;
+    width: 24px;
+    height: 24px;
+    left: calc(50vw - 12px);
+    top: 31px;
+    background: #d9d9d9;
+    color: rgba(255, 255, 255, 0);
+    opacity: 1;
+    transition: opacity 0.3s;
+  }
+
+  .menu--item--btn {
+    display: none;
+  }
+
+  .menu-open {
+    display: block;
+  }
+
+  .menu-btn-open {
+    opacity: 0.5;
+  }
+  .menu-bg {
+    position: fixed;
+    width: 100px;
+    height: 75px;
+    left: calc(50vw - 50px);
+    top: 0;
+    background: linear-gradient(0deg, #d9d9d9 0%, #1f1f20 100%);
+  }
+
+  .bg-open {
+    height: 214px;
+  }
+  .btn-container {
+    position: fixed;
+    left: calc(50vw + 50px);
+    top: 40px;
+    text-align: center;
+  }
+
+  .language-btn {
+    left: 4vw;
+  }
+  .menu--item--btn {
+    font-size: 14px;
+  }
+
+  .mobile-curtain {
+    display: block;
+    min-width: 100vw;
+    background: linear-gradient(180deg, #1f1f20 90%, #1f1f2000 100%);
+    z-index: 1;
+  }
+}

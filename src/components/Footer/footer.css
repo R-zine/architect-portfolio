@@ -1,0 +1,129 @@
+.Footer {
+  position: fixed;
+  bottom: 30px;
+  left: 0;
+}
+
+img {
+  height: 56px;
+  position: absolute;
+  left: 77px;
+}
+
+.footer-banner {
+  background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, #d9d9d9 100%);
+  min-width: 70vw;
+  height: 56px;
+  position: relative;
+  left: 30vw;
+  bottom: 0;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 32px;
+
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-right: 100px;
+}
+
+.fl1 {
+  position: relative;
+  width: 400px;
+  background-color: white;
+  height: 1px;
+  bottom: 77px;
+  left: 74.5vw;
+  transition: bottom 1s;
+}
+
+.fl2 {
+  position: relative;
+  width: 1px;
+  background-color: white;
+  height: 47px;
+  bottom: 77px;
+  left: calc(74.5vw + 400px);
+  transition: height 1s, bottom 1s;
+}
+
+.transitionfl1 {
+  left: calc(74.5vw + 400px);
+  width: 0;
+}
+
+.transitionfl11 {
+  bottom: 30px;
+}
+
+.transitionfl2 {
+  height: 0;
+  bottom: 77px;
+}
+
+.none {
+  display: none;
+}
+
+.logo-mobile {
+  display: none;
+}
+
+.footer-curtain {
+  display: none;
+}
+
+@media screen and (max-width: 1280px) {
+  .fl1,
+  .fl2 {
+    display: none;
+  }
+
+  .footer-banner {
+    position: fixed;
+    min-width: 100px;
+    width: 100px;
+    height: 75px;
+    left: calc(50vw - 50px);
+
+    background: linear-gradient(0deg, rgb(31, 31, 32) 0%, #d9d9d9 100%);
+    z-index: 1000 !important;
+    color: rgba(255, 255, 255, 0);
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logo-mobile {
+    display: block !important;
+    position: fixed !important;
+    width: 71px;
+    height: 36px;
+    left: calc(50vw - 35.5px);
+    bottom: 35px;
+    z-index: 10;
+    filter: brightness(0);
+    z-index: 1001 !important;
+  }
+
+  .footer-curtain {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    min-width: 90vw;
+    min-height: 100px;
+
+    background: linear-gradient(
+      to top,
+      rgb(31, 31, 32) 90%,
+      rgba(31, 31, 32, 0) 100%
+    );
+    z-index: 999 !important;
+  }
+}

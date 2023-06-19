@@ -1,0 +1,78 @@
+.Contact {
+  position: fixed;
+  top: 10vh;
+  left: 10vw;
+  width: 90vw;
+  height: 80vh;
+}
+.Canvas {
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 1001;
+}
+
+.icons {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  right: 8vw;
+  bottom: 30px;
+  width: 500px;
+  z-index: 1000;
+}
+.icon-cont,
+a {
+  min-width: fit-content;
+  min-height: fit-content;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-direction: row;
+  opacity: 0;
+  transition: opacity 1s, text-shadow 0.5s;
+}
+
+.icon-cont:hover {
+  text-shadow: 0 2px 5px white;
+  cursor: url("../../assets/mouseIconHover.png"), pointer;
+}
+
+.show {
+  opacity: 1;
+}
+
+.icons > div > img {
+  position: relative;
+  left: 0;
+  width: 25px;
+}
+
+@media screen and (max-width: 1280px) {
+  .Contact {
+    display: none;
+  }
+
+  .icons {
+    width: 99vw;
+    margin-top: 150px;
+    position: unset;
+    flex-direction: column;
+    color: white;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .icons > div {
+    border: 1px solid white;
+    width: 300px;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icons > div > img {
+    filter: invert(50%);
+  }
+}

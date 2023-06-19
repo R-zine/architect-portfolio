@@ -1,0 +1,409 @@
+# FILE:model.obj
+newmtl Paint_-_Titanium_White
+Ka 0.93 0.93 0.93
+Kd 0.41 0.41 0.41
+Ks 0.0990005 0.0990005 0.1
+illum 2
+Ns 0.72
+newmtl Brick_-_Surface_Colour
+Ka 0.496863 0.356863 0.315686
+Kd 0.496863 0.356863 0.315686
+Ks 0 0 0
+illum 2
+Ns 0
+map_Ka model_Textures\Brick - 03 -opt.jpg
+map_Kd model_Textures\Brick - 03 -opt.jpg
+map_Ks model_Textures\Brick - 03 -opt.jpg
+newmtl Stone_-_Marble_Carrara_White
+Ka 0.774902 0.774902 0.774902
+Kd 0.726471 0.726471 0.726471
+Ks 0.08 0.08 0.08
+illum 2
+Ns 0
+map_Ka model_Textures\Stone - Marble Carrara White -opt.jpg
+map_Kd model_Textures\Stone - Marble Carrara White -opt.jpg
+map_Ks model_Textures\Stone - Marble Carrara White -opt.jpg
+newmtl Stone_-_Limestone_Fine
+Ka 0.655882 0.626471 0.555882
+Kd 0.655882 0.626471 0.555882
+Ks 0 0 0
+illum 2
+Ns 0
+map_Ka model_Textures\Stone - Limestone Fine -opt.jpg
+map_Kd model_Textures\Stone - Limestone Fine -opt.jpg
+map_Ks model_Textures\Stone - Limestone Fine -opt.jpg
+newmtl Wood_-_Walnut_Vertical
+Ka 0.225961 0.173412 0.136627
+Kd 0.209098 0.160471 0.126431
+Ks 0.152 0.152 0.152
+illum 2
+Ns 0
+map_Ka model_Textures\Wood - Walnut Vertical -opt.jpg
+map_Kd model_Textures\Wood - Walnut Vertical -opt.jpg
+map_Ks model_Textures\Wood - Walnut Vertical -opt.jpg
+newmtl Metal_-_Stainless_Steel
+Ka 0.532353 0.535294 0.567647
+Kd 0.390392 0.392549 0.416275
+Ks 0.82349 0.803961 0.787686
+illum 2
+Ns 13
+map_Ka model_Textures\Metal - Stainless Steel -opt.jpg
+map_Kd model_Textures\Metal - Stainless Steel -opt.jpg
+map_Ks model_Textures\Metal - Stainless Steel -opt.jpg
+newmtl Glass_-_Clear_Fast
+Ka 0.64 0.658667 0.648
+Kd 0.564706 0.581176 0.571765
+Ks 1 1 1
+illum 2
+d 0.31
+Ns 79.52
+newmtl Earth_-_Brown
+Ka 0.371451 0.26102 0.188235
+Kd 0.580392 0.407843 0.294118
+Ks 0 0 0
+illum 2
+Ns 0
+map_Ka model_Textures\Earth - Brown -opt.jpg
+map_Kd model_Textures\Earth - Brown -opt.jpg
+map_Ks model_Textures\Earth - Brown -opt.jpg
+newmtl GDLM9_TreeMat3D
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.035136 0.0205393 0.0164901
+illum 2
+Ns 22
+map_Ka model_Textures\Shrubs 23.jpg
+map_Kd model_Textures\Shrubs 23.jpg
+map_Ks model_Textures\Shrubs 23.jpg
+newmtl Wood_-_Pine_Grained_Horizontal
+Ka 0.572784 0.530745 0.454549
+Kd 0.530039 0.491137 0.420627
+Ks 0.152 0.152 0.152
+illum 2
+Ns 0
+map_Ka model_Textures\Wood - Pine Grained Horizontal -opt.jpg
+map_Kd model_Textures\Wood - Pine Grained Horizontal -opt.jpg
+map_Ks model_Textures\Wood - Pine Grained Horizontal -opt.jpg
+newmtl Paint_-_Golden_Beige
+Ka 0.266235 0.207882 0.127647
+Kd 0.117373 0.0916471 0.0562745
+Ks 0.0990005 0.0990005 0.1
+illum 2
+Ns 0.72
+newmtl Paint_-_Anthracite
+Ka 0.167765 0.167765 0.167765
+Kd 0.0739608 0.0739608 0.0739608
+Ks 0.0990005 0.0990005 0.1
+illum 2
+Ns 0.72
+newmtl Paint_-_Light_Gray
+Ka 0.612706 0.612706 0.612706
+Kd 0.270118 0.270118 0.270118
+Ks 0.0990005 0.0990005 0.1
+illum 2
+Ns 0.72
+newmtl GDLM14_PEN_MATERIAL0
+Ka 0.844892 0.844892 0.844892
+Kd 0.844892 0.844892 0.844892
+Ks 0 0 0
+illum 2
+Ns 0
+newmtl PEN_MATERIAL87
+Ka 0.44036 0.44036 0.44036
+Kd 0.44036 0.44036 0.44036
+Ks 0 0 0
+illum 2
+Ns 0
+newmtl Stucco_-_White_Fine
+Ka 0.66 0.66 0.66
+Kd 0.95 0.95 0.95
+Ks 0.01 0.01 0.01
+illum 2
+Ns 0.16
+map_Ka model_Textures\Stucco - White Fine c -opt.jpg
+map_Kd model_Textures\Stucco - White Fine c -opt.jpg
+map_Ks model_Textures\Stucco - White Fine c -opt.jpg
+newmtl Glass_-_Blue
+Ka 0.150118 0.196745 0.283176
+Kd 0.517647 0.678431 0.976471
+Ks 1 1 1
+illum 2
+d 0.78
+Ns 34
+newmtl Metal_-_Iron
+Ka 0.243016 0.252075 0.271919
+Kd 0.198562 0.205964 0.222178
+Ks 0.24902 0.24902 0.24902
+illum 2
+Ns 0
+map_Ka model_Textures\Metal - Iron -opt.jpg
+map_Kd model_Textures\Metal - Iron -opt.jpg
+map_Ks model_Textures\Metal - Iron -opt.jpg
+newmtl Paint_-_Glossy_White
+Ka 0.88 0.88 0.88
+Kd 0.3 0.3 0.3
+Ks 0.683104 0.683104 0.69
+illum 2
+Ns 38.56
+newmtl Stone_-_Sandstone_01
+Ka 0.620588 0.579412 0.535294
+Kd 0.620588 0.579412 0.535294
+Ks 0 0 0
+illum 2
+Ns 0
+map_Ka model_Textures\Stone - Granite Multicolor c.jpg
+map_Kd model_Textures\Stone - Granite Multicolor c.jpg
+map_Ks model_Textures\Stone - Granite Multicolor c.jpg
+newmtl Paint_-_Sienna_Sand
+Ka 0.682 0.539765 0.412118
+Kd 0.300667 0.237961 0.181686
+Ks 0.0990005 0.0990005 0.1
+illum 2
+Ns 0.72
+newmtl Wood_-_Pine_Grained_Vertical
+Ka 0.572784 0.530745 0.454549
+Kd 0.530039 0.491137 0.420627
+Ks 0.152 0.152 0.152
+illum 2
+Ns 0
+map_Ka model_Textures\Wood - Pine Grained Vertical -opt.jpg
+map_Kd model_Textures\Wood - Pine Grained Vertical -opt.jpg
+map_Ks model_Textures\Wood - Pine Grained Vertical -opt.jpg
+newmtl GDLM23_SHADOW_MATERIAL
+Ka 0.228885 0.228885 0.228885
+Kd 0.228885 0.228885 0.228885
+Ks 0 0 0
+illum 2
+Ns 0
+newmtl Paint_-_Ivory_Black
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.356402 0.356402 0.36
+illum 2
+Ns 0.72
+newmtl Paint_-_Vermilion
+Ka 0.908118 0 0
+Kd 0.400353 0 0
+Ks 0.0990005 0.0990005 0.1
+illum 2
+Ns 0.72
+newmtl Metal_-_Zinc
+Ka 0.365257 0.369906 0.373607
+Kd 0.418385 0.423711 0.42795
+Ks 0.418353 0.418353 0.418353
+illum 2
+Ns 11
+map_Ka model_Textures\Metal - Zinc -opt.jpg
+map_Kd model_Textures\Metal - Zinc -opt.jpg
+map_Ks model_Textures\Metal - Zinc -opt.jpg
+newmtl GDLM27_Opaque
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+illum 2
+Ns 0
+newmtl PEN_MATERIAL1
+Ka 0.15259 0.15259 0.15259
+Kd 0.15259 0.15259 0.15259
+Ks 0 0 0
+illum 2
+Ns 0
+newmtl Wood_-_Walnut_Horizontal
+Ka 0.273255 0.228588 0.194431
+Kd 0.252863 0.211529 0.179922
+Ks 0.152 0.152 0.152
+illum 2
+Ns 0
+map_Ka model_Textures\Wood - Zebrano Dark -opt.jpg
+map_Kd model_Textures\Wood - Zebrano Dark -opt.jpg
+map_Ks model_Textures\Wood - Zebrano Dark -opt.jpg
+newmtl Metal_-_Nickel
+Ka 0.557255 0.538039 0.494118
+Kd 0.398039 0.384314 0.352941
+Ks 0.651176 0.625765 0.571765
+illum 2
+Ns 5.2
+newmtl GDLM31_st_wood
+Ka 0 0 0
+Kd 0.718745 0.61651 0.44302
+Ks 0 0 0
+illum 2
+Ns 23
+map_Ka model_Textures\nwood 20.jpg
+map_Kd model_Textures\nwood 20.jpg
+map_Ks model_Textures\nwood 20.jpg
+newmtl GDLM32_Plastic
+Ka 0 0 0
+Kd 0.0948235 0.0948235 0.0948235
+Ks 0.395294 0.395294 0.395294
+illum 2
+Ns 51
+map_Ka model_Textures\Dirt bl.jpg
+map_Kd model_Textures\Dirt bl.jpg
+map_Ks model_Textures\Dirt bl.jpg
+newmtl GDLM33_standart_metal
+Ka 0 0 0
+Kd 0.538196 0.503843 0.661294
+Ks 0.437412 0.437412 0.437412
+illum 2
+Ns 44
+map_Ka model_Textures\MGalva01.jpg
+map_Kd model_Textures\MGalva01.jpg
+map_Ks model_Textures\MGalva01.jpg
+newmtl GDLM34_Mat_2
+Ka 0.538196 0.506706 0.664157
+Kd 0.538196 0.506706 0.664157
+Ks 0.808235 0.808235 0.808235
+illum 2
+Ns 43
+map_Ka model_Textures\MGALVA01.jpg
+map_Kd model_Textures\MGALVA01.jpg
+map_Ks model_Textures\MGALVA01.jpg
+newmtl GDLM35_Mat_1
+Ka 0 0 0
+Kd 0.734118 0.655686 0.338824
+Ks 0.211059 0.211059 0.211059
+illum 2
+d 0.33
+Ns 52
+newmtl GDLM36_st_wood
+Ka 0 0 0
+Kd 0.718745 0.61651 0.44302
+Ks 0 0 0
+illum 2
+Ns 23
+map_Ka model_Textures\Maple wh.jpg
+map_Kd model_Textures\Maple wh.jpg
+map_Ks model_Textures\Maple wh.jpg
+newmtl GDLM37_Mat_2
+Ka 0 0 0
+Kd 0 0 0
+Ks 1 1 1
+illum 2
+d 0.74
+Ns 100
+newmtl GDLM38_Mat_1
+Ka 0 0 0
+Kd 0.0841569 0.0841569 0.0841569
+Ks 0.939569 0.939569 0.939569
+illum 2
+Ns 80
+newmtl GDLM39_clear_window
+Ka 0 0 0
+Kd 0.357412 0.384157 0.457098
+Ks 1 1 1
+illum 2
+Ns 39
+newmtl GDLM40_Plastic
+Ka 0.0960392 0.0960392 0.0960392
+Kd 0.0960392 0.0960392 0.0960392
+Ks 0.808235 0.808235 0.808235
+illum 2
+Ns 55
+map_Ka model_Textures\DIRT BL.jpg
+map_Kd model_Textures\DIRT BL.jpg
+map_Ks model_Textures\DIRT BL.jpg
+newmtl GDLM41_Mat_2
+Ka 0.545569 0.545569 0.545569
+Kd 0.545569 0.545569 0.545569
+Ks 1 1 1
+illum 2
+d 0.5
+Ns 30
+newmtl GDLM42_Mat_1
+Ka 0.568588 0.740118 0.476471
+Kd 0.568588 0.740118 0.476471
+Ks 0.808235 0.808235 0.808235
+illum 2
+Ns 10
+map_Ka model_Textures\4_3_8_D.jpg
+map_Kd model_Textures\4_3_8_D.jpg
+map_Ks model_Textures\4_3_8_D.jpg
+newmtl GDLM43_Mat_4
+Ka 0.661294 0.606941 0.314039
+Kd 0.661294 0.606941 0.314039
+Ks 0.808235 0.808235 0.808235
+illum 2
+Ns 10
+map_Ka model_Textures\MATRIXB.jpg
+map_Kd model_Textures\MATRIXB.jpg
+map_Ks model_Textures\MATRIXB.jpg
+newmtl GDLM44_Mat_3
+Ka 0.167216 0.167216 0.167216
+Kd 0.167216 0.167216 0.167216
+Ks 0.808235 0.808235 0.808235
+illum 2
+Ns 10
+map_Ka model_Textures\METAL 6.jpg
+map_Kd model_Textures\METAL 6.jpg
+map_Ks model_Textures\METAL 6.jpg
+newmtl GDLM45_Mat_5
+Ka 0.811765 0.811765 0.811765
+Kd 0.811765 0.811765 0.811765
+Ks 0.808235 0.808235 0.808235
+illum 2
+Ns 10
+newmtl GDLM46_numbers
+Ka 0.755137 0.690039 0.488235
+Kd 0.755137 0.690039 0.488235
+Ks 0.808235 0.808235 0.808235
+illum 2
+Ns 10
+map_Ka model_Textures\FFF ISP.jpg
+map_Kd model_Textures\FFF ISP.jpg
+map_Ks model_Textures\FFF ISP.jpg
+newmtl GDLM47_wire_198225087
+Ka 0 0 0
+Kd 0.613412 0.697059 0.269529
+Ks 0.122157 0.122157 0.122157
+illum 2
+Ns 40
+newmtl GDLM48_st_wood
+Ka 0 0 0
+Kd 0.962392 0.95098 0.86349
+Ks 0.395294 0.395294 0.395294
+illum 2
+Ns 51
+map_Ka model_Textures\Wood 768.jpg
+map_Kd model_Textures\Wood 768.jpg
+map_Ks model_Textures\Wood 768.jpg
+newmtl GDLM49_st_gold
+Ka 0 0 0
+Kd 0.737176 0.599529 0.315059
+Ks 0 0 0
+illum 2
+Ns 23
+map_Ka model_Textures\metalyel.jpg
+map_Kd model_Textures\metalyel.jpg
+map_Ks model_Textures\metalyel.jpg
+newmtl GDLM50_mat_steklo
+Ka 0 0 0
+Kd 0.588235 0.558824 0.529412
+Ks 1 1 1
+illum 2
+d 0.31
+Ns 39
+newmtl GDLM51_mPlastic
+Ka 0 0 0
+Kd 0.403176 0.484353 0.627765
+Ks 0 0 0
+illum 2
+Ns 23
+newmtl GDLM52_mstandart_metal
+Ka 0 0 0
+Kd 0.205882 0.172941 0.126824
+Ks 0.395294 0.395294 0.395294
+illum 2
+Ns 43
+map_Ka model_Textures\metalchr.jpg
+map_Kd model_Textures\metalchr.jpg
+map_Ks model_Textures\metalchr.jpg
+newmtl GDLM53_mst_gold
+Ka 0 0 0
+Kd 0.737176 0.599529 0.315059
+Ks 0 0 0
+illum 2
+Ns 23
+map_Ka model_Textures\metalyel.jpg
+map_Kd model_Textures\metalyel.jpg
+map_Ks model_Textures\metalyel.jpg
