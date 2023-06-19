@@ -21,6 +21,12 @@
   z-index: 1000;
 }
 
+@media (min-width: 1400px) {
+  .buildings {
+    font-size: 1.7vw;
+  }
+}
+
 .picture1 {
   position: fixed;
   left: 25.3vw;
