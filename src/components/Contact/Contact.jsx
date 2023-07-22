@@ -7,7 +7,6 @@ import { Model } from "./assets/Model";
 import "./contact.css";
 import { useEffect } from "react";
 
-
 const Contact = () => {
   useEffect(() => {
     setTimeout(() => {
@@ -32,9 +31,9 @@ const Contact = () => {
             <Stage
               preset="rembrandt"
               intensity={0.8}
-              environment="city"
+              environment={null}
               contactShadow
-              shadows
+              shadows="accumulative"
             >
               <Model scale={0.2} />
               <OrbitControls
