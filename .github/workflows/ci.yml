@@ -24,7 +24,7 @@ jobs:
         run: |
           $cacheFolder = yarn config get cacheFolder
           "folder=$cacheFolder" >> $env:GITHUB_OUTPUT
-      - uses: actions/cache@v5
+      - uses: actions/cache@v6
         with:
           path: ${{ steps.yarn-cache.outputs.folder }}
           key: ${{ runner.os }}-yarn-${{ hashFiles('yarn.lock') }}
@@ -51,7 +51,7 @@ jobs:
         run: |
           $cacheFolder = yarn config get cacheFolder
           "folder=$cacheFolder" >> $env:GITHUB_OUTPUT
-      - uses: actions/cache@v5
+      - uses: actions/cache@v6
         with:
           path: ${{ steps.yarn-cache.outputs.folder }}
           key: ${{ runner.os }}-yarn-${{ hashFiles('yarn.lock') }}
