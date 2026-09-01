@@ -1,67 +1,75 @@
-import React from "react";
-import { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useState } from "react";
+import { motion, useReducedMotion } from "motion/react";
+import { useLocation } from "react-router";
 
 import logo from "../../assets/logo.png";
 import logoMobile from "../../assets/logoMobile.png";
 import "./footer.css";
-import { useTransition, animated } from "react-spring";
 
-const Footer = ({ label, category, mode, lg }) => {
-  const [initial, setInitial] = useState(true);
-
-  const bottomLine = !initial && !mode;
+function Footer({ label, category, mode, language }) {
   const location = useLocation();
-
-  useEffect(() => {
-    mode && document.querySelector(".fl2").classList.add("none");
-  }, [mode]);
-
-  const transition1 = useTransition(bottomLine, {
-    initial: { width: 400 },
-    from: { width: 0, bottom: "78px", left: "calc(74.5vw + 400px)" },
-    enter: { width: 400, left: "calc(74.5vw + 0px)" },
-    leave: { width: 0, left: "calc(74.5vw + 400px)" },
-    exitBeforeEnter: true,
-    config: { duration: 500 },
-  });
-
-  useEffect(() => {
-    setTimeout(() => {
-      const fl1 = document.querySelector(".fl1");
-      const fl2 = document.querySelector(".fl2");
-      fl1.classList.remove("transitionfl1");
-      setInitial(false);
-      setTimeout(() => {
-        fl1.classList.add("transitionfl11");
-        fl2.classList.remove("transitionfl2");
-
-        setTimeout(() => {
-          fl1.classList.add("none");
-        }, 1000);
-      }, 1000);
-    }, 250);
-  }, []);
+  const reduceMotion = useReducedMotion();
+  const [introComplete, setIntroComplete] = useState(mode || reduceMotion);
+  const travelDuration = 3;
+  const horizontalDuration = 0.5;
+  const horizontalDelay =
+    reduceMotion || mode
+      ? 0
+      : introComplete
+        ? travelDuration - horizontalDuration
+        : 1.25;
+  const verticalTransition = mode
+    ? { delay: 0, duration: 0 }
+    : introComplete
+      ? { delay: reduceMotion ? 0 : travelDuration, duration: 0 }
+      : {
+          delay: reduceMotion ? 0 : 1.25,
+          duration: reduceMotion ? 0 : 1,
+        };
+  const displayLabel =
+    location.pathname.startsWith("/gallery/") && category
+      ? category
+      : (label?.[language] ?? "");
 
   return (
-    <div className="Footer">
-      <div className="fl1 transitionfl1" />
-      <div className="fl2 transitionfl2" />
-      {transition1((style, item) =>
-        item ? (
-          <animated.div style={style} className="fl1 transitionfl11" />
-        ) : null
-      )}
-
-      <img className="logo" src={logo} />
-      <div className="footer-banner">
-        {location.pathname === "/gallery" && category ? category : label[lg]}
-        &nbsp;&nbsp;&nbsp;&nbsp;
+    <footer className="Footer">
+      <motion.div
+        aria-hidden="true"
+        className="fl1 transitionfl11"
+        initial={{
+          width: 0,
+          left: "calc(74.5vw + 400px)",
+          bottom: "78px",
+        }}
+        animate={{
+          width: mode ? 0 : 400,
+          left: mode ? "calc(74.5vw + 400px)" : "74.5vw",
+          bottom: "30px",
+        }}
+        transition={{
+          delay: horizontalDelay,
+          duration: reduceMotion ? 0 : horizontalDuration,
+        }}
+      />
+      <motion.div
+        aria-hidden="true"
+        className="fl2"
+        initial={{ scaleY: 0 }}
+        animate={{ scaleY: mode ? 0 : 1 }}
+        transition={verticalTransition}
+        style={{ transformOrigin: "bottom" }}
+        onAnimationComplete={() => {
+          if (!mode) setIntroComplete(true);
+        }}
+      />
+      <img className="logo" src={logo} alt="Diana Radeva" />
+      <div className="footer-banner" aria-live="polite">
+        {displayLabel}&nbsp;&nbsp;&nbsp;&nbsp;
       </div>
-      <img className="logo-mobile" src={logoMobile} />
-      <div className="footer-curtain" />
-    </div>
+      <img className="logo-mobile" src={logoMobile} alt="Diana Radeva" />
+      <div className="footer-curtain" aria-hidden="true" />
+    </footer>
   );
-};
+}
 
 export default Footer;

@@ -1,0 +1,19 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      react:
+        patterns: ["react", "react-dom", "react-router"]
+      three:
+        patterns: ["three", "@react-three/*"]
+      testing:
+        dependency-type: development
+        patterns: ["vitest", "@vitest/*", "@testing-library/*", "@playwright/*"]
+    open-pull-requests-limit: 5
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly

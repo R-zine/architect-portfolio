@@ -1,0 +1,67 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+      - run: corepack enable
+      - name: Locate Yarn cache
+        id: yarn-cache
+        shell: pwsh
+        run: |
+          $cacheFolder = yarn config get cacheFolder
+          "folder=$cacheFolder" >> $env:GITHUB_OUTPUT
+      - uses: actions/cache@v5
+        with:
+          path: ${{ steps.yarn-cache.outputs.folder }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('yarn.lock') }}
+          restore-keys: ${{ runner.os }}-yarn-
+      - run: yarn install --immutable
+      - run: yarn audit
+      - run: yarn lint
+      - run: yarn test:coverage
+      - run: yarn build
+
+  browser:
+    # Keep visual snapshots deterministic against the checked-in Windows baselines.
+    runs-on: windows-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+      - run: corepack enable
+      - name: Locate Yarn cache
+        id: yarn-cache
+        shell: pwsh
+        run: |
+          $cacheFolder = yarn config get cacheFolder
+          "folder=$cacheFolder" >> $env:GITHUB_OUTPUT
+      - uses: actions/cache@v5
+        with:
+          path: ${{ steps.yarn-cache.outputs.folder }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('yarn.lock') }}
+          restore-keys: ${{ runner.os }}-yarn-
+      - run: yarn install --immutable
+      - run: node node_modules/@playwright/test/cli.js install chromium
+      - run: yarn test:e2e
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: playwright-report
+          retention-days: 14

@@ -19,12 +19,6 @@ $pipes: 4;
   -web-kit-transition: $transition_duration $dimension $easing
     border-pipeline($transition_duration, $pipe);
 }
-body {
-  margin: 0;
-  padding: 0;
-  background: black;
-}
-
 .box {
   width: $width;
   height: $height;

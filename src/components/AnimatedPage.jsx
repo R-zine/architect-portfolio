@@ -1,24 +1,18 @@
-import React from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, useReducedMotion } from "motion/react";
 
-const animation = {
-  initial: { opacity: 0 },
-  animate: { opacity: 1 },
-  exit: { opacity: 0 },
-};
+function AnimatedPage({ children }) {
+  const reduceMotion = useReducedMotion();
 
-const AnimatedPage = ({ children }) => {
   return (
     <motion.div
-      variants={animation}
-      initial="initial"
-      animate="animate"
-      exit="exit"
-      transition={{ duration: 1.5 }}
+      initial={reduceMotion ? false : { opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: reduceMotion ? 0 : 1.5 }}
     >
       {children}
     </motion.div>
   );
-};
+}
 
 export default AnimatedPage;

@@ -1,56 +1,110 @@
-import React from "react";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import { useReducedMotion } from "motion/react";
+
+import { getGalleryAsset } from "../../utils/galleryAssets";
 import AnimatedPage from "../AnimatedPage";
 import Card from "./Card";
-import Typewriter from "typewriter-effect/dist/core";
 import "./about.css";
 
-const About = ({ lg }) => {
-  const Cards = [
-    { num: 40, label: ["Проектирани сгради", "Buildings Completed"] },
-    { num: 200, label: ["Интериорни разработки", "Interior Projects"] },
-    { num: 150000, label: ["кв.м. разгъната площ", "sq.m. of built area"] },
-  ];
+const cards = [
+  { num: 40, label: ["Проектирани сгради", "Buildings Completed"] },
+  { num: 200, label: ["Интериорни разработки", "Interior Projects"] },
+  { num: 150000, label: ["кв.м. разгъната площ", "sq.m. of built area"] },
+];
+
+const biography = [
+  "Завърших архитектура във ВИАС през 1992 г. и оттогава работя по специалността. Независимо дали проектирам голяма сграда или детска стая, за мен е предизвикателство да намеря баланса между функционалност, естетика, ергономия и практичност — както за ползвателя, така и за изпълнителя. Опитът ми в строителна и мебелна компания ми дава поглед върху всички аспекти на един проект: от пазарното оценяване на парцела, през строителството върху него, до обзавеждането на имота според желанията на клиентите.",
+  "I graduated in Architecture in 1992 and have worked in the field ever since. Whether I am designing a building or a child's room, I look for the balance between functionality, aesthetics, ergonomics, and practicality — for both the end user and the contractor. My experience in construction and furniture companies gives me a broad view of every project, from evaluating a plot and building on it to furnishing the completed property around the client's needs.",
+];
+
+const profileImage = getGalleryAsset("./img/profile.jpg");
+
+function TypewriterText({ children }) {
+  const reduceMotion = useReducedMotion();
+
+  return (
+    <div className="text" role="heading" aria-level="1" aria-label={children}>
+      {reduceMotion ? (
+        children
+      ) : (
+        <AnimatedTypewriter key={children} text={children} />
+      )}
+    </div>
+  );
+}
+
+function AnimatedTypewriter({ text: completeText }) {
+  const [text, setText] = useState("");
 
   useEffect(() => {
-    const text = document.querySelector(".text");
+    let index = 0;
+    let interval;
+    const startTimer = window.setTimeout(() => {
+      interval = window.setInterval(() => {
+        index += 1;
+        setText(completeText.slice(0, index));
+        if (index >= completeText.length) window.clearInterval(interval);
+      }, 55);
+    }, 500);
 
-    let typewriter = new Typewriter(text, {
-      loop: false,
-      delay: 75,
-    });
+    return () => {
+      window.clearTimeout(startTimer);
+      window.clearInterval(interval);
+    };
+  }, [completeText]);
 
-    typewriter
-      .pauseFor(2500)
-      .typeString(lg ? "Hi! My name is Diana." : "Здравей! Аз съм Диана.")
-      .pauseFor(300)
+  return text;
+}
 
-      .start();
-  }, [lg]);
+function About({ language }) {
+  const greeting = language
+    ? "Hi! My name is Diana."
+    : "Здравей! Аз съм Диана.";
 
   return (
     <AnimatedPage>
-      <div className="About">
-        <div className="profile">
+      <main
+        className="About"
+        tabIndex="0"
+        aria-label={language ? "About Diana Radeva" : "За Диана Радева"}
+      >
+        <section className="profile" aria-labelledby="about-heading">
           <div className="texts">
-            <div className="text" />
-            <p>
-              {lg
-                ? "I graduated Architecture in 1992 and ever since I've been working in the field. Regardless of whether I'm designing a building or a child's room, I challenge myself to find the balance between functionality, estetics, ergonomics, and practicality - both for the end-user and the contractor. My experience in both a construction and a furniture companies gives me a wide view on all aspects of a project: starting from valuating a construction plot, through building on it, all the way to furnishing the ready estate as per the wishes of the clients."
-                : "Завърших архитектура във ВИАС през 1992г. и от тогава работя по специалността. Независимо дали проектирам голяма сграда или детска стая, за мен е предизвикателство да намеря баланса между функционалност, естетика, ергономия и практичност - както за ползвателя, така и за изпълнителя. Опитът ми в строителна и мебелна компания ми дават поглед върху всички аспекти на един проект от пазарното оценяване на парцела, през строителството върху него, до обзавеждането на имотите по желание на клиентите."}
-            </p>
+            <TypewriterText>{greeting}</TypewriterText>
+            <p id="about-heading">{biography[language]}</p>
           </div>
-
-          <img className="about-img" src="../img/profile.jpg" />
-        </div>
-        <div className="cards">
-          {Cards.map((c, i) => (
-            <Card id={i} key={i} num={c.num} text={c.label[lg]} />
+          <img
+            className="about-img"
+            src={profileImage.src}
+            srcSet={profileImage.srcSet}
+            sizes="210px"
+            width={profileImage.width}
+            height={profileImage.height}
+            alt={
+              language
+                ? "Portrait of architect Diana Radeva"
+                : "Портрет на архитект Диана Радева"
+            }
+            loading="lazy"
+            decoding="async"
+          />
+        </section>
+        <section
+          className="cards"
+          aria-label={language ? "Experience" : "Опит"}
+        >
+          {cards.map((card, index) => (
+            <Card
+              id={index}
+              key={card.label[1]}
+              num={card.num}
+              text={card.label[language]}
+            />
           ))}
-        </div>
-      </div>
+        </section>
+      </main>
     </AnimatedPage>
   );
-};
+}
 
 export default About;

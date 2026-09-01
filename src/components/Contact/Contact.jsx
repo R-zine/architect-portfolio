@@ -1,83 +1,116 @@
-import { Suspense } from "react";
+import { lazy, Suspense, useEffect, useState } from "react";
+
 import AnimatedPage from "../AnimatedPage";
-
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Stage } from "@react-three/drei";
-import { Model } from "./assets/Model";
 import "./contact.css";
-import { useEffect } from "react";
 
-const Contact = () => {
+const ContactScene = lazy(() => import("./ContactScene.jsx"));
+
+const contacts = [
+  {
+    href: "tel:+359894696679",
+    icon: "/assets/phone.svg",
+    className: "phone",
+    text: "+359 894 696679",
+  },
+  {
+    href: "mailto:globalarh@abv.bg",
+    icon: "/assets/envelope.svg",
+    className: "email",
+    text: "globalarh@abv.bg",
+  },
+  {
+    href: "https://www.linkedin.com/in/diana-radeva/",
+    icon: "/assets/linkedin.svg",
+    className: "linked",
+    text: "@diana-radeva",
+    external: true,
+  },
+];
+
+function useMediaQuery(query) {
+  const [matches, setMatches] = useState(
+    () => window.matchMedia(query).matches,
+  );
+
   useEffect(() => {
-    setTimeout(() => {
-      const icons = document.querySelectorAll(".icon-cont");
-      icons.forEach((icon, i) => {
-        setTimeout(() => {
-          icon.classList.add("show");
-        }, 600 * i);
-      });
-    }, 600);
-  }, []);
+    const mediaQuery = window.matchMedia(query);
+    const update = () => setMatches(mediaQuery.matches);
+    mediaQuery.addEventListener("change", update);
+    return () => mediaQuery.removeEventListener("change", update);
+  }, [query]);
+
+  return matches;
+}
+
+function Contact({ language }) {
+  const mobile = useMediaQuery("(max-width: 1280px)");
+  const reduceMotion = useMediaQuery("(prefers-reduced-motion: reduce)");
+  const [visibleContacts, setVisibleContacts] = useState(
+    reduceMotion ? contacts.length : 0,
+  );
+
+  useEffect(() => {
+    if (reduceMotion) {
+      return undefined;
+    }
+
+    const timers = contacts.map((_, index) =>
+      window.setTimeout(() => setVisibleContacts(index + 1), 600 * (index + 1)),
+    );
+    return () => timers.forEach((timer) => window.clearTimeout(timer));
+  }, [reduceMotion]);
+
   return (
     <AnimatedPage>
-      <div className="Contact">
-        <Canvas
-          shadows
-          camera={{
-            fov: 50,
-          }}
-        >
+      <main aria-label={language ? "Contact details" : "Контакти"}>
+        {!mobile && (
           <Suspense fallback={null}>
-            <Stage
-              preset="rembrandt"
-              intensity={0.8}
-              environment={null}
-              contactShadow
-              shadows="accumulative"
-            >
-              <Model scale={0.2} />
-              <OrbitControls
-                makeDefault
-                autoRotate
-                autoRotateSpeed={1.5}
-                target={(0, 0, 0)}
-                enablePan={false}
-                enableZoom={false}
-                maxPolarAngle={1.2}
-              />
-            </Stage>
+            <ContactScene />
           </Suspense>
-        </Canvas>
-      </div>
-      <div className="icons">
-        <div
-          className="icon-cont"
-          onClick={() => (window.location = "tel:+359894696679")}
-        >
-          <img src="./assets/phone.svg" />
-          <div className="phone">+359 894 696679</div>
+        )}
+        <div className="icons">
+          {contacts.map((contact, index) => (
+            <div
+              className={`icon-cont${index < visibleContacts ? " show" : ""}`}
+              key={contact.href}
+              style={
+                reduceMotion ? { opacity: 1, transition: "none" } : undefined
+              }
+            >
+              <a
+                className={index < visibleContacts ? "show" : undefined}
+                href={contact.href}
+                target={contact.external ? "_blank" : undefined}
+                rel={contact.external ? "noreferrer noopener" : undefined}
+                style={{
+                  color: "inherit",
+                  textDecoration: "none",
+                  opacity: reduceMotion ? 1 : undefined,
+                  transition: reduceMotion ? "none" : undefined,
+                }}
+              >
+                <img
+                  src={contact.icon}
+                  alt=""
+                  aria-hidden="true"
+                  width="25"
+                  height="25"
+                  style={{
+                    position: "relative",
+                    left: 0,
+                    width: 25,
+                    height: 25,
+                    filter: mobile ? "invert(50%)" : undefined,
+                  }}
+                />
+                <div className={contact.className}>{contact.text}</div>
+              </a>
+            </div>
+          ))}
         </div>
-
-        <div
-          className="icon-cont"
-          onClick={() => (window.location = "mailto:globalarh@abv.bg")}
-        >
-          <img src="./assets/envelope.svg" />
-          <div className="email">globalarh@abv.bg</div>
-        </div>
-
-        <div
-          className="icon-cont"
-          onClick={() =>
-            window.open("https://www.linkedin.com/in/diana-radeva/", "_blank")
-          }
-        >
-          <img src="./assets/linkedin.svg" />
-          <div className="linked">@diana-radeva</div>
-        </div>
-      </div>
+      </main>
     </AnimatedPage>
   );
-};
+}
 
 export default Contact;

@@ -1,0 +1,14 @@
+coverage
+dist
+.verification-dist
+node_modules
+playwright-report
+public/img
+test-results
+src/generated/gallery-assets.json
+assets/gallery-sources.json
+assets/model-source
+
+# Preserve the deployed legacy visual system verbatim.
+src/**/*.css
+src/**/*.scss

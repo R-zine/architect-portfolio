@@ -1,223 +1,217 @@
-import React, { useEffect, useState } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
-import "./menu.css";
-import gsap from "gsap";
-import { useTransition, animated, Globals } from "react-spring";
+import { useEffect, useState } from "react";
+import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { NavLink, useLocation } from "react-router";
 
-const Menu = ({ setCurrentPage, setCategory, setGalleryMode, setLg, lg }) => {
+import "./menu.css";
+
+const menuItems = [
+  { id: "home", to: "/", end: true, label: ["Начало", "Home Page"] },
+  { id: "about", to: "/about", label: ["За мен", "About"] },
+  {
+    id: "buildings",
+    to: "/gallery/buildings",
+    label: ["Архитектура", "Buildings"],
+  },
+  {
+    id: "interior",
+    to: "/gallery/interior",
+    label: ["Интериори", "Interior Design"],
+  },
+  {
+    id: "furniture",
+    to: "/gallery/furniture",
+    label: ["Мебели", "Furniture"],
+  },
+  { id: "contact", to: "/contact", label: ["Контакти", "Contact"] },
+];
+
+function Menu({ setLanguage, language }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
   const [loaded, setLoaded] = useState(false);
-  const [currentRoute, setCurrentRoute] = useState("home");
-
-  let screenSize = window.innerWidth;
   const location = useLocation();
+  const reduceMotion = useReducedMotion();
+  const galleryFrame = location.pathname.startsWith("/gallery/");
+  const [introComplete, setIntroComplete] = useState(galleryFrame);
+  const frameOpen = menuOpen || galleryFrame;
+  const duration = reduceMotion ? 0 : 0.35;
+  const bendDuration = reduceMotion ? 0 : 0.3;
+  const snakeDuration = reduceMotion ? 0 : 0.5;
+  const tailRetracted = menuOpen || isHovered;
 
-  Globals.assign({
-    frameLoop: "always",
-  });
-
-  useEffect(() => {
-    window.addEventListener("load", () => {
-      setTimeout(() => setLoaded(true), 1500);
-    });
-  }, []);
-
-  useEffect(() => {
-    const btns = document.querySelectorAll(".menu--item--btn");
-
-    btns.forEach((x) => x.id === currentRoute && x.classList.add("menu-open"));
-  }, [currentRoute, menuOpen]);
-
-  const leftLine = isHovered || menuOpen;
-  const isGallery = location.pathname !== "/gallery" && loaded;
-
-  const transition1 = useTransition(menuOpen, {
-    from: { width: 0 },
-    enter: { width: 0.935 * screenSize },
-    leave: { width: 0 },
-  });
-
-  const transition2 = useTransition(leftLine, {
-    from: { height: 0, top: 58 },
-    enter: { height: 58, top: 0 },
-    leave: { height: 0, top: 58, delay: 500 },
-  });
-
-  const mobileTransition = useTransition(menuOpen, {
-    from: { height: 1 },
-    enter: { height: 214 },
-    leave: { height: 1 },
-  });
-
-  const secondAnim = (direction) => {
-    if (direction) {
-      gsap.to(".l4", { height: 0, duration: 0.3 });
-      gsap.to(".l3", { width: 0, delay: 0.3 });
-    } else {
-      gsap.to(".l3", { width: 650, duration: 0.3 });
-      gsap.to(".l4", { height: 50, delay: 0.3 });
+  const activateWithKeyboard = (event, action) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      action();
     }
   };
 
   useEffect(() => {
-    if (loaded) {
-      const l3 = document.querySelector(".l3");
-      const l4 = document.querySelector(".l4");
-      const l5 = document.querySelector(".l5");
-
-      const lineAnime = gsap.timeline();
-      lineAnime
-        .from(l5, { width: 0 })
-        .from(l4, { height: 0, top: 106 })
-        .from(l3, { width: 0, left: 650 });
-
-      lineAnime.play();
-
-      setTimeout(() => {}, 1500);
-    }
-  }, [loaded]);
-
-  const navigate = useNavigate();
-
-  const handleClick = (name) => {
-    setCurrentPage(name);
-    setCurrentRoute(name);
-    setMenuOpen(false);
-    setIsHovered(false);
-    setCategory("");
-    setGalleryMode(true);
-    navigate(`/gallery`, { replace: true });
-  };
+    const timer = window.setTimeout(
+      () => setLoaded(true),
+      reduceMotion ? 0 : 1500,
+    );
+    return () => window.clearTimeout(timer);
+  }, [reduceMotion]);
 
   return (
-    <div className="Menu">
-      <div className="language-btn" onClick={() => setLg((p) => (p ? 0 : 1))}>
-        {lg ? "bg" : "en"}
-      </div>
-      <div className="curtain" />
+    <nav
+      className="Menu"
+      aria-label={language ? "Main navigation" : "Основна навигация"}
+    >
       <div
+        role="button"
+        tabIndex="0"
+        className="language-btn"
+        onClick={() => setLanguage((current) => (current ? 0 : 1))}
+        onKeyDown={(event) =>
+          activateWithKeyboard(event, () =>
+            setLanguage((current) => (current ? 0 : 1)),
+          )
+        }
+        aria-label={language ? "Превключи на български" : "Switch to English"}
+      >
+        {language ? "bg" : "en"}
+      </div>
+      <div className="curtain" aria-hidden="true" />
+      <div
+        role="button"
+        tabIndex="0"
         className={
           menuOpen ? "menu--main--btn menu-btn-open" : "menu--main--btn"
         }
-        onClick={() => {
-          setMenuOpen((p) => !p);
-          secondAnim(!menuOpen);
-        }}
-        onMouseEnter={() => {
-          setIsHovered(true);
-          !menuOpen && gsap.to(".l5", { width: 0, left: 650 });
-        }}
-        onMouseLeave={() => {
-          setIsHovered(false);
-          !menuOpen &&
-            gsap.to(".l5", {
-              width: 170,
-              left: 480,
-              delay: 0.5,
-            });
-        }}
+        aria-expanded={menuOpen}
+        aria-controls="portfolio-menu-items"
+        aria-label={language ? "Toggle menu" : "Отвори или затвори менюто"}
+        onClick={() => setMenuOpen((current) => !current)}
+        onKeyDown={(event) =>
+          activateWithKeyboard(event, () => setMenuOpen((current) => !current))
+        }
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
       >
-        {lg ? "menu" : "меню"}
-        {transition1((style, item) =>
-          item ? <animated.div style={style} className="l1" /> : null
+        {language ? "menu" : "меню"}
+        <AnimatePresence>
+          {frameOpen && (
+            <motion.div
+              className="l1"
+              initial={galleryFrame ? false : { width: 0 }}
+              animate={{ width: "93.5vw" }}
+              exit={{ width: 0 }}
+              transition={{ duration }}
+            />
+          )}
+        </AnimatePresence>
+        <motion.div
+          className="l2"
+          initial={galleryFrame ? false : { height: 0, top: 58 }}
+          animate={
+            frameOpen || isHovered
+              ? { height: 58, top: 0 }
+              : { height: 0, top: 58 }
+          }
+          transition={{
+            delay: frameOpen || isHovered || reduceMotion ? 0 : 0.5,
+            duration,
+          }}
+        />
+        {loaded && !galleryFrame && (
+          <>
+            <motion.div
+              className="l3"
+              initial={
+                introComplete ? { left: 0, width: 0 } : { left: 650, width: 0 }
+              }
+              animate={{ left: 0, width: menuOpen ? 0 : 650 }}
+              transition={
+                introComplete
+                  ? {
+                      delay: menuOpen && !reduceMotion ? 0.3 : 0,
+                      duration: snakeDuration,
+                      ease: "easeOut",
+                    }
+                  : {
+                      delay: reduceMotion ? 0 : 2 * snakeDuration,
+                      duration: snakeDuration,
+                      ease: "easeOut",
+                    }
+              }
+              onAnimationComplete={() => setIntroComplete(true)}
+            />
+            <motion.div
+              className="l4"
+              initial={
+                introComplete ? { height: 0, top: 58 } : { height: 0, top: 106 }
+              }
+              animate={{ height: menuOpen ? 0 : 50, top: 58 }}
+              transition={
+                introComplete
+                  ? {
+                      delay: menuOpen || reduceMotion ? 0 : snakeDuration,
+                      duration: menuOpen ? bendDuration : snakeDuration,
+                      ease: "easeOut",
+                    }
+                  : {
+                      delay: reduceMotion ? 0 : snakeDuration,
+                      duration: snakeDuration,
+                      ease: "easeOut",
+                    }
+              }
+            />
+            <motion.div
+              className="l5"
+              initial={
+                introComplete
+                  ? { left: 650, width: 0 }
+                  : { left: 480, width: 0 }
+              }
+              animate={
+                tailRetracted
+                  ? { left: 650, width: 0 }
+                  : { left: 480, width: 170 }
+              }
+              transition={{
+                delay:
+                  introComplete && !tailRetracted && !reduceMotion
+                    ? 2 * snakeDuration
+                    : 0,
+                duration: snakeDuration,
+                ease: "easeOut",
+              }}
+            />
+          </>
         )}
-        {transition2((style, item) =>
-          item ? <animated.div style={style} className="l2" /> : null
-        )}
-        {isGallery && <div className="l3" />}
-        {isGallery && <div className="l4" />}
-        {isGallery && <div className="l5" />}
-        {location.pathname === "/gallery" && <div className="l1" />}
-        {location.pathname === "/gallery" && <div className="l2" />}
       </div>
-      {mobileTransition((style, item) =>
-        item ? <animated.div style={style} className="mobile-curtain" /> : null
-      )}
-      <div className={menuOpen ? "menu-bg bg-open" : "menu-bg"} />
-      <div className="btn-container">
-        <div
-          id="home"
-          onClick={() => {
-            navigate("./", { replace: true });
-            setMenuOpen(false);
-            setCategory("");
-            setGalleryMode(false);
-            setCurrentRoute("home");
-            secondAnim(!menuOpen);
-            gsap.to(".l5", {
-              width: 170,
-              left: 480,
-              delay: 0.5,
-            });
-          }}
-          className={menuOpen ? "menu--item--btn menu-open" : "menu--item--btn"}
-        >
-          {lg ? "Home Page" : "Начало"}
-        </div>
-        <div
-          id="about"
-          onClick={() => {
-            navigate("./about", { replace: true });
-            setMenuOpen(false);
-            setCategory("");
-            setGalleryMode(false);
-            setCurrentRoute("about");
-            secondAnim(!menuOpen);
-            gsap.to(".l5", {
-              width: 170,
-              left: 480,
-              delay: 0.5,
-            });
-          }}
-          className={menuOpen ? "menu--item--btn menu-open" : "menu--item--btn"}
-        >
-          {lg ? "About" : "За мен"}
-        </div>
-        <div
-          id="buildings"
-          onClick={(e) => handleClick(e.target.id)}
-          className={menuOpen ? "menu--item--btn menu-open" : "menu--item--btn"}
-        >
-          {lg ? "Buildings" : "Архитектура"}
-        </div>
-        <div
-          id="interior"
-          onClick={(e) => handleClick(e.target.id)}
-          className={menuOpen ? "menu--item--btn menu-open" : "menu--item--btn"}
-        >
-          {lg ? "Interior Design" : "Интериори"}
-        </div>
-        <div
-          id="furniture"
-          onClick={(e) => handleClick(e.target.id)}
-          className={menuOpen ? "menu--item--btn menu-open" : "menu--item--btn"}
-        >
-          {lg ? "Furniture" : "Мебели"}
-        </div>
-        <div
-          id="contact"
-          onClick={() => {
-            navigate("./contact", { replace: true });
-            setMenuOpen(false);
-            setIsHovered(false);
-            setCategory("");
-            setGalleryMode(false);
-            setCurrentRoute("contact");
-            secondAnim(!menuOpen);
-            gsap.to(".l5", {
-              width: 170,
-              left: 480,
-              delay: 0.5,
-            });
-          }}
-          className={menuOpen ? "menu--item--btn menu-open" : "menu--item--btn"}
-        >
-          {lg ? "Contact" : "Контакти"}
-        </div>
+      <motion.div
+        aria-hidden="true"
+        className="mobile-curtain"
+        animate={{ height: menuOpen ? 214 : 1 }}
+        transition={{ duration }}
+      />
+      <div
+        className={menuOpen ? "menu-bg bg-open" : "menu-bg"}
+        aria-hidden="true"
+      />
+      <div className="btn-container" id="portfolio-menu-items">
+        {menuItems.map((item) => (
+          <NavLink
+            key={item.id}
+            id={item.id}
+            end={item.end}
+            to={item.to}
+            onClick={() => setMenuOpen(false)}
+            className={({ isActive }) =>
+              `menu--item--btn${menuOpen || isActive ? " menu-open" : ""}`
+            }
+            style={{ display: "block", opacity: 1, textDecoration: "none" }}
+            tabIndex={menuOpen ? 0 : -1}
+          >
+            {item.label[language]}
+          </NavLink>
+        ))}
       </div>
-    </div>
+    </nav>
   );
-};
+}
 
 export default Menu;

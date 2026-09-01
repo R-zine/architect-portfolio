@@ -1,56 +1,58 @@
-import { AnimatePresence } from "framer-motion";
-import { useState } from "react";
-import { Routes, Route, useLocation } from "react-router-dom";
+import { lazy, Suspense, useEffect, useState } from "react";
+import { AnimatePresence } from "motion/react";
+import { Navigate, Route, Routes, useLocation } from "react-router";
 
 import "./App.css";
-import About from "./components/About/About";
-import Contact from "./components/Contact/Contact";
-import Gallery from "./components/Buildings/Buildings.jsx";
 import Footer from "./components/Footer/Footer";
-import Home from "./components/Home/Home";
 import Menu from "./components/Menu/Menu";
 import Scroll from "./components/Scroll";
 
-function App() {
-  const [currentPage, setCurrentPage] = useState("");
-  const [footer, setFooter] = useState("");
-  const [category, setCategory] = useState("");
-  const [galleryMode, setGalleryMode] = useState(false);
-  const [lg, setLg] = useState(1);
+const About = lazy(() => import("./components/About/About.jsx"));
+const Contact = lazy(() => import("./components/Contact/Contact.jsx"));
+const Gallery = lazy(() => import("./components/Buildings/Buildings.jsx"));
+const Home = lazy(() => import("./components/Home/Home.jsx"));
 
+function App() {
+  const [footerLabel, setFooterLabel] = useState(["", ""]);
+  const [categoryLabel, setCategoryLabel] = useState("");
+  const [language, setLanguage] = useState(1);
   const location = useLocation();
+  const galleryMode = location.pathname.startsWith("/gallery/");
+
+  useEffect(() => {
+    document.documentElement.lang = language ? "en" : "bg";
+  }, [language]);
 
   return (
     <div className="App">
-      <Menu
-        setCurrentPage={setCurrentPage}
-        setCategory={setCategory}
-        setGalleryMode={setGalleryMode}
-        setLg={setLg}
-        lg={lg}
-      />
+      <Menu language={language} setLanguage={setLanguage} />
       <AnimatePresence mode="wait">
-        <Routes location={location} key={location.pathname}>
-          <Route path="/" element={<Home lg={lg} />} />
-          <Route path="/about" element={<About lg={lg} />} />
-          <Route path="/contact" element={<Contact lg={lg} />} />
-          <Route
-            path="/gallery"
-            element={
-              <Gallery
-                page={currentPage}
-                setCurrentPage={setCurrentPage}
-                setFooter={setFooter}
-                setCategory={setCategory}
-                lg={lg}
-              />
-            }
-          />
-          <Route path="*" element={<Home lg={lg} />} />
-        </Routes>
+        <Suspense fallback={null}>
+          <Routes location={location} key={location.pathname}>
+            <Route path="/" element={<Home language={language} />} />
+            <Route path="/about" element={<About language={language} />} />
+            <Route path="/contact" element={<Contact language={language} />} />
+            <Route
+              path="/gallery/:category"
+              element={
+                <Gallery
+                  language={language}
+                  setCategoryLabel={setCategoryLabel}
+                  setFooterLabel={setFooterLabel}
+                />
+              }
+            />
+            <Route path="*" element={<Navigate replace to="/" />} />
+          </Routes>
+        </Suspense>
       </AnimatePresence>
       <Scroll mode={galleryMode} />
-      <Footer label={footer} category={category} mode={galleryMode} lg={lg} />
+      <Footer
+        category={galleryMode ? categoryLabel : ""}
+        label={galleryMode ? footerLabel : ["", ""]}
+        mode={galleryMode}
+        language={language}
+      />
     </div>
   );
 }

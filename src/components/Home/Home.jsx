@@ -1,27 +1,44 @@
-import React from "react";
-import Picture1 from "../../assets/CherniVrah26.jpg";
 import AnimatedPage from "../AnimatedPage";
+import { getGalleryAsset } from "../../utils/galleryAssets";
 import "./Home.css";
 
-const Home = ({ lg }) => {
+const buildingsImage = getGalleryAsset("./img/buildings/7.jpg");
+const interiorsImage = getGalleryAsset("./img/furniture/8.jpg");
+
+function Home({ language }) {
   return (
     <AnimatedPage>
-      <div className="Home">
-        <h2 className="buildings">{lg ? "Buildings" : "Архитектура"}</h2>
-        <img src={Picture1} alt="Cherni Vrah 26 Picture" className="picture1" />
-        <div className="curtain1" />
+      <main className="Home">
+        <h2 className="buildings">{language ? "Buildings" : "Архитектура"}</h2>
         <img
-          src="../img/furniture/8.jpg"
-          alt="Interior Front Page"
-          className="picture2"
+          src={buildingsImage.full}
+          srcSet={buildingsImage.srcSet}
+          sizes="(max-width: 1280px) 70vw, 70vw"
+          width={buildingsImage.width}
+          height={buildingsImage.height}
+          alt={language ? "Cherni Vrah 26 building" : "Сграда Черни връх 26"}
+          className="picture1"
+          decoding="async"
+          fetchPriority="high"
         />
-        <div className="curtain2" />
+        <div className="curtain1" aria-hidden="true" />
+        <img
+          src={interiorsImage.src}
+          srcSet={interiorsImage.srcSet}
+          sizes="(max-width: 1280px) 70vw, 30vw"
+          width={interiorsImage.width}
+          height={interiorsImage.height}
+          alt={language ? "Interior design project" : "Интериорен проект"}
+          className="picture2"
+          decoding="async"
+        />
+        <div className="curtain2" aria-hidden="true" />
         <h2 className="interiorDesign">
-          {lg ? "Interior Design" : "Интериорни проекти"}
+          {language ? "Interior Design" : "Интериорни проекти"}
         </h2>
-      </div>
+      </main>
     </AnimatedPage>
   );
-};
+}
 
 export default Home;

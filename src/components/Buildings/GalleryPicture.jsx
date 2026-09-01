@@ -1,58 +1,90 @@
-import React from "react";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { useReducedMotion } from "motion/react";
+import { useNavigate } from "react-router";
 
-import ScrollAnimation from "react-animate-on-scroll";
+function GalleryPicture({
+  building,
+  language,
+  openModal,
+  order,
+  setFooterLabel,
+}) {
+  const navigate = useNavigate();
+  const revealRef = useRef(null);
+  const reduceMotion = useReducedMotion();
+  const [isVisible, setIsVisible] = useState(false);
+  const supportsIntersectionObserver =
+    typeof IntersectionObserver !== "undefined";
+  const label =
+    building.desc?.[language] ??
+    (language ? "Open portfolio image" : "Отвори портфолио изображение");
 
-const GalleryPicture = (props) => {
+  const open = () => {
+    if (building.path === "none") openModal(building);
+    else navigate(`/gallery/${building.path}`);
+  };
+
+  useEffect(() => {
+    const picture = revealRef.current;
+    if (reduceMotion || !supportsIntersectionObserver || !picture) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => setIsVisible(entry.isIntersecting),
+      {
+        root: picture.closest(".Buildings"),
+        rootMargin: "-150px 0px",
+      },
+    );
+
+    observer.observe(picture);
+    return () => observer.disconnect();
+  }, [reduceMotion, supportsIntersectionObserver]);
+
+  const revealPicture =
+    reduceMotion || !supportsIntersectionObserver || isVisible;
+
   return (
-    <ScrollAnimation
-      animateIn="fadeIn"
-      animateOut="fadeOut"
-      scrollableParentSelector=".Buildings"
+    <article
+      ref={revealRef}
+      className={`animated ${revealPicture ? "fadeIn" : "fadeOut"}`}
     >
-      {props.building.desc && (
-        <div className="mobile-label">
-          {props.building.desc && props.building.desc[props.lg]}
-        </div>
+      {building.desc && (
+        <div className="mobile-label">{building.desc[language]}</div>
       )}
-      <div
-        className="BuildingPicture"
-        style={{ "--animation-order": props.order }}
-      >
+      <div className="BuildingPicture" style={{ "--animation-order": order }}>
         <div className="box">
           <div
+            role="button"
+            tabIndex="0"
             className="box-inner"
-            onMouseEnter={() => {
-              if (props.building.desc) props.setFooter(props.building.desc);
-            }}
-            onMouseLeave={() => props.setFooter("")}
-            onClick={(e) => {
-              const mainDiv = document.querySelector(".Buildings");
-              mainDiv.classList.toggle("transition");
-
-              props.building.desc &&
-                props.setCategory(props.building.desc[props.lg]);
-
-              setTimeout(() => mainDiv.classList.toggle("transition"), 400);
-              setTimeout(() => {
-                if (e.target.id === "none") {
-                  props.setPicture(e.target.src);
-                  props.openModal(true);
-                } else {
-                  console.log(e.target.id);
-                  setTimeout(() => props.setMount(true), 400);
-                  setTimeout(() => props.setMount(false), 200);
-                  setTimeout(() => props.setPage(e.target.id), 300);
-                }
-              }, 200);
+            aria-label={label}
+            onMouseEnter={() => building.desc && setFooterLabel(building.desc)}
+            onMouseLeave={() => setFooterLabel(["", ""])}
+            onFocus={() => building.desc && setFooterLabel(building.desc)}
+            onBlur={() => setFooterLabel(["", ""])}
+            onClick={open}
+            onKeyDown={(event) => {
+              if (event.key === "Enter" || event.key === " ") {
+                event.preventDefault();
+                open();
+              }
             }}
           >
-            <img src={props.building.img} id={props.building.path} />
+            <img
+              src={building.img}
+              srcSet={building.srcSet}
+              sizes="400px"
+              width={building.width}
+              height={building.height}
+              alt={building.desc?.[language] ?? ""}
+              loading="lazy"
+              decoding="async"
+            />
           </div>
         </div>
       </div>
-    </ScrollAnimation>
+    </article>
   );
-};
+}
 
 export default GalleryPicture;

@@ -1,0 +1,3432 @@
+{
+  "./img/antre/1.png": {
+    "src": "/img/ffa91cacd339ddf0bbca-480.webp",
+    "full": "/img/ffa91cacd339ddf0bbca-628.webp",
+    "srcSet": "/img/ffa91cacd339ddf0bbca-480.webp 480w, /img/ffa91cacd339ddf0bbca-628.webp 628w",
+    "width": 628,
+    "height": 710
+  },
+  "./img/antre/10.jpg": {
+    "src": "/img/b7f11382465d4470f974-480.webp",
+    "full": "/img/b7f11382465d4470f974-771.webp",
+    "srcSet": "/img/b7f11382465d4470f974-480.webp 480w, /img/b7f11382465d4470f974-771.webp 771w",
+    "width": 771,
+    "height": 723
+  },
+  "./img/antre/11.jpg": {
+    "src": "/img/47c1c335368af98c9847-480.webp",
+    "full": "/img/47c1c335368af98c9847-1600.webp",
+    "srcSet": "/img/47c1c335368af98c9847-480.webp 480w, /img/47c1c335368af98c9847-960.webp 960w, /img/47c1c335368af98c9847-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "./img/antre/2.png": {
+    "src": "/img/20654ff084a9496745da-480.webp",
+    "full": "/img/20654ff084a9496745da-628.webp",
+    "srcSet": "/img/20654ff084a9496745da-480.webp 480w, /img/20654ff084a9496745da-628.webp 628w",
+    "width": 628,
+    "height": 710
+  },
+  "./img/antre/4.png": {
+    "src": "/img/39de013af95ff3a62377-480.webp",
+    "full": "/img/39de013af95ff3a62377-628.webp",
+    "srcSet": "/img/39de013af95ff3a62377-480.webp 480w, /img/39de013af95ff3a62377-628.webp 628w",
+    "width": 628,
+    "height": 710
+  },
+  "./img/antre/5.jpg": {
+    "src": "/img/ae36aaa10ac0f641976a-480.webp",
+    "full": "/img/ae36aaa10ac0f641976a-633.webp",
+    "srcSet": "/img/ae36aaa10ac0f641976a-480.webp 480w, /img/ae36aaa10ac0f641976a-633.webp 633w",
+    "width": 633,
+    "height": 750
+  },
+  "./img/antre/6.jpg": {
+    "src": "/img/9eb91e6f36c2dda05d28-480.webp",
+    "full": "/img/9eb91e6f36c2dda05d28-633.webp",
+    "srcSet": "/img/9eb91e6f36c2dda05d28-480.webp 480w, /img/9eb91e6f36c2dda05d28-633.webp 633w",
+    "width": 633,
+    "height": 750
+  },
+  "./img/antre/7.jpg": {
+    "src": "/img/ad55be161f6d6d462791-480.webp",
+    "full": "/img/ad55be161f6d6d462791-599.webp",
+    "srcSet": "/img/ad55be161f6d6d462791-480.webp 480w, /img/ad55be161f6d6d462791-599.webp 599w",
+    "width": 599,
+    "height": 611
+  },
+  "./img/antre/8.png": {
+    "src": "/img/5437ca115f38f468b3c6-480.webp",
+    "full": "/img/5437ca115f38f468b3c6-584.webp",
+    "srcSet": "/img/5437ca115f38f468b3c6-480.webp 480w, /img/5437ca115f38f468b3c6-584.webp 584w",
+    "width": 584,
+    "height": 643
+  },
+  "./img/antre/9.png": {
+    "src": "/img/6a9788612565b3414fbd-480.webp",
+    "full": "/img/6a9788612565b3414fbd-584.webp",
+    "srcSet": "/img/6a9788612565b3414fbd-480.webp 480w, /img/6a9788612565b3414fbd-584.webp 584w",
+    "width": 584,
+    "height": 643
+  },
+  "./img/balchik/1.jpg": {
+    "src": "/img/7567edfb26ea713ab36f-480.webp",
+    "full": "/img/7567edfb26ea713ab36f-945.webp",
+    "srcSet": "/img/7567edfb26ea713ab36f-480.webp 480w, /img/7567edfb26ea713ab36f-945.webp 945w",
+    "width": 945,
+    "height": 415
+  },
+  "./img/balchik/10.jpg": {
+    "src": "/img/b7ace66fd2b2bd156bf7-480.webp",
+    "full": "/img/b7ace66fd2b2bd156bf7-945.webp",
+    "srcSet": "/img/b7ace66fd2b2bd156bf7-480.webp 480w, /img/b7ace66fd2b2bd156bf7-945.webp 945w",
+    "width": 945,
+    "height": 415
+  },
+  "./img/balchik/11.jpg": {
+    "src": "/img/4c404c26ea239cf46d31-480.webp",
+    "full": "/img/4c404c26ea239cf46d31-945.webp",
+    "srcSet": "/img/4c404c26ea239cf46d31-480.webp 480w, /img/4c404c26ea239cf46d31-945.webp 945w",
+    "width": 945,
+    "height": 415
+  },
+  "./img/balchik/12.png": {
+    "src": "/img/273587631cb1a86b032b-480.webp",
+    "full": "/img/273587631cb1a86b032b-1570.webp",
+    "srcSet": "/img/273587631cb1a86b032b-480.webp 480w, /img/273587631cb1a86b032b-960.webp 960w, /img/273587631cb1a86b032b-1570.webp 1570w",
+    "width": 1570,
+    "height": 899
+  },
+  "./img/balchik/13.png": {
+    "src": "/img/ba3ba1486c2b7dce9248-480.webp",
+    "full": "/img/ba3ba1486c2b7dce9248-1233.webp",
+    "srcSet": "/img/ba3ba1486c2b7dce9248-480.webp 480w, /img/ba3ba1486c2b7dce9248-960.webp 960w, /img/ba3ba1486c2b7dce9248-1233.webp 1233w",
+    "width": 1233,
+    "height": 706
+  },
+  "./img/balchik/14.png": {
+    "src": "/img/cec26ac17accd76a67b8-480.webp",
+    "full": "/img/cec26ac17accd76a67b8-1640.webp",
+    "srcSet": "/img/cec26ac17accd76a67b8-480.webp 480w, /img/cec26ac17accd76a67b8-960.webp 960w, /img/cec26ac17accd76a67b8-1640.webp 1640w",
+    "width": 1640,
+    "height": 939
+  },
+  "./img/balchik/2.jpg": {
+    "src": "/img/a40cf39565bcec190bd4-480.webp",
+    "full": "/img/a40cf39565bcec190bd4-945.webp",
+    "srcSet": "/img/a40cf39565bcec190bd4-480.webp 480w, /img/a40cf39565bcec190bd4-945.webp 945w",
+    "width": 945,
+    "height": 415
+  },
+  "./img/balchik/3.jpg": {
+    "src": "/img/9df1dde9e23332478723-480.webp",
+    "full": "/img/9df1dde9e23332478723-945.webp",
+    "srcSet": "/img/9df1dde9e23332478723-480.webp 480w, /img/9df1dde9e23332478723-945.webp 945w",
+    "width": 945,
+    "height": 415
+  },
+  "./img/balchik/4.jpg": {
+    "src": "/img/ef05271f4570496aa637-480.webp",
+    "full": "/img/ef05271f4570496aa637-945.webp",
+    "srcSet": "/img/ef05271f4570496aa637-480.webp 480w, /img/ef05271f4570496aa637-945.webp 945w",
+    "width": 945,
+    "height": 415
+  },
+  "./img/balchik/5.jpg": {
+    "src": "/img/dee013df6d16556d4b87-480.webp",
+    "full": "/img/dee013df6d16556d4b87-945.webp",
+    "srcSet": "/img/dee013df6d16556d4b87-480.webp 480w, /img/dee013df6d16556d4b87-945.webp 945w",
+    "width": 945,
+    "height": 415
+  },
+  "./img/balchik/6.jpg": {
+    "src": "/img/5db09c484f507be84902-480.webp",
+    "full": "/img/5db09c484f507be84902-945.webp",
+    "srcSet": "/img/5db09c484f507be84902-480.webp 480w, /img/5db09c484f507be84902-945.webp 945w",
+    "width": 945,
+    "height": 415
+  },
+  "./img/balchik/7.jpg": {
+    "src": "/img/4cd84634f4569802f18b-480.webp",
+    "full": "/img/4cd84634f4569802f18b-945.webp",
+    "srcSet": "/img/4cd84634f4569802f18b-480.webp 480w, /img/4cd84634f4569802f18b-945.webp 945w",
+    "width": 945,
+    "height": 415
+  },
+  "./img/balchik/8.jpg": {
+    "src": "/img/a1659fbf3246f81d7728-480.webp",
+    "full": "/img/a1659fbf3246f81d7728-945.webp",
+    "srcSet": "/img/a1659fbf3246f81d7728-480.webp 480w, /img/a1659fbf3246f81d7728-945.webp 945w",
+    "width": 945,
+    "height": 415
+  },
+  "./img/balchik/9.jpg": {
+    "src": "/img/2484f2ddceb3fe867295-480.webp",
+    "full": "/img/2484f2ddceb3fe867295-945.webp",
+    "srcSet": "/img/2484f2ddceb3fe867295-480.webp 480w, /img/2484f2ddceb3fe867295-945.webp 945w",
+    "width": 945,
+    "height": 415
+  },
+  "./img/bankera/1.jpg": {
+    "src": "/img/c12511027fe1879c5fd7-480.webp",
+    "full": "/img/c12511027fe1879c5fd7-878.webp",
+    "srcSet": "/img/c12511027fe1879c5fd7-480.webp 480w, /img/c12511027fe1879c5fd7-878.webp 878w",
+    "width": 878,
+    "height": 520
+  },
+  "./img/bankera/10.jpg": {
+    "src": "/img/d75fd92f2714a4c9a579-480.webp",
+    "full": "/img/d75fd92f2714a4c9a579-878.webp",
+    "srcSet": "/img/d75fd92f2714a4c9a579-480.webp 480w, /img/d75fd92f2714a4c9a579-878.webp 878w",
+    "width": 878,
+    "height": 520
+  },
+  "./img/bankera/11.jpg": {
+    "src": "/img/81c1fa021e82488c4f05-480.webp",
+    "full": "/img/81c1fa021e82488c4f05-878.webp",
+    "srcSet": "/img/81c1fa021e82488c4f05-480.webp 480w, /img/81c1fa021e82488c4f05-878.webp 878w",
+    "width": 878,
+    "height": 520
+  },
+  "./img/bankera/12.jpg": {
+    "src": "/img/ae36aaa10ac0f641976a-480.webp",
+    "full": "/img/ae36aaa10ac0f641976a-633.webp",
+    "srcSet": "/img/ae36aaa10ac0f641976a-480.webp 480w, /img/ae36aaa10ac0f641976a-633.webp 633w",
+    "width": 633,
+    "height": 750
+  },
+  "./img/bankera/13.jpg": {
+    "src": "/img/9eb91e6f36c2dda05d28-480.webp",
+    "full": "/img/9eb91e6f36c2dda05d28-633.webp",
+    "srcSet": "/img/9eb91e6f36c2dda05d28-480.webp 480w, /img/9eb91e6f36c2dda05d28-633.webp 633w",
+    "width": 633,
+    "height": 750
+  },
+  "./img/bankera/14.jpg": {
+    "src": "/img/2f1cb34615da686c98b0-480.webp",
+    "full": "/img/2f1cb34615da686c98b0-633.webp",
+    "srcSet": "/img/2f1cb34615da686c98b0-480.webp 480w, /img/2f1cb34615da686c98b0-633.webp 633w",
+    "width": 633,
+    "height": 750
+  },
+  "./img/bankera/15.jpg": {
+    "src": "/img/95d2a1b4ea8ae9858c72-480.webp",
+    "full": "/img/95d2a1b4ea8ae9858c72-633.webp",
+    "srcSet": "/img/95d2a1b4ea8ae9858c72-480.webp 480w, /img/95d2a1b4ea8ae9858c72-633.webp 633w",
+    "width": 633,
+    "height": 750
+  },
+  "./img/bankera/16.jpg": {
+    "src": "/img/9398cbd1d70ce261edbd-480.webp",
+    "full": "/img/9398cbd1d70ce261edbd-633.webp",
+    "srcSet": "/img/9398cbd1d70ce261edbd-480.webp 480w, /img/9398cbd1d70ce261edbd-633.webp 633w",
+    "width": 633,
+    "height": 750
+  },
+  "./img/bankera/17.jpg": {
+    "src": "/img/3c7672cba9f1687ce4f7-480.webp",
+    "full": "/img/3c7672cba9f1687ce4f7-1116.webp",
+    "srcSet": "/img/3c7672cba9f1687ce4f7-480.webp 480w, /img/3c7672cba9f1687ce4f7-960.webp 960w, /img/3c7672cba9f1687ce4f7-1116.webp 1116w",
+    "width": 1116,
+    "height": 710
+  },
+  "./img/bankera/18.jpg": {
+    "src": "/img/0fcc97881a867b315aff-480.webp",
+    "full": "/img/0fcc97881a867b315aff-1116.webp",
+    "srcSet": "/img/0fcc97881a867b315aff-480.webp 480w, /img/0fcc97881a867b315aff-960.webp 960w, /img/0fcc97881a867b315aff-1116.webp 1116w",
+    "width": 1116,
+    "height": 710
+  },
+  "./img/bankera/19.jpg": {
+    "src": "/img/8760adcc150363db2f4d-480.webp",
+    "full": "/img/8760adcc150363db2f4d-1109.webp",
+    "srcSet": "/img/8760adcc150363db2f4d-480.webp 480w, /img/8760adcc150363db2f4d-960.webp 960w, /img/8760adcc150363db2f4d-1109.webp 1109w",
+    "width": 1109,
+    "height": 731
+  },
+  "./img/bankera/2.jpg": {
+    "src": "/img/1faa76c27f879b4e0d4d-480.webp",
+    "full": "/img/1faa76c27f879b4e0d4d-878.webp",
+    "srcSet": "/img/1faa76c27f879b4e0d4d-480.webp 480w, /img/1faa76c27f879b4e0d4d-878.webp 878w",
+    "width": 878,
+    "height": 520
+  },
+  "./img/bankera/20.jpg": {
+    "src": "/img/fa7d3d3c50d6e90a368e-480.webp",
+    "full": "/img/fa7d3d3c50d6e90a368e-977.webp",
+    "srcSet": "/img/fa7d3d3c50d6e90a368e-480.webp 480w, /img/fa7d3d3c50d6e90a368e-960.webp 960w, /img/fa7d3d3c50d6e90a368e-977.webp 977w",
+    "width": 977,
+    "height": 620
+  },
+  "./img/bankera/21.jpg": {
+    "src": "/img/1bf75357b1b1c31fd18a-480.webp",
+    "full": "/img/1bf75357b1b1c31fd18a-977.webp",
+    "srcSet": "/img/1bf75357b1b1c31fd18a-480.webp 480w, /img/1bf75357b1b1c31fd18a-960.webp 960w, /img/1bf75357b1b1c31fd18a-977.webp 977w",
+    "width": 977,
+    "height": 620
+  },
+  "./img/bankera/22.jpg": {
+    "src": "/img/55bf529f54e025d3d916-480.webp",
+    "full": "/img/55bf529f54e025d3d916-977.webp",
+    "srcSet": "/img/55bf529f54e025d3d916-480.webp 480w, /img/55bf529f54e025d3d916-960.webp 960w, /img/55bf529f54e025d3d916-977.webp 977w",
+    "width": 977,
+    "height": 620
+  },
+  "./img/bankera/23.jpg": {
+    "src": "/img/9f15344bd0f622b50d65-480.webp",
+    "full": "/img/9f15344bd0f622b50d65-977.webp",
+    "srcSet": "/img/9f15344bd0f622b50d65-480.webp 480w, /img/9f15344bd0f622b50d65-960.webp 960w, /img/9f15344bd0f622b50d65-977.webp 977w",
+    "width": 977,
+    "height": 620
+  },
+  "./img/bankera/3.jpg": {
+    "src": "/img/430630ba918bfded8f94-480.webp",
+    "full": "/img/430630ba918bfded8f94-878.webp",
+    "srcSet": "/img/430630ba918bfded8f94-480.webp 480w, /img/430630ba918bfded8f94-878.webp 878w",
+    "width": 878,
+    "height": 520
+  },
+  "./img/bankera/4.jpg": {
+    "src": "/img/bdc8f2abdc3f67061f41-480.webp",
+    "full": "/img/bdc8f2abdc3f67061f41-878.webp",
+    "srcSet": "/img/bdc8f2abdc3f67061f41-480.webp 480w, /img/bdc8f2abdc3f67061f41-878.webp 878w",
+    "width": 878,
+    "height": 520
+  },
+  "./img/bankera/5.jpg": {
+    "src": "/img/7ca4210bf242113a200c-480.webp",
+    "full": "/img/7ca4210bf242113a200c-878.webp",
+    "srcSet": "/img/7ca4210bf242113a200c-480.webp 480w, /img/7ca4210bf242113a200c-878.webp 878w",
+    "width": 878,
+    "height": 520
+  },
+  "./img/bankera/6.jpg": {
+    "src": "/img/1a02959f606801dc5a3f-480.webp",
+    "full": "/img/1a02959f606801dc5a3f-1109.webp",
+    "srcSet": "/img/1a02959f606801dc5a3f-480.webp 480w, /img/1a02959f606801dc5a3f-960.webp 960w, /img/1a02959f606801dc5a3f-1109.webp 1109w",
+    "width": 1109,
+    "height": 731
+  },
+  "./img/bankera/7.jpg": {
+    "src": "/img/00818e6ab03fe1c2b051-480.webp",
+    "full": "/img/00818e6ab03fe1c2b051-1109.webp",
+    "srcSet": "/img/00818e6ab03fe1c2b051-480.webp 480w, /img/00818e6ab03fe1c2b051-960.webp 960w, /img/00818e6ab03fe1c2b051-1109.webp 1109w",
+    "width": 1109,
+    "height": 731
+  },
+  "./img/bankera/8.jpg": {
+    "src": "/img/d9f9d7be6ab94fd64f95-480.webp",
+    "full": "/img/d9f9d7be6ab94fd64f95-878.webp",
+    "srcSet": "/img/d9f9d7be6ab94fd64f95-480.webp 480w, /img/d9f9d7be6ab94fd64f95-878.webp 878w",
+    "width": 878,
+    "height": 520
+  },
+  "./img/bankera/9.jpg": {
+    "src": "/img/c1551157c4d86cd37507-480.webp",
+    "full": "/img/c1551157c4d86cd37507-878.webp",
+    "srcSet": "/img/c1551157c4d86cd37507-480.webp 480w, /img/c1551157c4d86cd37507-878.webp 878w",
+    "width": 878,
+    "height": 520
+  },
+  "./img/bathrooms/1.jpg": {
+    "src": "/img/ea1eec05d6e7b3f891cc-480.webp",
+    "full": "/img/ea1eec05d6e7b3f891cc-562.webp",
+    "srcSet": "/img/ea1eec05d6e7b3f891cc-480.webp 480w, /img/ea1eec05d6e7b3f891cc-562.webp 562w",
+    "width": 562,
+    "height": 786
+  },
+  "./img/bathrooms/10.JPG": {
+    "src": "/img/bc4a507fcbc5a7eb1844-480.webp",
+    "full": "/img/bc4a507fcbc5a7eb1844-1536.webp",
+    "srcSet": "/img/bc4a507fcbc5a7eb1844-480.webp 480w, /img/bc4a507fcbc5a7eb1844-960.webp 960w, /img/bc4a507fcbc5a7eb1844-1536.webp 1536w",
+    "width": 1536,
+    "height": 2048
+  },
+  "./img/bathrooms/11.jpg": {
+    "src": "/img/fb7e05662c0ccc8f6fa8-480.webp",
+    "full": "/img/fb7e05662c0ccc8f6fa8-1832.webp",
+    "srcSet": "/img/fb7e05662c0ccc8f6fa8-480.webp 480w, /img/fb7e05662c0ccc8f6fa8-960.webp 960w, /img/fb7e05662c0ccc8f6fa8-1832.webp 1832w",
+    "width": 1832,
+    "height": 3264
+  },
+  "./img/bathrooms/12.jpg": {
+    "src": "/img/2d2f00e41b7110e04835-480.webp",
+    "full": "/img/2d2f00e41b7110e04835-761.webp",
+    "srcSet": "/img/2d2f00e41b7110e04835-480.webp 480w, /img/2d2f00e41b7110e04835-761.webp 761w",
+    "width": 761,
+    "height": 651
+  },
+  "./img/bathrooms/13.jpg": {
+    "src": "/img/caaf50a25c42acae7763-480.webp",
+    "full": "/img/caaf50a25c42acae7763-1600.webp",
+    "srcSet": "/img/caaf50a25c42acae7763-480.webp 480w, /img/caaf50a25c42acae7763-960.webp 960w, /img/caaf50a25c42acae7763-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "./img/bathrooms/14.jpg": {
+    "src": "/img/7f19b787a4574fc5153d-480.webp",
+    "full": "/img/7f19b787a4574fc5153d-930.webp",
+    "srcSet": "/img/7f19b787a4574fc5153d-480.webp 480w, /img/7f19b787a4574fc5153d-930.webp 930w",
+    "width": 930,
+    "height": 646
+  },
+  "./img/bathrooms/15.jpg": {
+    "src": "/img/9b00e7e6bb9ce5baf1e7-480.webp",
+    "full": "/img/9b00e7e6bb9ce5baf1e7-819.webp",
+    "srcSet": "/img/9b00e7e6bb9ce5baf1e7-480.webp 480w, /img/9b00e7e6bb9ce5baf1e7-819.webp 819w",
+    "width": 819,
+    "height": 656
+  },
+  "./img/bathrooms/16.jpg": {
+    "src": "/img/00309370346cc29774f8-480.webp",
+    "full": "/img/00309370346cc29774f8-695.webp",
+    "srcSet": "/img/00309370346cc29774f8-480.webp 480w, /img/00309370346cc29774f8-695.webp 695w",
+    "width": 695,
+    "height": 567
+  },
+  "./img/bathrooms/2.jpg": {
+    "src": "/img/3a3edfd3b7b5222e1bd9-480.webp",
+    "full": "/img/3a3edfd3b7b5222e1bd9-1920.webp",
+    "srcSet": "/img/3a3edfd3b7b5222e1bd9-480.webp 480w, /img/3a3edfd3b7b5222e1bd9-960.webp 960w, /img/3a3edfd3b7b5222e1bd9-1920.webp 1920w",
+    "width": 1920,
+    "height": 2560
+  },
+  "./img/bathrooms/3.jpg": {
+    "src": "/img/5c30e02a787a10119865-480.webp",
+    "full": "/img/5c30e02a787a10119865-866.webp",
+    "srcSet": "/img/5c30e02a787a10119865-480.webp 480w, /img/5c30e02a787a10119865-866.webp 866w",
+    "width": 866,
+    "height": 649
+  },
+  "./img/bathrooms/4.jpg": {
+    "src": "/img/ee80d2aefa6656483200-480.webp",
+    "full": "/img/ee80d2aefa6656483200-789.webp",
+    "srcSet": "/img/ee80d2aefa6656483200-480.webp 480w, /img/ee80d2aefa6656483200-789.webp 789w",
+    "width": 789,
+    "height": 575
+  },
+  "./img/bathrooms/5.jpg": {
+    "src": "/img/10600d96a3bb4db74502-480.webp",
+    "full": "/img/10600d96a3bb4db74502-789.webp",
+    "srcSet": "/img/10600d96a3bb4db74502-480.webp 480w, /img/10600d96a3bb4db74502-789.webp 789w",
+    "width": 789,
+    "height": 575
+  },
+  "./img/bathrooms/6.jpg": {
+    "src": "/img/d8c2722fe2860ba1c147-480.webp",
+    "full": "/img/d8c2722fe2860ba1c147-789.webp",
+    "srcSet": "/img/d8c2722fe2860ba1c147-480.webp 480w, /img/d8c2722fe2860ba1c147-789.webp 789w",
+    "width": 789,
+    "height": 575
+  },
+  "./img/bathrooms/7.jpg": {
+    "src": "/img/a087d4ccf09aaa4d7d3c-480.webp",
+    "full": "/img/a087d4ccf09aaa4d7d3c-618.webp",
+    "srcSet": "/img/a087d4ccf09aaa4d7d3c-480.webp 480w, /img/a087d4ccf09aaa4d7d3c-618.webp 618w",
+    "width": 618,
+    "height": 706
+  },
+  "./img/bathrooms/8.jpg": {
+    "src": "/img/59c19647e045dfca28f7-480.webp",
+    "full": "/img/59c19647e045dfca28f7-618.webp",
+    "srcSet": "/img/59c19647e045dfca28f7-480.webp 480w, /img/59c19647e045dfca28f7-618.webp 618w",
+    "width": 618,
+    "height": 706
+  },
+  "./img/bathrooms/9.JPG": {
+    "src": "/img/7c662a8062bd305cc044-480.webp",
+    "full": "/img/7c662a8062bd305cc044-1536.webp",
+    "srcSet": "/img/7c662a8062bd305cc044-480.webp 480w, /img/7c662a8062bd305cc044-960.webp 960w, /img/7c662a8062bd305cc044-1536.webp 1536w",
+    "width": 1536,
+    "height": 2048
+  },
+  "./img/bedrooms/1.jpg": {
+    "src": "/img/ec1876b62b6e5b20f5a0-480.webp",
+    "full": "/img/ec1876b62b6e5b20f5a0-800.webp",
+    "srcSet": "/img/ec1876b62b6e5b20f5a0-480.webp 480w, /img/ec1876b62b6e5b20f5a0-800.webp 800w",
+    "width": 800,
+    "height": 576
+  },
+  "./img/bedrooms/10.jpg": {
+    "src": "/img/c191110e9c16b5c80be5-480.webp",
+    "full": "/img/c191110e9c16b5c80be5-1200.webp",
+    "srcSet": "/img/c191110e9c16b5c80be5-480.webp 480w, /img/c191110e9c16b5c80be5-960.webp 960w, /img/c191110e9c16b5c80be5-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/bedrooms/11.jpg": {
+    "src": "/img/15795df33cc36d23b1fa-480.webp",
+    "full": "/img/15795df33cc36d23b1fa-1200.webp",
+    "srcSet": "/img/15795df33cc36d23b1fa-480.webp 480w, /img/15795df33cc36d23b1fa-960.webp 960w, /img/15795df33cc36d23b1fa-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/bedrooms/12.jpg": {
+    "src": "/img/b9972324a2f6a5f14e73-480.webp",
+    "full": "/img/b9972324a2f6a5f14e73-1200.webp",
+    "srcSet": "/img/b9972324a2f6a5f14e73-480.webp 480w, /img/b9972324a2f6a5f14e73-960.webp 960w, /img/b9972324a2f6a5f14e73-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/bedrooms/13.jpg": {
+    "src": "/img/7f0b925cfc0b59e99487-480.webp",
+    "full": "/img/7f0b925cfc0b59e99487-1200.webp",
+    "srcSet": "/img/7f0b925cfc0b59e99487-480.webp 480w, /img/7f0b925cfc0b59e99487-960.webp 960w, /img/7f0b925cfc0b59e99487-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/bedrooms/14.jpg": {
+    "src": "/img/738a9dfd98ad4a9bf12e-480.webp",
+    "full": "/img/738a9dfd98ad4a9bf12e-1200.webp",
+    "srcSet": "/img/738a9dfd98ad4a9bf12e-480.webp 480w, /img/738a9dfd98ad4a9bf12e-960.webp 960w, /img/738a9dfd98ad4a9bf12e-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/bedrooms/15.jpg": {
+    "src": "/img/7750ea3017cb75022460-480.webp",
+    "full": "/img/7750ea3017cb75022460-830.webp",
+    "srcSet": "/img/7750ea3017cb75022460-480.webp 480w, /img/7750ea3017cb75022460-830.webp 830w",
+    "width": 830,
+    "height": 528
+  },
+  "./img/bedrooms/16.jpg": {
+    "src": "/img/428e143919a19951e3cc-480.webp",
+    "full": "/img/428e143919a19951e3cc-790.webp",
+    "srcSet": "/img/428e143919a19951e3cc-480.webp 480w, /img/428e143919a19951e3cc-790.webp 790w",
+    "width": 790,
+    "height": 486
+  },
+  "./img/bedrooms/17.JPG": {
+    "src": "/img/332b9c8b389e6f9012dd-480.webp",
+    "full": "/img/332b9c8b389e6f9012dd-1920.webp",
+    "srcSet": "/img/332b9c8b389e6f9012dd-480.webp 480w, /img/332b9c8b389e6f9012dd-960.webp 960w, /img/332b9c8b389e6f9012dd-1920.webp 1920w",
+    "width": 1920,
+    "height": 1275
+  },
+  "./img/bedrooms/18.JPG": {
+    "src": "/img/df503ba9dfa20e837dbe-480.webp",
+    "full": "/img/df503ba9dfa20e837dbe-1920.webp",
+    "srcSet": "/img/df503ba9dfa20e837dbe-480.webp 480w, /img/df503ba9dfa20e837dbe-960.webp 960w, /img/df503ba9dfa20e837dbe-1920.webp 1920w",
+    "width": 1920,
+    "height": 1275
+  },
+  "./img/bedrooms/19.JPG": {
+    "src": "/img/1355fe5a1e0153bce119-480.webp",
+    "full": "/img/1355fe5a1e0153bce119-1920.webp",
+    "srcSet": "/img/1355fe5a1e0153bce119-480.webp 480w, /img/1355fe5a1e0153bce119-960.webp 960w, /img/1355fe5a1e0153bce119-1920.webp 1920w",
+    "width": 1920,
+    "height": 1275
+  },
+  "./img/bedrooms/2.jpg": {
+    "src": "/img/7d1c4e570d67a17a6278-480.webp",
+    "full": "/img/7d1c4e570d67a17a6278-800.webp",
+    "srcSet": "/img/7d1c4e570d67a17a6278-480.webp 480w, /img/7d1c4e570d67a17a6278-800.webp 800w",
+    "width": 800,
+    "height": 576
+  },
+  "./img/bedrooms/20.jpg": {
+    "src": "/img/001ea7f3e9b1cce66bd4-480.webp",
+    "full": "/img/001ea7f3e9b1cce66bd4-775.webp",
+    "srcSet": "/img/001ea7f3e9b1cce66bd4-480.webp 480w, /img/001ea7f3e9b1cce66bd4-775.webp 775w",
+    "width": 775,
+    "height": 515
+  },
+  "./img/bedrooms/21.jpg": {
+    "src": "/img/90c906084079aa113a89-480.webp",
+    "full": "/img/90c906084079aa113a89-775.webp",
+    "srcSet": "/img/90c906084079aa113a89-480.webp 480w, /img/90c906084079aa113a89-775.webp 775w",
+    "width": 775,
+    "height": 515
+  },
+  "./img/bedrooms/22.jpg": {
+    "src": "/img/5afce113566314a4a87b-480.webp",
+    "full": "/img/5afce113566314a4a87b-969.webp",
+    "srcSet": "/img/5afce113566314a4a87b-480.webp 480w, /img/5afce113566314a4a87b-960.webp 960w, /img/5afce113566314a4a87b-969.webp 969w",
+    "width": 969,
+    "height": 707
+  },
+  "./img/bedrooms/23.jpg": {
+    "src": "/img/a016f064e7d87f644ff2-480.webp",
+    "full": "/img/a016f064e7d87f644ff2-1920.webp",
+    "srcSet": "/img/a016f064e7d87f644ff2-480.webp 480w, /img/a016f064e7d87f644ff2-960.webp 960w, /img/a016f064e7d87f644ff2-1920.webp 1920w",
+    "width": 1920,
+    "height": 1078
+  },
+  "./img/bedrooms/24.jpg": {
+    "src": "/img/1f253c51a9fde2831de4-480.webp",
+    "full": "/img/1f253c51a9fde2831de4-1086.webp",
+    "srcSet": "/img/1f253c51a9fde2831de4-480.webp 480w, /img/1f253c51a9fde2831de4-960.webp 960w, /img/1f253c51a9fde2831de4-1086.webp 1086w",
+    "width": 1086,
+    "height": 610
+  },
+  "./img/bedrooms/25.jpg": {
+    "src": "/img/57955ab13e893fde0906-480.webp",
+    "full": "/img/57955ab13e893fde0906-1086.webp",
+    "srcSet": "/img/57955ab13e893fde0906-480.webp 480w, /img/57955ab13e893fde0906-960.webp 960w, /img/57955ab13e893fde0906-1086.webp 1086w",
+    "width": 1086,
+    "height": 610
+  },
+  "./img/bedrooms/26.jpg": {
+    "src": "/img/0c04f20868277c93038d-480.webp",
+    "full": "/img/0c04f20868277c93038d-1086.webp",
+    "srcSet": "/img/0c04f20868277c93038d-480.webp 480w, /img/0c04f20868277c93038d-960.webp 960w, /img/0c04f20868277c93038d-1086.webp 1086w",
+    "width": 1086,
+    "height": 610
+  },
+  "./img/bedrooms/28.jpg": {
+    "src": "/img/52363ba4b017ea65c253-480.webp",
+    "full": "/img/52363ba4b017ea65c253-599.webp",
+    "srcSet": "/img/52363ba4b017ea65c253-480.webp 480w, /img/52363ba4b017ea65c253-599.webp 599w",
+    "width": 599,
+    "height": 611
+  },
+  "./img/bedrooms/29.jpg": {
+    "src": "/img/94dfd44971b5b842b452-480.webp",
+    "full": "/img/94dfd44971b5b842b452-599.webp",
+    "srcSet": "/img/94dfd44971b5b842b452-480.webp 480w, /img/94dfd44971b5b842b452-599.webp 599w",
+    "width": 599,
+    "height": 611
+  },
+  "./img/bedrooms/3.jpg": {
+    "src": "/img/bd166c57201db03c1280-480.webp",
+    "full": "/img/bd166c57201db03c1280-800.webp",
+    "srcSet": "/img/bd166c57201db03c1280-480.webp 480w, /img/bd166c57201db03c1280-800.webp 800w",
+    "width": 800,
+    "height": 576
+  },
+  "./img/bedrooms/30.jpg": {
+    "src": "/img/94feb110e2fd9ec8a27c-480.webp",
+    "full": "/img/94feb110e2fd9ec8a27c-568.webp",
+    "srcSet": "/img/94feb110e2fd9ec8a27c-480.webp 480w, /img/94feb110e2fd9ec8a27c-568.webp 568w",
+    "width": 568,
+    "height": 611
+  },
+  "./img/bedrooms/31.jpg": {
+    "src": "/img/431890887e420bbeaadf-480.webp",
+    "full": "/img/431890887e420bbeaadf-568.webp",
+    "srcSet": "/img/431890887e420bbeaadf-480.webp 480w, /img/431890887e420bbeaadf-568.webp 568w",
+    "width": 568,
+    "height": 611
+  },
+  "./img/bedrooms/32.jpg": {
+    "src": "/img/fbd13894bcfc69e16f91-480.webp",
+    "full": "/img/fbd13894bcfc69e16f91-1507.webp",
+    "srcSet": "/img/fbd13894bcfc69e16f91-480.webp 480w, /img/fbd13894bcfc69e16f91-960.webp 960w, /img/fbd13894bcfc69e16f91-1507.webp 1507w",
+    "width": 1507,
+    "height": 827
+  },
+  "./img/bedrooms/33.jpg": {
+    "src": "/img/9a8b8f5067ae7605ddcd-480.webp",
+    "full": "/img/9a8b8f5067ae7605ddcd-1507.webp",
+    "srcSet": "/img/9a8b8f5067ae7605ddcd-480.webp 480w, /img/9a8b8f5067ae7605ddcd-960.webp 960w, /img/9a8b8f5067ae7605ddcd-1507.webp 1507w",
+    "width": 1507,
+    "height": 827
+  },
+  "./img/bedrooms/34.jpg": {
+    "src": "/img/e132f612ec2515f8b24b-480.webp",
+    "full": "/img/e132f612ec2515f8b24b-900.webp",
+    "srcSet": "/img/e132f612ec2515f8b24b-480.webp 480w, /img/e132f612ec2515f8b24b-900.webp 900w",
+    "width": 900,
+    "height": 494
+  },
+  "./img/bedrooms/35.jpg": {
+    "src": "/img/42a920ec3e345a11a75f-480.webp",
+    "full": "/img/42a920ec3e345a11a75f-1109.webp",
+    "srcSet": "/img/42a920ec3e345a11a75f-480.webp 480w, /img/42a920ec3e345a11a75f-960.webp 960w, /img/42a920ec3e345a11a75f-1109.webp 1109w",
+    "width": 1109,
+    "height": 731
+  },
+  "./img/bedrooms/36.jpg": {
+    "src": "/img/0d2dcf36fa56f7a6a3f0-480.webp",
+    "full": "/img/0d2dcf36fa56f7a6a3f0-1109.webp",
+    "srcSet": "/img/0d2dcf36fa56f7a6a3f0-480.webp 480w, /img/0d2dcf36fa56f7a6a3f0-960.webp 960w, /img/0d2dcf36fa56f7a6a3f0-1109.webp 1109w",
+    "width": 1109,
+    "height": 731
+  },
+  "./img/bedrooms/37.jpg": {
+    "src": "/img/f0fe8e3e0a3c61df8829-480.webp",
+    "full": "/img/f0fe8e3e0a3c61df8829-977.webp",
+    "srcSet": "/img/f0fe8e3e0a3c61df8829-480.webp 480w, /img/f0fe8e3e0a3c61df8829-960.webp 960w, /img/f0fe8e3e0a3c61df8829-977.webp 977w",
+    "width": 977,
+    "height": 570
+  },
+  "./img/bedrooms/38.jpg": {
+    "src": "/img/c20de83c085c72ec6225-480.webp",
+    "full": "/img/c20de83c085c72ec6225-977.webp",
+    "srcSet": "/img/c20de83c085c72ec6225-480.webp 480w, /img/c20de83c085c72ec6225-960.webp 960w, /img/c20de83c085c72ec6225-977.webp 977w",
+    "width": 977,
+    "height": 570
+  },
+  "./img/bedrooms/39.jpg": {
+    "src": "/img/7cc829a4829b19cc4a78-480.webp",
+    "full": "/img/7cc829a4829b19cc4a78-977.webp",
+    "srcSet": "/img/7cc829a4829b19cc4a78-480.webp 480w, /img/7cc829a4829b19cc4a78-960.webp 960w, /img/7cc829a4829b19cc4a78-977.webp 977w",
+    "width": 977,
+    "height": 570
+  },
+  "./img/bedrooms/4.jpg": {
+    "src": "/img/14706f47120253f41e5d-480.webp",
+    "full": "/img/14706f47120253f41e5d-1032.webp",
+    "srcSet": "/img/14706f47120253f41e5d-480.webp 480w, /img/14706f47120253f41e5d-960.webp 960w, /img/14706f47120253f41e5d-1032.webp 1032w",
+    "width": 1032,
+    "height": 735
+  },
+  "./img/bedrooms/40.jpg": {
+    "src": "/img/b7516fc62ae24cc7acc0-480.webp",
+    "full": "/img/b7516fc62ae24cc7acc0-734.webp",
+    "srcSet": "/img/b7516fc62ae24cc7acc0-480.webp 480w, /img/b7516fc62ae24cc7acc0-734.webp 734w",
+    "width": 734,
+    "height": 490
+  },
+  "./img/bedrooms/41.jpg": {
+    "src": "/img/c16b8bd81b1b3596e368-480.webp",
+    "full": "/img/c16b8bd81b1b3596e368-734.webp",
+    "srcSet": "/img/c16b8bd81b1b3596e368-480.webp 480w, /img/c16b8bd81b1b3596e368-734.webp 734w",
+    "width": 734,
+    "height": 490
+  },
+  "./img/bedrooms/42.jpg": {
+    "src": "/img/e685086549b0a29078e3-480.webp",
+    "full": "/img/e685086549b0a29078e3-734.webp",
+    "srcSet": "/img/e685086549b0a29078e3-480.webp 480w, /img/e685086549b0a29078e3-734.webp 734w",
+    "width": 734,
+    "height": 490
+  },
+  "./img/bedrooms/43.jpg": {
+    "src": "/img/913f95ab2251259a52ae-480.webp",
+    "full": "/img/913f95ab2251259a52ae-1920.webp",
+    "srcSet": "/img/913f95ab2251259a52ae-480.webp 480w, /img/913f95ab2251259a52ae-960.webp 960w, /img/913f95ab2251259a52ae-1920.webp 1920w",
+    "width": 1920,
+    "height": 2560
+  },
+  "./img/bedrooms/44.jpg": {
+    "src": "/img/2eccb356eff9847bf6a2-480.webp",
+    "full": "/img/2eccb356eff9847bf6a2-1920.webp",
+    "srcSet": "/img/2eccb356eff9847bf6a2-480.webp 480w, /img/2eccb356eff9847bf6a2-960.webp 960w, /img/2eccb356eff9847bf6a2-1920.webp 1920w",
+    "width": 1920,
+    "height": 2560
+  },
+  "./img/bedrooms/45.png": {
+    "src": "/img/8d0d84f2338ebe34a151-480.webp",
+    "full": "/img/8d0d84f2338ebe34a151-695.webp",
+    "srcSet": "/img/8d0d84f2338ebe34a151-480.webp 480w, /img/8d0d84f2338ebe34a151-695.webp 695w",
+    "width": 695,
+    "height": 567
+  },
+  "./img/bedrooms/46.png": {
+    "src": "/img/f1a240de537457a6b880-480.webp",
+    "full": "/img/f1a240de537457a6b880-695.webp",
+    "srcSet": "/img/f1a240de537457a6b880-480.webp 480w, /img/f1a240de537457a6b880-695.webp 695w",
+    "width": 695,
+    "height": 567
+  },
+  "./img/bedrooms/5.jpg": {
+    "src": "/img/7d563ab7ab95ca754710-480.webp",
+    "full": "/img/7d563ab7ab95ca754710-1032.webp",
+    "srcSet": "/img/7d563ab7ab95ca754710-480.webp 480w, /img/7d563ab7ab95ca754710-960.webp 960w, /img/7d563ab7ab95ca754710-1032.webp 1032w",
+    "width": 1032,
+    "height": 735
+  },
+  "./img/bedrooms/6.jpg": {
+    "src": "/img/3afc1e7477fb9a4e5f95-480.webp",
+    "full": "/img/3afc1e7477fb9a4e5f95-939.webp",
+    "srcSet": "/img/3afc1e7477fb9a4e5f95-480.webp 480w, /img/3afc1e7477fb9a4e5f95-939.webp 939w",
+    "width": 939,
+    "height": 567
+  },
+  "./img/bedrooms/7.png": {
+    "src": "/img/5c8fb424c6c895930bf0-480.webp",
+    "full": "/img/5c8fb424c6c895930bf0-800.webp",
+    "srcSet": "/img/5c8fb424c6c895930bf0-480.webp 480w, /img/5c8fb424c6c895930bf0-800.webp 800w",
+    "width": 800,
+    "height": 576
+  },
+  "./img/bedrooms/8.jpg": {
+    "src": "/img/70295b68e02c0f3cf5f3-480.webp",
+    "full": "/img/70295b68e02c0f3cf5f3-1200.webp",
+    "srcSet": "/img/70295b68e02c0f3cf5f3-480.webp 480w, /img/70295b68e02c0f3cf5f3-960.webp 960w, /img/70295b68e02c0f3cf5f3-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/bedrooms/9.jpg": {
+    "src": "/img/2181530f9d5e7d2c36ed-480.webp",
+    "full": "/img/2181530f9d5e7d2c36ed-1200.webp",
+    "srcSet": "/img/2181530f9d5e7d2c36ed-480.webp 480w, /img/2181530f9d5e7d2c36ed-960.webp 960w, /img/2181530f9d5e7d2c36ed-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/bedrooms2/1.jpg": {
+    "src": "/img/db0ed13c156afd60fba5-480.webp",
+    "full": "/img/db0ed13c156afd60fba5-777.webp",
+    "srcSet": "/img/db0ed13c156afd60fba5-480.webp 480w, /img/db0ed13c156afd60fba5-777.webp 777w",
+    "width": 777,
+    "height": 482
+  },
+  "./img/bedrooms2/10.jpg": {
+    "src": "/img/4b97e110fcc1ae21bfcf-480.webp",
+    "full": "/img/4b97e110fcc1ae21bfcf-1079.webp",
+    "srcSet": "/img/4b97e110fcc1ae21bfcf-480.webp 480w, /img/4b97e110fcc1ae21bfcf-960.webp 960w, /img/4b97e110fcc1ae21bfcf-1079.webp 1079w",
+    "width": 1079,
+    "height": 684
+  },
+  "./img/bedrooms2/11.jpg": {
+    "src": "/img/40888a78d64ebca27a9e-480.webp",
+    "full": "/img/40888a78d64ebca27a9e-1079.webp",
+    "srcSet": "/img/40888a78d64ebca27a9e-480.webp 480w, /img/40888a78d64ebca27a9e-960.webp 960w, /img/40888a78d64ebca27a9e-1079.webp 1079w",
+    "width": 1079,
+    "height": 684
+  },
+  "./img/bedrooms2/12.jpg": {
+    "src": "/img/f40c5f64a923693e47e7-480.webp",
+    "full": "/img/f40c5f64a923693e47e7-1079.webp",
+    "srcSet": "/img/f40c5f64a923693e47e7-480.webp 480w, /img/f40c5f64a923693e47e7-960.webp 960w, /img/f40c5f64a923693e47e7-1079.webp 1079w",
+    "width": 1079,
+    "height": 684
+  },
+  "./img/bedrooms2/13.jpg": {
+    "src": "/img/8a6e1d26512f4aaaacee-480.webp",
+    "full": "/img/8a6e1d26512f4aaaacee-800.webp",
+    "srcSet": "/img/8a6e1d26512f4aaaacee-480.webp 480w, /img/8a6e1d26512f4aaaacee-800.webp 800w",
+    "width": 800,
+    "height": 576
+  },
+  "./img/bedrooms2/14.jpg": {
+    "src": "/img/e271e117523026a1dfdd-480.webp",
+    "full": "/img/e271e117523026a1dfdd-800.webp",
+    "srcSet": "/img/e271e117523026a1dfdd-480.webp 480w, /img/e271e117523026a1dfdd-800.webp 800w",
+    "width": 800,
+    "height": 576
+  },
+  "./img/bedrooms2/15.png": {
+    "src": "/img/71019f18ed49a308deab-480.webp",
+    "full": "/img/71019f18ed49a308deab-800.webp",
+    "srcSet": "/img/71019f18ed49a308deab-480.webp 480w, /img/71019f18ed49a308deab-800.webp 800w",
+    "width": 800,
+    "height": 576
+  },
+  "./img/bedrooms2/16.jpg": {
+    "src": "/img/63ecdfbb78347885746a-480.webp",
+    "full": "/img/63ecdfbb78347885746a-1047.webp",
+    "srcSet": "/img/63ecdfbb78347885746a-480.webp 480w, /img/63ecdfbb78347885746a-960.webp 960w, /img/63ecdfbb78347885746a-1047.webp 1047w",
+    "width": 1047,
+    "height": 559
+  },
+  "./img/bedrooms2/17.jpg": {
+    "src": "/img/c809996b14b475b6cc91-480.webp",
+    "full": "/img/c809996b14b475b6cc91-1047.webp",
+    "srcSet": "/img/c809996b14b475b6cc91-480.webp 480w, /img/c809996b14b475b6cc91-960.webp 960w, /img/c809996b14b475b6cc91-1047.webp 1047w",
+    "width": 1047,
+    "height": 559
+  },
+  "./img/bedrooms2/18.jpg": {
+    "src": "/img/d50601d25ee0d9a698f8-480.webp",
+    "full": "/img/d50601d25ee0d9a698f8-977.webp",
+    "srcSet": "/img/d50601d25ee0d9a698f8-480.webp 480w, /img/d50601d25ee0d9a698f8-960.webp 960w, /img/d50601d25ee0d9a698f8-977.webp 977w",
+    "width": 977,
+    "height": 570
+  },
+  "./img/bedrooms2/19.jpg": {
+    "src": "/img/579491d7efa5e60fbcef-480.webp",
+    "full": "/img/579491d7efa5e60fbcef-988.webp",
+    "srcSet": "/img/579491d7efa5e60fbcef-480.webp 480w, /img/579491d7efa5e60fbcef-960.webp 960w, /img/579491d7efa5e60fbcef-988.webp 988w",
+    "width": 988,
+    "height": 658
+  },
+  "./img/bedrooms2/2.png": {
+    "src": "/img/5dddea0936dc9426c4d6-480.webp",
+    "full": "/img/5dddea0936dc9426c4d6-777.webp",
+    "srcSet": "/img/5dddea0936dc9426c4d6-480.webp 480w, /img/5dddea0936dc9426c4d6-777.webp 777w",
+    "width": 777,
+    "height": 482
+  },
+  "./img/bedrooms2/20.jpg": {
+    "src": "/img/ec255abd6b9bea2506d4-480.webp",
+    "full": "/img/ec255abd6b9bea2506d4-988.webp",
+    "srcSet": "/img/ec255abd6b9bea2506d4-480.webp 480w, /img/ec255abd6b9bea2506d4-960.webp 960w, /img/ec255abd6b9bea2506d4-988.webp 988w",
+    "width": 988,
+    "height": 658
+  },
+  "./img/bedrooms2/21.jpg": {
+    "src": "/img/dad8e0278ca10694b016-480.webp",
+    "full": "/img/dad8e0278ca10694b016-988.webp",
+    "srcSet": "/img/dad8e0278ca10694b016-480.webp 480w, /img/dad8e0278ca10694b016-960.webp 960w, /img/dad8e0278ca10694b016-988.webp 988w",
+    "width": 988,
+    "height": 658
+  },
+  "./img/bedrooms2/22.jpg": {
+    "src": "/img/ae75e9bbbe3c0d8c6a1a-480.webp",
+    "full": "/img/ae75e9bbbe3c0d8c6a1a-996.webp",
+    "srcSet": "/img/ae75e9bbbe3c0d8c6a1a-480.webp 480w, /img/ae75e9bbbe3c0d8c6a1a-960.webp 960w, /img/ae75e9bbbe3c0d8c6a1a-996.webp 996w",
+    "width": 996,
+    "height": 663
+  },
+  "./img/bedrooms2/23.jpg": {
+    "src": "/img/5f333faba5c3152b7ce7-480.webp",
+    "full": "/img/5f333faba5c3152b7ce7-1280.webp",
+    "srcSet": "/img/5f333faba5c3152b7ce7-480.webp 480w, /img/5f333faba5c3152b7ce7-960.webp 960w, /img/5f333faba5c3152b7ce7-1280.webp 1280w",
+    "width": 1280,
+    "height": 960
+  },
+  "./img/bedrooms2/24.jpg": {
+    "src": "/img/538aecc45b35b6ae6b59-480.webp",
+    "full": "/img/538aecc45b35b6ae6b59-1280.webp",
+    "srcSet": "/img/538aecc45b35b6ae6b59-480.webp 480w, /img/538aecc45b35b6ae6b59-960.webp 960w, /img/538aecc45b35b6ae6b59-1280.webp 1280w",
+    "width": 1280,
+    "height": 960
+  },
+  "./img/bedrooms2/25.jpg": {
+    "src": "/img/80d15258b5424f21205f-480.webp",
+    "full": "/img/80d15258b5424f21205f-919.webp",
+    "srcSet": "/img/80d15258b5424f21205f-480.webp 480w, /img/80d15258b5424f21205f-919.webp 919w",
+    "width": 919,
+    "height": 596
+  },
+  "./img/bedrooms2/26.png": {
+    "src": "/img/c3a8e15054c719b259ad-480.webp",
+    "full": "/img/c3a8e15054c719b259ad-856.webp",
+    "srcSet": "/img/c3a8e15054c719b259ad-480.webp 480w, /img/c3a8e15054c719b259ad-856.webp 856w",
+    "width": 856,
+    "height": 710
+  },
+  "./img/bedrooms2/27.png": {
+    "src": "/img/b0b7fd4b6207c6b2c77a-480.webp",
+    "full": "/img/b0b7fd4b6207c6b2c77a-856.webp",
+    "srcSet": "/img/b0b7fd4b6207c6b2c77a-480.webp 480w, /img/b0b7fd4b6207c6b2c77a-856.webp 856w",
+    "width": 856,
+    "height": 710
+  },
+  "./img/bedrooms2/3.jpg": {
+    "src": "/img/af876b74fd839288026a-480.webp",
+    "full": "/img/af876b74fd839288026a-789.webp",
+    "srcSet": "/img/af876b74fd839288026a-480.webp 480w, /img/af876b74fd839288026a-789.webp 789w",
+    "width": 789,
+    "height": 575
+  },
+  "./img/bedrooms2/4.jpg": {
+    "src": "/img/faa76a9ce7a53ef84b60-480.webp",
+    "full": "/img/faa76a9ce7a53ef84b60-789.webp",
+    "srcSet": "/img/faa76a9ce7a53ef84b60-480.webp 480w, /img/faa76a9ce7a53ef84b60-789.webp 789w",
+    "width": 789,
+    "height": 575
+  },
+  "./img/bedrooms2/5.jpg": {
+    "src": "/img/a53ef6e5bd635d47963c-480.webp",
+    "full": "/img/a53ef6e5bd635d47963c-800.webp",
+    "srcSet": "/img/a53ef6e5bd635d47963c-480.webp 480w, /img/a53ef6e5bd635d47963c-800.webp 800w",
+    "width": 800,
+    "height": 534
+  },
+  "./img/bedrooms2/6.jpg": {
+    "src": "/img/e9d924443e00ad7019b6-480.webp",
+    "full": "/img/e9d924443e00ad7019b6-800.webp",
+    "srcSet": "/img/e9d924443e00ad7019b6-480.webp 480w, /img/e9d924443e00ad7019b6-800.webp 800w",
+    "width": 800,
+    "height": 534
+  },
+  "./img/bedrooms2/7.jpg": {
+    "src": "/img/bed8cafa5ee2e4024c2a-480.webp",
+    "full": "/img/bed8cafa5ee2e4024c2a-800.webp",
+    "srcSet": "/img/bed8cafa5ee2e4024c2a-480.webp 480w, /img/bed8cafa5ee2e4024c2a-800.webp 800w",
+    "width": 800,
+    "height": 534
+  },
+  "./img/bedrooms2/8.jpg": {
+    "src": "/img/a702a77a9abe4bbdeea6-480.webp",
+    "full": "/img/a702a77a9abe4bbdeea6-1089.webp",
+    "srcSet": "/img/a702a77a9abe4bbdeea6-480.webp 480w, /img/a702a77a9abe4bbdeea6-960.webp 960w, /img/a702a77a9abe4bbdeea6-1089.webp 1089w",
+    "width": 1089,
+    "height": 725
+  },
+  "./img/bedrooms2/9.jpg": {
+    "src": "/img/7f4c348fd6cd607f4712-480.webp",
+    "full": "/img/7f4c348fd6cd607f4712-1089.webp",
+    "srcSet": "/img/7f4c348fd6cd607f4712-480.webp 480w, /img/7f4c348fd6cd607f4712-960.webp 960w, /img/7f4c348fd6cd607f4712-1089.webp 1089w",
+    "width": 1089,
+    "height": 725
+  },
+  "./img/buildings/1.jpg": {
+    "src": "/img/e339b551531049e6e94a-480.webp",
+    "full": "/img/e339b551531049e6e94a-924.webp",
+    "srcSet": "/img/e339b551531049e6e94a-480.webp 480w, /img/e339b551531049e6e94a-924.webp 924w",
+    "width": 924,
+    "height": 857
+  },
+  "./img/buildings/10.jpg": {
+    "src": "/img/d0d67f1baca5b574e5dd-480.webp",
+    "full": "/img/d0d67f1baca5b574e5dd-965.webp",
+    "srcSet": "/img/d0d67f1baca5b574e5dd-480.webp 480w, /img/d0d67f1baca5b574e5dd-960.webp 960w, /img/d0d67f1baca5b574e5dd-965.webp 965w",
+    "width": 965,
+    "height": 400
+  },
+  "./img/buildings/11.jpg": {
+    "src": "/img/153aec8eebd29a6d2208-480.webp",
+    "full": "/img/153aec8eebd29a6d2208-1031.webp",
+    "srcSet": "/img/153aec8eebd29a6d2208-480.webp 480w, /img/153aec8eebd29a6d2208-960.webp 960w, /img/153aec8eebd29a6d2208-1031.webp 1031w",
+    "width": 1031,
+    "height": 610
+  },
+  "./img/buildings/12.jpg": {
+    "src": "/img/6097ba7ef97ff57fb47e-480.webp",
+    "full": "/img/6097ba7ef97ff57fb47e-1081.webp",
+    "srcSet": "/img/6097ba7ef97ff57fb47e-480.webp 480w, /img/6097ba7ef97ff57fb47e-960.webp 960w, /img/6097ba7ef97ff57fb47e-1081.webp 1081w",
+    "width": 1081,
+    "height": 906
+  },
+  "./img/buildings/13.jpg": {
+    "src": "/img/4bfa25e204cb390fa90a-480.webp",
+    "full": "/img/4bfa25e204cb390fa90a-960.webp",
+    "srcSet": "/img/4bfa25e204cb390fa90a-480.webp 480w, /img/4bfa25e204cb390fa90a-960.webp 960w",
+    "width": 960,
+    "height": 439
+  },
+  "./img/buildings/14.jpg": {
+    "src": "/img/14f3090ef7552e182087-480.webp",
+    "full": "/img/14f3090ef7552e182087-1436.webp",
+    "srcSet": "/img/14f3090ef7552e182087-480.webp 480w, /img/14f3090ef7552e182087-960.webp 960w, /img/14f3090ef7552e182087-1436.webp 1436w",
+    "width": 1436,
+    "height": 1080
+  },
+  "./img/buildings/15.jpg": {
+    "src": "/img/e387d6851fd37beb715f-480.webp",
+    "full": "/img/e387d6851fd37beb715f-1920.webp",
+    "srcSet": "/img/e387d6851fd37beb715f-480.webp 480w, /img/e387d6851fd37beb715f-960.webp 960w, /img/e387d6851fd37beb715f-1920.webp 1920w",
+    "width": 1920,
+    "height": 1197
+  },
+  "./img/buildings/16.jpg": {
+    "src": "/img/3cb42f23dfb338207c34-480.webp",
+    "full": "/img/3cb42f23dfb338207c34-1000.webp",
+    "srcSet": "/img/3cb42f23dfb338207c34-480.webp 480w, /img/3cb42f23dfb338207c34-960.webp 960w, /img/3cb42f23dfb338207c34-1000.webp 1000w",
+    "width": 1000,
+    "height": 470
+  },
+  "./img/buildings/17.jpg": {
+    "src": "/img/e68ceb7cea5019327ffb-480.webp",
+    "full": "/img/e68ceb7cea5019327ffb-910.webp",
+    "srcSet": "/img/e68ceb7cea5019327ffb-480.webp 480w, /img/e68ceb7cea5019327ffb-910.webp 910w",
+    "width": 910,
+    "height": 590
+  },
+  "./img/buildings/2.jpg": {
+    "src": "/img/3b1bdcdaf27da4502a0f-480.webp",
+    "full": "/img/3b1bdcdaf27da4502a0f-1701.webp",
+    "srcSet": "/img/3b1bdcdaf27da4502a0f-480.webp 480w, /img/3b1bdcdaf27da4502a0f-960.webp 960w, /img/3b1bdcdaf27da4502a0f-1701.webp 1701w",
+    "width": 1701,
+    "height": 992
+  },
+  "./img/buildings/3.jpg": {
+    "src": "/img/f3066b8ceb73e45ba690-480.webp",
+    "full": "/img/f3066b8ceb73e45ba690-1420.webp",
+    "srcSet": "/img/f3066b8ceb73e45ba690-480.webp 480w, /img/f3066b8ceb73e45ba690-960.webp 960w, /img/f3066b8ceb73e45ba690-1420.webp 1420w",
+    "width": 1420,
+    "height": 604
+  },
+  "./img/buildings/4.jpg": {
+    "src": "/img/7567edfb26ea713ab36f-480.webp",
+    "full": "/img/7567edfb26ea713ab36f-945.webp",
+    "srcSet": "/img/7567edfb26ea713ab36f-480.webp 480w, /img/7567edfb26ea713ab36f-945.webp 945w",
+    "width": 945,
+    "height": 415
+  },
+  "./img/buildings/5.jpg": {
+    "src": "/img/2fd8c6d8f2124b2f2efc-480.webp",
+    "full": "/img/2fd8c6d8f2124b2f2efc-960.webp",
+    "srcSet": "/img/2fd8c6d8f2124b2f2efc-480.webp 480w, /img/2fd8c6d8f2124b2f2efc-960.webp 960w",
+    "width": 960,
+    "height": 720
+  },
+  "./img/buildings/6.png": {
+    "src": "/img/649e4b30a48113143762-480.webp",
+    "full": "/img/649e4b30a48113143762-1920.webp",
+    "srcSet": "/img/649e4b30a48113143762-480.webp 480w, /img/649e4b30a48113143762-960.webp 960w, /img/649e4b30a48113143762-1920.webp 1920w",
+    "width": 1920,
+    "height": 1080
+  },
+  "./img/buildings/7.jpg": {
+    "src": "/img/7113a136918b565a69a2-480.webp",
+    "full": "/img/7113a136918b565a69a2-1920.webp",
+    "srcSet": "/img/7113a136918b565a69a2-480.webp 480w, /img/7113a136918b565a69a2-960.webp 960w, /img/7113a136918b565a69a2-1920.webp 1920w",
+    "width": 1920,
+    "height": 1440
+  },
+  "./img/buildings/8.jpg": {
+    "src": "/img/f5e8f56f90e8bac682d4-480.webp",
+    "full": "/img/f5e8f56f90e8bac682d4-857.webp",
+    "srcSet": "/img/f5e8f56f90e8bac682d4-480.webp 480w, /img/f5e8f56f90e8bac682d4-857.webp 857w",
+    "width": 857,
+    "height": 434
+  },
+  "./img/buildings/9.jpg": {
+    "src": "/img/8a841707583d9b6ff611-480.webp",
+    "full": "/img/8a841707583d9b6ff611-986.webp",
+    "srcSet": "/img/8a841707583d9b6ff611-480.webp 480w, /img/8a841707583d9b6ff611-960.webp 960w, /img/8a841707583d9b6ff611-986.webp 986w",
+    "width": 986,
+    "height": 588
+  },
+  "./img/cherniVrah/1.jpg": {
+    "src": "/img/f8bfb383cb77b7e3f1b4-480.webp",
+    "full": "/img/f8bfb383cb77b7e3f1b4-950.webp",
+    "srcSet": "/img/f8bfb383cb77b7e3f1b4-480.webp 480w, /img/f8bfb383cb77b7e3f1b4-950.webp 950w",
+    "width": 950,
+    "height": 681
+  },
+  "./img/cherniVrah/2.jpg": {
+    "src": "/img/85be194de8a05a7300f8-480.webp",
+    "full": "/img/85be194de8a05a7300f8-1394.webp",
+    "srcSet": "/img/85be194de8a05a7300f8-480.webp 480w, /img/85be194de8a05a7300f8-960.webp 960w, /img/85be194de8a05a7300f8-1394.webp 1394w",
+    "width": 1394,
+    "height": 677
+  },
+  "./img/cherniVrah/3.jpg": {
+    "src": "/img/ea032a3dec303bab5dbe-480.webp",
+    "full": "/img/ea032a3dec303bab5dbe-1115.webp",
+    "srcSet": "/img/ea032a3dec303bab5dbe-480.webp 480w, /img/ea032a3dec303bab5dbe-960.webp 960w, /img/ea032a3dec303bab5dbe-1115.webp 1115w",
+    "width": 1115,
+    "height": 901
+  },
+  "./img/cherniVrah/4.jpg": {
+    "src": "/img/1c78a9d6ccdbe4f5ce1e-480.webp",
+    "full": "/img/1c78a9d6ccdbe4f5ce1e-900.webp",
+    "srcSet": "/img/1c78a9d6ccdbe4f5ce1e-480.webp 480w, /img/1c78a9d6ccdbe4f5ce1e-900.webp 900w",
+    "width": 900,
+    "height": 612
+  },
+  "./img/cherniVrah/5.jpg": {
+    "src": "/img/d74f710b94044cd5899c-480.webp",
+    "full": "/img/d74f710b94044cd5899c-972.webp",
+    "srcSet": "/img/d74f710b94044cd5899c-480.webp 480w, /img/d74f710b94044cd5899c-960.webp 960w, /img/d74f710b94044cd5899c-972.webp 972w",
+    "width": 972,
+    "height": 673
+  },
+  "./img/cherniVrah/6.jpg": {
+    "src": "/img/fa06544b21e208d68cc1-480.webp",
+    "full": "/img/fa06544b21e208d68cc1-729.webp",
+    "srcSet": "/img/fa06544b21e208d68cc1-480.webp 480w, /img/fa06544b21e208d68cc1-729.webp 729w",
+    "width": 729,
+    "height": 744
+  },
+  "./img/cherniVrah/7.jpg": {
+    "src": "/img/e828fdd0658b7bdcd711-480.webp",
+    "full": "/img/e828fdd0658b7bdcd711-837.webp",
+    "srcSet": "/img/e828fdd0658b7bdcd711-480.webp 480w, /img/e828fdd0658b7bdcd711-837.webp 837w",
+    "width": 837,
+    "height": 646
+  },
+  "./img/cherniVrah/8.jpg": {
+    "src": "/img/7113a136918b565a69a2-480.webp",
+    "full": "/img/7113a136918b565a69a2-1920.webp",
+    "srcSet": "/img/7113a136918b565a69a2-480.webp 480w, /img/7113a136918b565a69a2-960.webp 960w, /img/7113a136918b565a69a2-1920.webp 1920w",
+    "width": 1920,
+    "height": 1440
+  },
+  "./img/chervenaStena2/червена стена 2 1.jpg": {
+    "src": "/img/6097ba7ef97ff57fb47e-480.webp",
+    "full": "/img/6097ba7ef97ff57fb47e-1081.webp",
+    "srcSet": "/img/6097ba7ef97ff57fb47e-480.webp 480w, /img/6097ba7ef97ff57fb47e-960.webp 960w, /img/6097ba7ef97ff57fb47e-1081.webp 1081w",
+    "width": 1081,
+    "height": 906
+  },
+  "./img/chervenaStena2/червена стена 2 2.jpg": {
+    "src": "/img/fba7b754faae8984be62-480.webp",
+    "full": "/img/fba7b754faae8984be62-693.webp",
+    "srcSet": "/img/fba7b754faae8984be62-480.webp 480w, /img/fba7b754faae8984be62-693.webp 693w",
+    "width": 693,
+    "height": 857
+  },
+  "./img/diuni/1.png": {
+    "src": "/img/649e4b30a48113143762-480.webp",
+    "full": "/img/649e4b30a48113143762-1920.webp",
+    "srcSet": "/img/649e4b30a48113143762-480.webp 480w, /img/649e4b30a48113143762-960.webp 960w, /img/649e4b30a48113143762-1920.webp 1920w",
+    "width": 1920,
+    "height": 1080
+  },
+  "./img/dreshnik/1.png": {
+    "src": "/img/4b63f41cb26d1a8b6d66-480.webp",
+    "full": "/img/4b63f41cb26d1a8b6d66-515.webp",
+    "srcSet": "/img/4b63f41cb26d1a8b6d66-480.webp 480w, /img/4b63f41cb26d1a8b6d66-515.webp 515w",
+    "width": 515,
+    "height": 573
+  },
+  "./img/dreshnik/2.png": {
+    "src": "/img/d8bbc233f847c409837f-479.webp",
+    "full": "/img/d8bbc233f847c409837f-479.webp",
+    "srcSet": "/img/d8bbc233f847c409837f-479.webp 479w",
+    "width": 479,
+    "height": 564
+  },
+  "./img/dreshnik/3.png": {
+    "src": "/img/1f75cfe17614e9383ced-409.webp",
+    "full": "/img/1f75cfe17614e9383ced-409.webp",
+    "srcSet": "/img/1f75cfe17614e9383ced-409.webp 409w",
+    "width": 409,
+    "height": 567
+  },
+  "./img/dreshnik/4.jpg": {
+    "src": "/img/1f1362780df2bb631903-480.webp",
+    "full": "/img/1f1362780df2bb631903-1200.webp",
+    "srcSet": "/img/1f1362780df2bb631903-480.webp 480w, /img/1f1362780df2bb631903-960.webp 960w, /img/1f1362780df2bb631903-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/dreshnik/5.jpg": {
+    "src": "/img/271cb33f63b836acecc6-480.webp",
+    "full": "/img/271cb33f63b836acecc6-956.webp",
+    "srcSet": "/img/271cb33f63b836acecc6-480.webp 480w, /img/271cb33f63b836acecc6-956.webp 956w",
+    "width": 956,
+    "height": 674
+  },
+  "./img/dreshnik/6.jpg": {
+    "src": "/img/550dafae395b27f3a2f6-480.webp",
+    "full": "/img/550dafae395b27f3a2f6-956.webp",
+    "srcSet": "/img/550dafae395b27f3a2f6-480.webp 480w, /img/550dafae395b27f3a2f6-956.webp 956w",
+    "width": 956,
+    "height": 674
+  },
+  "./img/dreshnik/7.jpg": {
+    "src": "/img/f14f92bb6e6b8ef58d1b-480.webp",
+    "full": "/img/f14f92bb6e6b8ef58d1b-956.webp",
+    "srcSet": "/img/f14f92bb6e6b8ef58d1b-480.webp 480w, /img/f14f92bb6e6b8ef58d1b-956.webp 956w",
+    "width": 956,
+    "height": 674
+  },
+  "./img/eaglesLodge/1.png": {
+    "src": "/img/cd655b1dd631b47f88a5-480.webp",
+    "full": "/img/cd655b1dd631b47f88a5-1075.webp",
+    "srcSet": "/img/cd655b1dd631b47f88a5-480.webp 480w, /img/cd655b1dd631b47f88a5-960.webp 960w, /img/cd655b1dd631b47f88a5-1075.webp 1075w",
+    "width": 1075,
+    "height": 491
+  },
+  "./img/eaglesLodge/2.JPG": {
+    "src": "/img/2bd000a64547a0bdbf2d-480.webp",
+    "full": "/img/2bd000a64547a0bdbf2d-1600.webp",
+    "srcSet": "/img/2bd000a64547a0bdbf2d-480.webp 480w, /img/2bd000a64547a0bdbf2d-960.webp 960w, /img/2bd000a64547a0bdbf2d-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "./img/eaglesLodge/3.JPG": {
+    "src": "/img/8635bfcbf09fb54a5ad1-480.webp",
+    "full": "/img/8635bfcbf09fb54a5ad1-1600.webp",
+    "srcSet": "/img/8635bfcbf09fb54a5ad1-480.webp 480w, /img/8635bfcbf09fb54a5ad1-960.webp 960w, /img/8635bfcbf09fb54a5ad1-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "./img/eaglesLodge/4.jpg": {
+    "src": "/img/e45d92a6956d03148531-480.webp",
+    "full": "/img/e45d92a6956d03148531-1103.webp",
+    "srcSet": "/img/e45d92a6956d03148531-480.webp 480w, /img/e45d92a6956d03148531-960.webp 960w, /img/e45d92a6956d03148531-1103.webp 1103w",
+    "width": 1103,
+    "height": 572
+  },
+  "./img/eaglesLodge/5.jpg": {
+    "src": "/img/20c2895b3b54ce78733e-480.webp",
+    "full": "/img/20c2895b3b54ce78733e-1069.webp",
+    "srcSet": "/img/20c2895b3b54ce78733e-480.webp 480w, /img/20c2895b3b54ce78733e-960.webp 960w, /img/20c2895b3b54ce78733e-1069.webp 1069w",
+    "width": 1069,
+    "height": 880
+  },
+  "./img/eaglesLodge/6.JPG": {
+    "src": "/img/ea7736fdbb9656cabdc9-480.webp",
+    "full": "/img/ea7736fdbb9656cabdc9-1600.webp",
+    "srcSet": "/img/ea7736fdbb9656cabdc9-480.webp 480w, /img/ea7736fdbb9656cabdc9-960.webp 960w, /img/ea7736fdbb9656cabdc9-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "./img/ednostaen/1.png": {
+    "src": "/img/5165160198008f3f0d40-480.webp",
+    "full": "/img/5165160198008f3f0d40-905.webp",
+    "srcSet": "/img/5165160198008f3f0d40-480.webp 480w, /img/5165160198008f3f0d40-905.webp 905w",
+    "width": 905,
+    "height": 680
+  },
+  "./img/ednostaen/2.png": {
+    "src": "/img/5cf8c9ea2780413ac54e-480.webp",
+    "full": "/img/5cf8c9ea2780413ac54e-905.webp",
+    "srcSet": "/img/5cf8c9ea2780413ac54e-480.webp 480w, /img/5cf8c9ea2780413ac54e-905.webp 905w",
+    "width": 905,
+    "height": 680
+  },
+  "./img/ednostaen/3.png": {
+    "src": "/img/c9d1e6302259e4f7f4c9-480.webp",
+    "full": "/img/c9d1e6302259e4f7f4c9-905.webp",
+    "srcSet": "/img/c9d1e6302259e4f7f4c9-480.webp 480w, /img/c9d1e6302259e4f7f4c9-905.webp 905w",
+    "width": 905,
+    "height": 680
+  },
+  "./img/ednostaen/4.png": {
+    "src": "/img/acb4b4a61bdd6756c152-480.webp",
+    "full": "/img/acb4b4a61bdd6756c152-905.webp",
+    "srcSet": "/img/acb4b4a61bdd6756c152-480.webp 480w, /img/acb4b4a61bdd6756c152-905.webp 905w",
+    "width": 905,
+    "height": 680
+  },
+  "./img/ednostaen/5.jpg": {
+    "src": "/img/0d0eb3f0a6d715bd7978-480.webp",
+    "full": "/img/0d0eb3f0a6d715bd7978-905.webp",
+    "srcSet": "/img/0d0eb3f0a6d715bd7978-480.webp 480w, /img/0d0eb3f0a6d715bd7978-905.webp 905w",
+    "width": 905,
+    "height": 680
+  },
+  "./img/ednostaen/6.jpg": {
+    "src": "/img/2d594a3536b42b733bd3-480.webp",
+    "full": "/img/2d594a3536b42b733bd3-905.webp",
+    "srcSet": "/img/2d594a3536b42b733bd3-480.webp 480w, /img/2d594a3536b42b733bd3-905.webp 905w",
+    "width": 905,
+    "height": 680
+  },
+  "./img/ednostaen/7.jpg": {
+    "src": "/img/07318f8a7cee3e773768-480.webp",
+    "full": "/img/07318f8a7cee3e773768-905.webp",
+    "srcSet": "/img/07318f8a7cee3e773768-480.webp 480w, /img/07318f8a7cee3e773768-905.webp 905w",
+    "width": 905,
+    "height": 680
+  },
+  "./img/furniture/1.jpg": {
+    "src": "/img/4576c9068ab90ae83abf-480.webp",
+    "full": "/img/4576c9068ab90ae83abf-1920.webp",
+    "srcSet": "/img/4576c9068ab90ae83abf-480.webp 480w, /img/4576c9068ab90ae83abf-960.webp 960w, /img/4576c9068ab90ae83abf-1920.webp 1920w",
+    "width": 1920,
+    "height": 1078
+  },
+  "./img/furniture/2.JPG": {
+    "src": "/img/1355fe5a1e0153bce119-480.webp",
+    "full": "/img/1355fe5a1e0153bce119-1920.webp",
+    "srcSet": "/img/1355fe5a1e0153bce119-480.webp 480w, /img/1355fe5a1e0153bce119-960.webp 960w, /img/1355fe5a1e0153bce119-1920.webp 1920w",
+    "width": 1920,
+    "height": 1275
+  },
+  "./img/furniture/3.jpg": {
+    "src": "/img/5f333faba5c3152b7ce7-480.webp",
+    "full": "/img/5f333faba5c3152b7ce7-1280.webp",
+    "srcSet": "/img/5f333faba5c3152b7ce7-480.webp 480w, /img/5f333faba5c3152b7ce7-960.webp 960w, /img/5f333faba5c3152b7ce7-1280.webp 1280w",
+    "width": 1280,
+    "height": 960
+  },
+  "./img/furniture/4.jpg": {
+    "src": "/img/271cb33f63b836acecc6-480.webp",
+    "full": "/img/271cb33f63b836acecc6-956.webp",
+    "srcSet": "/img/271cb33f63b836acecc6-480.webp 480w, /img/271cb33f63b836acecc6-956.webp 956w",
+    "width": 956,
+    "height": 674
+  },
+  "./img/furniture/5.jpg": {
+    "src": "/img/0809a36afc9816e794f6-480.webp",
+    "full": "/img/0809a36afc9816e794f6-750.webp",
+    "srcSet": "/img/0809a36afc9816e794f6-480.webp 480w, /img/0809a36afc9816e794f6-750.webp 750w",
+    "width": 750,
+    "height": 547
+  },
+  "./img/furniture/6.png": {
+    "src": "/img/5437ca115f38f468b3c6-480.webp",
+    "full": "/img/5437ca115f38f468b3c6-584.webp",
+    "srcSet": "/img/5437ca115f38f468b3c6-480.webp 480w, /img/5437ca115f38f468b3c6-584.webp 584w",
+    "width": 584,
+    "height": 643
+  },
+  "./img/furniture/7.JPG": {
+    "src": "/img/7c662a8062bd305cc044-480.webp",
+    "full": "/img/7c662a8062bd305cc044-1536.webp",
+    "srcSet": "/img/7c662a8062bd305cc044-480.webp 480w, /img/7c662a8062bd305cc044-960.webp 960w, /img/7c662a8062bd305cc044-1536.webp 1536w",
+    "width": 1536,
+    "height": 2048
+  },
+  "./img/furniture/8.jpg": {
+    "src": "/img/2ab775c3780101b3ae0f-480.webp",
+    "full": "/img/2ab775c3780101b3ae0f-950.webp",
+    "srcSet": "/img/2ab775c3780101b3ae0f-480.webp 480w, /img/2ab775c3780101b3ae0f-950.webp 950w",
+    "width": 950,
+    "height": 550
+  },
+  "./img/grandRoyale/1.jpg": {
+    "src": "/img/416bf3f520aefb3fddd9-480.webp",
+    "full": "/img/416bf3f520aefb3fddd9-1254.webp",
+    "srcSet": "/img/416bf3f520aefb3fddd9-480.webp 480w, /img/416bf3f520aefb3fddd9-960.webp 960w, /img/416bf3f520aefb3fddd9-1254.webp 1254w",
+    "width": 1254,
+    "height": 573
+  },
+  "./img/grandRoyale/2.jpg": {
+    "src": "/img/bad4f10345127a249da9-480.webp",
+    "full": "/img/bad4f10345127a249da9-1254.webp",
+    "srcSet": "/img/bad4f10345127a249da9-480.webp 480w, /img/bad4f10345127a249da9-960.webp 960w, /img/bad4f10345127a249da9-1254.webp 1254w",
+    "width": 1254,
+    "height": 573
+  },
+  "./img/grandRoyale/3.jpg": {
+    "src": "/img/c16959be95048a132623-480.webp",
+    "full": "/img/c16959be95048a132623-1254.webp",
+    "srcSet": "/img/c16959be95048a132623-480.webp 480w, /img/c16959be95048a132623-960.webp 960w, /img/c16959be95048a132623-1254.webp 1254w",
+    "width": 1254,
+    "height": 573
+  },
+  "./img/grandRoyale/4.jpg": {
+    "src": "/img/89e6e048e2f089717e41-480.webp",
+    "full": "/img/89e6e048e2f089717e41-1254.webp",
+    "srcSet": "/img/89e6e048e2f089717e41-480.webp 480w, /img/89e6e048e2f089717e41-960.webp 960w, /img/89e6e048e2f089717e41-1254.webp 1254w",
+    "width": 1254,
+    "height": 573
+  },
+  "./img/grandRoyale/5.jpg": {
+    "src": "/img/c0add00fc4170a240396-480.webp",
+    "full": "/img/c0add00fc4170a240396-840.webp",
+    "srcSet": "/img/c0add00fc4170a240396-480.webp 480w, /img/c0add00fc4170a240396-840.webp 840w",
+    "width": 840,
+    "height": 460
+  },
+  "./img/grandRoyale/6.jpg": {
+    "src": "/img/7c5d085aa3835a8bda75-480.webp",
+    "full": "/img/7c5d085aa3835a8bda75-1150.webp",
+    "srcSet": "/img/7c5d085aa3835a8bda75-480.webp 480w, /img/7c5d085aa3835a8bda75-960.webp 960w, /img/7c5d085aa3835a8bda75-1150.webp 1150w",
+    "width": 1150,
+    "height": 810
+  },
+  "./img/grandRoyale/7.jpg": {
+    "src": "/img/4bfa25e204cb390fa90a-480.webp",
+    "full": "/img/4bfa25e204cb390fa90a-960.webp",
+    "srcSet": "/img/4bfa25e204cb390fa90a-480.webp 480w, /img/4bfa25e204cb390fa90a-960.webp 960w",
+    "width": 960,
+    "height": 439
+  },
+  "./img/grandRoyale/8.jpg": {
+    "src": "/img/19800fcb55dda412bd0c-480.webp",
+    "full": "/img/19800fcb55dda412bd0c-1148.webp",
+    "srcSet": "/img/19800fcb55dda412bd0c-480.webp 480w, /img/19800fcb55dda412bd0c-960.webp 960w, /img/19800fcb55dda412bd0c-1148.webp 1148w",
+    "width": 1148,
+    "height": 744
+  },
+  "./img/grandRoyale/9.jpg": {
+    "src": "/img/09121d40a8d7dbbb41cc-480.webp",
+    "full": "/img/09121d40a8d7dbbb41cc-1154.webp",
+    "srcSet": "/img/09121d40a8d7dbbb41cc-480.webp 480w, /img/09121d40a8d7dbbb41cc-960.webp 960w, /img/09121d40a8d7dbbb41cc-1154.webp 1154w",
+    "width": 1154,
+    "height": 600
+  },
+  "./img/house1/1.jpg": {
+    "src": "/img/4968074ba9a62e71dfb8-480.webp",
+    "full": "/img/4968074ba9a62e71dfb8-986.webp",
+    "srcSet": "/img/4968074ba9a62e71dfb8-480.webp 480w, /img/4968074ba9a62e71dfb8-960.webp 960w, /img/4968074ba9a62e71dfb8-986.webp 986w",
+    "width": 986,
+    "height": 588
+  },
+  "./img/house1/2.jpg": {
+    "src": "/img/05ab9279b09628c1f6fd-480.webp",
+    "full": "/img/05ab9279b09628c1f6fd-986.webp",
+    "srcSet": "/img/05ab9279b09628c1f6fd-480.webp 480w, /img/05ab9279b09628c1f6fd-960.webp 960w, /img/05ab9279b09628c1f6fd-986.webp 986w",
+    "width": 986,
+    "height": 588
+  },
+  "./img/house1/3.jpg": {
+    "src": "/img/b4cb4ee577196518f0fb-480.webp",
+    "full": "/img/b4cb4ee577196518f0fb-986.webp",
+    "srcSet": "/img/b4cb4ee577196518f0fb-480.webp 480w, /img/b4cb4ee577196518f0fb-960.webp 960w, /img/b4cb4ee577196518f0fb-986.webp 986w",
+    "width": 986,
+    "height": 588
+  },
+  "./img/house1/4.jpg": {
+    "src": "/img/e85052af2552de7a3a7c-480.webp",
+    "full": "/img/e85052af2552de7a3a7c-986.webp",
+    "srcSet": "/img/e85052af2552de7a3a7c-480.webp 480w, /img/e85052af2552de7a3a7c-960.webp 960w, /img/e85052af2552de7a3a7c-986.webp 986w",
+    "width": 986,
+    "height": 588
+  },
+  "./img/house1/5.jpg": {
+    "src": "/img/5c47d09845b5aee34d26-480.webp",
+    "full": "/img/5c47d09845b5aee34d26-986.webp",
+    "srcSet": "/img/5c47d09845b5aee34d26-480.webp 480w, /img/5c47d09845b5aee34d26-960.webp 960w, /img/5c47d09845b5aee34d26-986.webp 986w",
+    "width": 986,
+    "height": 588
+  },
+  "./img/house1/6.jpg": {
+    "src": "/img/3831e7236b01e33d7c19-480.webp",
+    "full": "/img/3831e7236b01e33d7c19-986.webp",
+    "srcSet": "/img/3831e7236b01e33d7c19-480.webp 480w, /img/3831e7236b01e33d7c19-960.webp 960w, /img/3831e7236b01e33d7c19-986.webp 986w",
+    "width": 986,
+    "height": 588
+  },
+  "./img/house1/7.jpg": {
+    "src": "/img/4968074ba9a62e71dfb8-480.webp",
+    "full": "/img/4968074ba9a62e71dfb8-986.webp",
+    "srcSet": "/img/4968074ba9a62e71dfb8-480.webp 480w, /img/4968074ba9a62e71dfb8-960.webp 960w, /img/4968074ba9a62e71dfb8-986.webp 986w",
+    "width": 986,
+    "height": 588
+  },
+  "./img/house2/1.jpg": {
+    "src": "/img/5a452ff87c01f5b2dc7d-480.webp",
+    "full": "/img/5a452ff87c01f5b2dc7d-671.webp",
+    "srcSet": "/img/5a452ff87c01f5b2dc7d-480.webp 480w, /img/5a452ff87c01f5b2dc7d-671.webp 671w",
+    "width": 671,
+    "height": 362
+  },
+  "./img/house2/10.jpg": {
+    "src": "/img/e8f249b866dafd3c4264-480.webp",
+    "full": "/img/e8f249b866dafd3c4264-794.webp",
+    "srcSet": "/img/e8f249b866dafd3c4264-480.webp 480w, /img/e8f249b866dafd3c4264-794.webp 794w",
+    "width": 794,
+    "height": 488
+  },
+  "./img/house2/11.jpg": {
+    "src": "/img/7508ee52adb940526d62-480.webp",
+    "full": "/img/7508ee52adb940526d62-794.webp",
+    "srcSet": "/img/7508ee52adb940526d62-480.webp 480w, /img/7508ee52adb940526d62-794.webp 794w",
+    "width": 794,
+    "height": 488
+  },
+  "./img/house2/12.jpg": {
+    "src": "/img/995b9fc5c2aedb889fa4-480.webp",
+    "full": "/img/995b9fc5c2aedb889fa4-794.webp",
+    "srcSet": "/img/995b9fc5c2aedb889fa4-480.webp 480w, /img/995b9fc5c2aedb889fa4-794.webp 794w",
+    "width": 794,
+    "height": 488
+  },
+  "./img/house2/13.jpg": {
+    "src": "/img/e5d5c792098ba2f3c26f-480.webp",
+    "full": "/img/e5d5c792098ba2f3c26f-794.webp",
+    "srcSet": "/img/e5d5c792098ba2f3c26f-480.webp 480w, /img/e5d5c792098ba2f3c26f-794.webp 794w",
+    "width": 794,
+    "height": 488
+  },
+  "./img/house2/14.jpg": {
+    "src": "/img/48be3964af37c4c9d4f1-480.webp",
+    "full": "/img/48be3964af37c4c9d4f1-794.webp",
+    "srcSet": "/img/48be3964af37c4c9d4f1-480.webp 480w, /img/48be3964af37c4c9d4f1-794.webp 794w",
+    "width": 794,
+    "height": 488
+  },
+  "./img/house2/2.jpg": {
+    "src": "/img/f117045593be15b39c54-480.webp",
+    "full": "/img/f117045593be15b39c54-854.webp",
+    "srcSet": "/img/f117045593be15b39c54-480.webp 480w, /img/f117045593be15b39c54-854.webp 854w",
+    "width": 854,
+    "height": 284
+  },
+  "./img/house2/3.jpg": {
+    "src": "/img/41c152a36794d8745e9b-480.webp",
+    "full": "/img/41c152a36794d8745e9b-743.webp",
+    "srcSet": "/img/41c152a36794d8745e9b-480.webp 480w, /img/41c152a36794d8745e9b-743.webp 743w",
+    "width": 743,
+    "height": 290
+  },
+  "./img/house2/4.jpg": {
+    "src": "/img/6c36545ae484fc2ea951-480.webp",
+    "full": "/img/6c36545ae484fc2ea951-859.webp",
+    "srcSet": "/img/6c36545ae484fc2ea951-480.webp 480w, /img/6c36545ae484fc2ea951-859.webp 859w",
+    "width": 859,
+    "height": 432
+  },
+  "./img/house2/5.jpg": {
+    "src": "/img/65404d94755492bb1e72-480.webp",
+    "full": "/img/65404d94755492bb1e72-1044.webp",
+    "srcSet": "/img/65404d94755492bb1e72-480.webp 480w, /img/65404d94755492bb1e72-960.webp 960w, /img/65404d94755492bb1e72-1044.webp 1044w",
+    "width": 1044,
+    "height": 359
+  },
+  "./img/house2/6.jpg": {
+    "src": "/img/d0d67f1baca5b574e5dd-480.webp",
+    "full": "/img/d0d67f1baca5b574e5dd-965.webp",
+    "srcSet": "/img/d0d67f1baca5b574e5dd-480.webp 480w, /img/d0d67f1baca5b574e5dd-960.webp 960w, /img/d0d67f1baca5b574e5dd-965.webp 965w",
+    "width": 965,
+    "height": 400
+  },
+  "./img/house2/7.jpg": {
+    "src": "/img/7ac0e99ff573c0ae29ea-480.webp",
+    "full": "/img/7ac0e99ff573c0ae29ea-1298.webp",
+    "srcSet": "/img/7ac0e99ff573c0ae29ea-480.webp 480w, /img/7ac0e99ff573c0ae29ea-960.webp 960w, /img/7ac0e99ff573c0ae29ea-1298.webp 1298w",
+    "width": 1298,
+    "height": 555
+  },
+  "./img/house2/8.jpg": {
+    "src": "/img/1f47710941c44602af2e-480.webp",
+    "full": "/img/1f47710941c44602af2e-1608.webp",
+    "srcSet": "/img/1f47710941c44602af2e-480.webp 480w, /img/1f47710941c44602af2e-960.webp 960w, /img/1f47710941c44602af2e-1608.webp 1608w",
+    "width": 1608,
+    "height": 774
+  },
+  "./img/house2/9.jpg": {
+    "src": "/img/d54c7b35b48c6ded5ed9-480.webp",
+    "full": "/img/d54c7b35b48c6ded5ed9-794.webp",
+    "srcSet": "/img/d54c7b35b48c6ded5ed9-480.webp 480w, /img/d54c7b35b48c6ded5ed9-794.webp 794w",
+    "width": 794,
+    "height": 488
+  },
+  "./img/interior/1.jpg": {
+    "src": "/img/c960428b52e36080f38d-480.webp",
+    "full": "/img/c960428b52e36080f38d-1200.webp",
+    "srcSet": "/img/c960428b52e36080f38d-480.webp 480w, /img/c960428b52e36080f38d-960.webp 960w, /img/c960428b52e36080f38d-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/interior/10.jpg": {
+    "src": "/img/d97266b308db9031dc88-480.webp",
+    "full": "/img/d97266b308db9031dc88-1832.webp",
+    "srcSet": "/img/d97266b308db9031dc88-480.webp 480w, /img/d97266b308db9031dc88-960.webp 960w, /img/d97266b308db9031dc88-1832.webp 1832w",
+    "width": 1832,
+    "height": 3264
+  },
+  "./img/interior/11.jpg": {
+    "src": "/img/cf17aaa35a6b6acfb1ed-480.webp",
+    "full": "/img/cf17aaa35a6b6acfb1ed-1920.webp",
+    "srcSet": "/img/cf17aaa35a6b6acfb1ed-480.webp 480w, /img/cf17aaa35a6b6acfb1ed-960.webp 960w, /img/cf17aaa35a6b6acfb1ed-1920.webp 1920w",
+    "width": 1920,
+    "height": 1078
+  },
+  "./img/interior/12.jpg": {
+    "src": "/img/79d57fead7f0b6c48ce1-480.webp",
+    "full": "/img/79d57fead7f0b6c48ce1-1036.webp",
+    "srcSet": "/img/79d57fead7f0b6c48ce1-480.webp 480w, /img/79d57fead7f0b6c48ce1-960.webp 960w, /img/79d57fead7f0b6c48ce1-1036.webp 1036w",
+    "width": 1036,
+    "height": 608
+  },
+  "./img/interior/13.jpg": {
+    "src": "/img/3550b512247369e0bbe9-480.webp",
+    "full": "/img/3550b512247369e0bbe9-768.webp",
+    "srcSet": "/img/3550b512247369e0bbe9-480.webp 480w, /img/3550b512247369e0bbe9-768.webp 768w",
+    "width": 768,
+    "height": 477
+  },
+  "./img/interior/14.jpg": {
+    "src": "/img/7c2b479d53e7d0f14ed6-480.webp",
+    "full": "/img/7c2b479d53e7d0f14ed6-1920.webp",
+    "srcSet": "/img/7c2b479d53e7d0f14ed6-480.webp 480w, /img/7c2b479d53e7d0f14ed6-960.webp 960w, /img/7c2b479d53e7d0f14ed6-1920.webp 1920w",
+    "width": 1920,
+    "height": 2560
+  },
+  "./img/interior/15.jpg": {
+    "src": "/img/47c1c335368af98c9847-480.webp",
+    "full": "/img/47c1c335368af98c9847-1600.webp",
+    "srcSet": "/img/47c1c335368af98c9847-480.webp 480w, /img/47c1c335368af98c9847-960.webp 960w, /img/47c1c335368af98c9847-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "./img/interior/16.JPG": {
+    "src": "/img/3590f05c33f8cefb11ed-480.webp",
+    "full": "/img/3590f05c33f8cefb11ed-1920.webp",
+    "srcSet": "/img/3590f05c33f8cefb11ed-480.webp 480w, /img/3590f05c33f8cefb11ed-960.webp 960w, /img/3590f05c33f8cefb11ed-1920.webp 1920w",
+    "width": 1920,
+    "height": 1078
+  },
+  "./img/interior/17.jpg": {
+    "src": "/img/743c0f4a7d43ebc629f5-480.webp",
+    "full": "/img/743c0f4a7d43ebc629f5-918.webp",
+    "srcSet": "/img/743c0f4a7d43ebc629f5-480.webp 480w, /img/743c0f4a7d43ebc629f5-918.webp 918w",
+    "width": 918,
+    "height": 512
+  },
+  "./img/interior/18.jpg": {
+    "src": "/img/ac2281435d21f9526688-480.webp",
+    "full": "/img/ac2281435d21f9526688-1507.webp",
+    "srcSet": "/img/ac2281435d21f9526688-480.webp 480w, /img/ac2281435d21f9526688-960.webp 960w, /img/ac2281435d21f9526688-1507.webp 1507w",
+    "width": 1507,
+    "height": 827
+  },
+  "./img/interior/2.jpg": {
+    "src": "/img/82ab0c50db422fe408f9-480.webp",
+    "full": "/img/82ab0c50db422fe408f9-1200.webp",
+    "srcSet": "/img/82ab0c50db422fe408f9-480.webp 480w, /img/82ab0c50db422fe408f9-960.webp 960w, /img/82ab0c50db422fe408f9-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/interior/3.jpg": {
+    "src": "/img/54659e505b98b7f79535-480.webp",
+    "full": "/img/54659e505b98b7f79535-1200.webp",
+    "srcSet": "/img/54659e505b98b7f79535-480.webp 480w, /img/54659e505b98b7f79535-960.webp 960w, /img/54659e505b98b7f79535-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/interior/4.jpg": {
+    "src": "/img/b19ebbf6d28f3fa973e4-480.webp",
+    "full": "/img/b19ebbf6d28f3fa973e4-1200.webp",
+    "srcSet": "/img/b19ebbf6d28f3fa973e4-480.webp 480w, /img/b19ebbf6d28f3fa973e4-960.webp 960w, /img/b19ebbf6d28f3fa973e4-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/interior/5.jpg": {
+    "src": "/img/0d3ef263a42406fef2e7-480.webp",
+    "full": "/img/0d3ef263a42406fef2e7-1200.webp",
+    "srcSet": "/img/0d3ef263a42406fef2e7-480.webp 480w, /img/0d3ef263a42406fef2e7-960.webp 960w, /img/0d3ef263a42406fef2e7-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/interior/6.jpg": {
+    "src": "/img/4c7f0d855976602aacc0-480.webp",
+    "full": "/img/4c7f0d855976602aacc0-1200.webp",
+    "srcSet": "/img/4c7f0d855976602aacc0-480.webp 480w, /img/4c7f0d855976602aacc0-960.webp 960w, /img/4c7f0d855976602aacc0-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/interior/7.jpg": {
+    "src": "/img/2d594a3536b42b733bd3-480.webp",
+    "full": "/img/2d594a3536b42b733bd3-905.webp",
+    "srcSet": "/img/2d594a3536b42b733bd3-480.webp 480w, /img/2d594a3536b42b733bd3-905.webp 905w",
+    "width": 905,
+    "height": 680
+  },
+  "./img/interior/8.jpg": {
+    "src": "/img/7ca4210bf242113a200c-480.webp",
+    "full": "/img/7ca4210bf242113a200c-878.webp",
+    "srcSet": "/img/7ca4210bf242113a200c-480.webp 480w, /img/7ca4210bf242113a200c-878.webp 878w",
+    "width": 878,
+    "height": 520
+  },
+  "./img/interior/9.JPG": {
+    "src": "/img/90d34517fde4c9f9361f-480.webp",
+    "full": "/img/90d34517fde4c9f9361f-1536.webp",
+    "srcSet": "/img/90d34517fde4c9f9361f-480.webp 480w, /img/90d34517fde4c9f9361f-960.webp 960w, /img/90d34517fde4c9f9361f-1536.webp 1536w",
+    "width": 1536,
+    "height": 2048
+  },
+  "./img/iskar/1.jpg": {
+    "src": "/img/e68ceb7cea5019327ffb-480.webp",
+    "full": "/img/e68ceb7cea5019327ffb-910.webp",
+    "srcSet": "/img/e68ceb7cea5019327ffb-480.webp 480w, /img/e68ceb7cea5019327ffb-910.webp 910w",
+    "width": 910,
+    "height": 590
+  },
+  "./img/iskar/2.jpg": {
+    "src": "/img/3182679845f3bfa925ac-480.webp",
+    "full": "/img/3182679845f3bfa925ac-767.webp",
+    "srcSet": "/img/3182679845f3bfa925ac-480.webp 480w, /img/3182679845f3bfa925ac-767.webp 767w",
+    "width": 767,
+    "height": 482
+  },
+  "./img/iskar/3.jpg": {
+    "src": "/img/41a6daf048160a92c0bc-480.webp",
+    "full": "/img/41a6daf048160a92c0bc-767.webp",
+    "srcSet": "/img/41a6daf048160a92c0bc-480.webp 480w, /img/41a6daf048160a92c0bc-767.webp 767w",
+    "width": 767,
+    "height": 482
+  },
+  "./img/iskar/4.jpg": {
+    "src": "/img/0dbf57ecb429d0488d08-480.webp",
+    "full": "/img/0dbf57ecb429d0488d08-767.webp",
+    "srcSet": "/img/0dbf57ecb429d0488d08-480.webp 480w, /img/0dbf57ecb429d0488d08-767.webp 767w",
+    "width": 767,
+    "height": 482
+  },
+  "./img/iskar/5.jpg": {
+    "src": "/img/412f3b257804dbcc75d9-480.webp",
+    "full": "/img/412f3b257804dbcc75d9-767.webp",
+    "srcSet": "/img/412f3b257804dbcc75d9-480.webp 480w, /img/412f3b257804dbcc75d9-767.webp 767w",
+    "width": 767,
+    "height": 482
+  },
+  "./img/ivo/1.jpg": {
+    "src": "/img/18b1b9d9d4c03ba5a893-480.webp",
+    "full": "/img/18b1b9d9d4c03ba5a893-1600.webp",
+    "srcSet": "/img/18b1b9d9d4c03ba5a893-480.webp 480w, /img/18b1b9d9d4c03ba5a893-960.webp 960w, /img/18b1b9d9d4c03ba5a893-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "./img/ivo/10.jpg": {
+    "src": "/img/931607284495fb6ae962-480.webp",
+    "full": "/img/931607284495fb6ae962-789.webp",
+    "srcSet": "/img/931607284495fb6ae962-480.webp 480w, /img/931607284495fb6ae962-789.webp 789w",
+    "width": 789,
+    "height": 575
+  },
+  "./img/ivo/11.jpg": {
+    "src": "/img/b7f11382465d4470f974-480.webp",
+    "full": "/img/b7f11382465d4470f974-771.webp",
+    "srcSet": "/img/b7f11382465d4470f974-480.webp 480w, /img/b7f11382465d4470f974-771.webp 771w",
+    "width": 771,
+    "height": 723
+  },
+  "./img/ivo/12.jpg": {
+    "src": "/img/47c1c335368af98c9847-480.webp",
+    "full": "/img/47c1c335368af98c9847-1600.webp",
+    "srcSet": "/img/47c1c335368af98c9847-480.webp 480w, /img/47c1c335368af98c9847-960.webp 960w, /img/47c1c335368af98c9847-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "./img/ivo/13.jpg": {
+    "src": "/img/ca4345d2a88508181af1-480.webp",
+    "full": "/img/ca4345d2a88508181af1-1600.webp",
+    "srcSet": "/img/ca4345d2a88508181af1-480.webp 480w, /img/ca4345d2a88508181af1-960.webp 960w, /img/ca4345d2a88508181af1-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "./img/ivo/14.jpg": {
+    "src": "/img/caaf50a25c42acae7763-480.webp",
+    "full": "/img/caaf50a25c42acae7763-1600.webp",
+    "srcSet": "/img/caaf50a25c42acae7763-480.webp 480w, /img/caaf50a25c42acae7763-960.webp 960w, /img/caaf50a25c42acae7763-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "./img/ivo/15.jpg": {
+    "src": "/img/ee80d2aefa6656483200-480.webp",
+    "full": "/img/ee80d2aefa6656483200-789.webp",
+    "srcSet": "/img/ee80d2aefa6656483200-480.webp 480w, /img/ee80d2aefa6656483200-789.webp 789w",
+    "width": 789,
+    "height": 575
+  },
+  "./img/ivo/16.jpg": {
+    "src": "/img/10600d96a3bb4db74502-480.webp",
+    "full": "/img/10600d96a3bb4db74502-789.webp",
+    "srcSet": "/img/10600d96a3bb4db74502-480.webp 480w, /img/10600d96a3bb4db74502-789.webp 789w",
+    "width": 789,
+    "height": 575
+  },
+  "./img/ivo/17.jpg": {
+    "src": "/img/d8c2722fe2860ba1c147-480.webp",
+    "full": "/img/d8c2722fe2860ba1c147-789.webp",
+    "srcSet": "/img/d8c2722fe2860ba1c147-480.webp 480w, /img/d8c2722fe2860ba1c147-789.webp 789w",
+    "width": 789,
+    "height": 575
+  },
+  "./img/ivo/18.jpg": {
+    "src": "/img/14706f47120253f41e5d-480.webp",
+    "full": "/img/14706f47120253f41e5d-1032.webp",
+    "srcSet": "/img/14706f47120253f41e5d-480.webp 480w, /img/14706f47120253f41e5d-960.webp 960w, /img/14706f47120253f41e5d-1032.webp 1032w",
+    "width": 1032,
+    "height": 735
+  },
+  "./img/ivo/19.jpg": {
+    "src": "/img/7d563ab7ab95ca754710-480.webp",
+    "full": "/img/7d563ab7ab95ca754710-1032.webp",
+    "srcSet": "/img/7d563ab7ab95ca754710-480.webp 480w, /img/7d563ab7ab95ca754710-960.webp 960w, /img/7d563ab7ab95ca754710-1032.webp 1032w",
+    "width": 1032,
+    "height": 735
+  },
+  "./img/ivo/2.jpg": {
+    "src": "/img/2f0ad2ebe2b04ce9b0d3-480.webp",
+    "full": "/img/2f0ad2ebe2b04ce9b0d3-1600.webp",
+    "srcSet": "/img/2f0ad2ebe2b04ce9b0d3-480.webp 480w, /img/2f0ad2ebe2b04ce9b0d3-960.webp 960w, /img/2f0ad2ebe2b04ce9b0d3-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "./img/ivo/20.jpg": {
+    "src": "/img/af876b74fd839288026a-480.webp",
+    "full": "/img/af876b74fd839288026a-789.webp",
+    "srcSet": "/img/af876b74fd839288026a-480.webp 480w, /img/af876b74fd839288026a-789.webp 789w",
+    "width": 789,
+    "height": 575
+  },
+  "./img/ivo/21.jpg": {
+    "src": "/img/0f5b433a7157dc091258-480.webp",
+    "full": "/img/0f5b433a7157dc091258-1600.webp",
+    "srcSet": "/img/0f5b433a7157dc091258-480.webp 480w, /img/0f5b433a7157dc091258-960.webp 960w, /img/0f5b433a7157dc091258-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "./img/ivo/22.jpg": {
+    "src": "/img/534fa06a084dfbe64481-480.webp",
+    "full": "/img/534fa06a084dfbe64481-1600.webp",
+    "srcSet": "/img/534fa06a084dfbe64481-480.webp 480w, /img/534fa06a084dfbe64481-960.webp 960w, /img/534fa06a084dfbe64481-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "./img/ivo/3.jpg": {
+    "src": "/img/e4d451d37a6e4f436ba0-480.webp",
+    "full": "/img/e4d451d37a6e4f436ba0-789.webp",
+    "srcSet": "/img/e4d451d37a6e4f436ba0-480.webp 480w, /img/e4d451d37a6e4f436ba0-789.webp 789w",
+    "width": 789,
+    "height": 575
+  },
+  "./img/ivo/4.jpg": {
+    "src": "/img/a50a99316cfb26e32bc3-480.webp",
+    "full": "/img/a50a99316cfb26e32bc3-789.webp",
+    "srcSet": "/img/a50a99316cfb26e32bc3-480.webp 480w, /img/a50a99316cfb26e32bc3-789.webp 789w",
+    "width": 789,
+    "height": 575
+  },
+  "./img/ivo/5.jpg": {
+    "src": "/img/2d2f00e41b7110e04835-480.webp",
+    "full": "/img/2d2f00e41b7110e04835-761.webp",
+    "srcSet": "/img/2d2f00e41b7110e04835-480.webp 480w, /img/2d2f00e41b7110e04835-761.webp 761w",
+    "width": 761,
+    "height": 651
+  },
+  "./img/ivo/6.jpg": {
+    "src": "/img/cd66d63b68d29925f255-480.webp",
+    "full": "/img/cd66d63b68d29925f255-1032.webp",
+    "srcSet": "/img/cd66d63b68d29925f255-480.webp 480w, /img/cd66d63b68d29925f255-960.webp 960w, /img/cd66d63b68d29925f255-1032.webp 1032w",
+    "width": 1032,
+    "height": 735
+  },
+  "./img/ivo/7.jpg": {
+    "src": "/img/faa76a9ce7a53ef84b60-480.webp",
+    "full": "/img/faa76a9ce7a53ef84b60-789.webp",
+    "srcSet": "/img/faa76a9ce7a53ef84b60-480.webp 480w, /img/faa76a9ce7a53ef84b60-789.webp 789w",
+    "width": 789,
+    "height": 575
+  },
+  "./img/ivo/8.jpg": {
+    "src": "/img/2175be081e113f985753-480.webp",
+    "full": "/img/2175be081e113f985753-789.webp",
+    "srcSet": "/img/2175be081e113f985753-480.webp 480w, /img/2175be081e113f985753-789.webp 789w",
+    "width": 789,
+    "height": 575
+  },
+  "./img/ivo/9.jpg": {
+    "src": "/img/1a26a5b463821ec28ca1-480.webp",
+    "full": "/img/1a26a5b463821ec28ca1-789.webp",
+    "srcSet": "/img/1a26a5b463821ec28ca1-480.webp 480w, /img/1a26a5b463821ec28ca1-789.webp 789w",
+    "width": 789,
+    "height": 575
+  },
+  "./img/krisi/1.JPG": {
+    "src": "/img/749434ebb41bd85d98ec-480.webp",
+    "full": "/img/749434ebb41bd85d98ec-1920.webp",
+    "srcSet": "/img/749434ebb41bd85d98ec-480.webp 480w, /img/749434ebb41bd85d98ec-960.webp 960w, /img/749434ebb41bd85d98ec-1920.webp 1920w",
+    "width": 1920,
+    "height": 2571
+  },
+  "./img/krisi/2.JPG": {
+    "src": "/img/ae1a96de57e5ae1486b7-480.webp",
+    "full": "/img/ae1a96de57e5ae1486b7-1536.webp",
+    "srcSet": "/img/ae1a96de57e5ae1486b7-480.webp 480w, /img/ae1a96de57e5ae1486b7-960.webp 960w, /img/ae1a96de57e5ae1486b7-1536.webp 1536w",
+    "width": 1536,
+    "height": 2048
+  },
+  "./img/krisi/3.JPG": {
+    "src": "/img/d4bb95a0086a4b1377f9-480.webp",
+    "full": "/img/d4bb95a0086a4b1377f9-1920.webp",
+    "srcSet": "/img/d4bb95a0086a4b1377f9-480.webp 480w, /img/d4bb95a0086a4b1377f9-960.webp 960w, /img/d4bb95a0086a4b1377f9-1920.webp 1920w",
+    "width": 1920,
+    "height": 1440
+  },
+  "./img/krisi/4.JPG": {
+    "src": "/img/474aceefcc379dcd1c70-480.webp",
+    "full": "/img/474aceefcc379dcd1c70-1536.webp",
+    "srcSet": "/img/474aceefcc379dcd1c70-480.webp 480w, /img/474aceefcc379dcd1c70-960.webp 960w, /img/474aceefcc379dcd1c70-1536.webp 1536w",
+    "width": 1536,
+    "height": 2048
+  },
+  "./img/krisi/5.JPG": {
+    "src": "/img/7c662a8062bd305cc044-480.webp",
+    "full": "/img/7c662a8062bd305cc044-1536.webp",
+    "srcSet": "/img/7c662a8062bd305cc044-480.webp 480w, /img/7c662a8062bd305cc044-960.webp 960w, /img/7c662a8062bd305cc044-1536.webp 1536w",
+    "width": 1536,
+    "height": 2048
+  },
+  "./img/krisi/6.JPG": {
+    "src": "/img/bc4a507fcbc5a7eb1844-480.webp",
+    "full": "/img/bc4a507fcbc5a7eb1844-1536.webp",
+    "srcSet": "/img/bc4a507fcbc5a7eb1844-480.webp 480w, /img/bc4a507fcbc5a7eb1844-960.webp 960w, /img/bc4a507fcbc5a7eb1844-1536.webp 1536w",
+    "width": 1536,
+    "height": 2048
+  },
+  "./img/krisi/7.JPG": {
+    "src": "/img/90d34517fde4c9f9361f-480.webp",
+    "full": "/img/90d34517fde4c9f9361f-1536.webp",
+    "srcSet": "/img/90d34517fde4c9f9361f-480.webp 480w, /img/90d34517fde4c9f9361f-960.webp 960w, /img/90d34517fde4c9f9361f-1536.webp 1536w",
+    "width": 1536,
+    "height": 2048
+  },
+  "./img/kuhni/1.jpg": {
+    "src": "/img/048ba69a65b6f087aab6-480.webp",
+    "full": "/img/048ba69a65b6f087aab6-1140.webp",
+    "srcSet": "/img/048ba69a65b6f087aab6-480.webp 480w, /img/048ba69a65b6f087aab6-960.webp 960w, /img/048ba69a65b6f087aab6-1140.webp 1140w",
+    "width": 1140,
+    "height": 742
+  },
+  "./img/kuhni/10.jpg": {
+    "src": "/img/acedfafee4694fee196f-480.webp",
+    "full": "/img/acedfafee4694fee196f-860.webp",
+    "srcSet": "/img/acedfafee4694fee196f-480.webp 480w, /img/acedfafee4694fee196f-860.webp 860w",
+    "width": 860,
+    "height": 582
+  },
+  "./img/kuhni/11.jpg": {
+    "src": "/img/ac2cb57b0514cbba29af-480.webp",
+    "full": "/img/ac2cb57b0514cbba29af-883.webp",
+    "srcSet": "/img/ac2cb57b0514cbba29af-480.webp 480w, /img/ac2cb57b0514cbba29af-883.webp 883w",
+    "width": 883,
+    "height": 596
+  },
+  "./img/kuhni/12.jpg": {
+    "src": "/img/045af9fbbe8224df0af6-480.webp",
+    "full": "/img/045af9fbbe8224df0af6-1032.webp",
+    "srcSet": "/img/045af9fbbe8224df0af6-480.webp 480w, /img/045af9fbbe8224df0af6-960.webp 960w, /img/045af9fbbe8224df0af6-1032.webp 1032w",
+    "width": 1032,
+    "height": 735
+  },
+  "./img/kuhni/13.jpg": {
+    "src": "/img/ae2dd645fd2a6cf49893-480.webp",
+    "full": "/img/ae2dd645fd2a6cf49893-768.webp",
+    "srcSet": "/img/ae2dd645fd2a6cf49893-480.webp 480w, /img/ae2dd645fd2a6cf49893-768.webp 768w",
+    "width": 768,
+    "height": 477
+  },
+  "./img/kuhni/14.jpg": {
+    "src": "/img/071fd808c6bb8f9030ee-480.webp",
+    "full": "/img/071fd808c6bb8f9030ee-918.webp",
+    "srcSet": "/img/071fd808c6bb8f9030ee-480.webp 480w, /img/071fd808c6bb8f9030ee-918.webp 918w",
+    "width": 918,
+    "height": 512
+  },
+  "./img/kuhni/15.png": {
+    "src": "/img/22e3ce9339576109cbb0-480.webp",
+    "full": "/img/22e3ce9339576109cbb0-808.webp",
+    "srcSet": "/img/22e3ce9339576109cbb0-480.webp 480w, /img/22e3ce9339576109cbb0-808.webp 808w",
+    "width": 808,
+    "height": 474
+  },
+  "./img/kuhni/16.jpg": {
+    "src": "/img/ddc0cd398cc68ab4a499-480.webp",
+    "full": "/img/ddc0cd398cc68ab4a499-1920.webp",
+    "srcSet": "/img/ddc0cd398cc68ab4a499-480.webp 480w, /img/ddc0cd398cc68ab4a499-960.webp 960w, /img/ddc0cd398cc68ab4a499-1920.webp 1920w",
+    "width": 1920,
+    "height": 1440
+  },
+  "./img/kuhni/17.jpg": {
+    "src": "/img/4576c9068ab90ae83abf-480.webp",
+    "full": "/img/4576c9068ab90ae83abf-1920.webp",
+    "srcSet": "/img/4576c9068ab90ae83abf-480.webp 480w, /img/4576c9068ab90ae83abf-960.webp 960w, /img/4576c9068ab90ae83abf-1920.webp 1920w",
+    "width": 1920,
+    "height": 1078
+  },
+  "./img/kuhni/18.jpg": {
+    "src": "/img/d97266b308db9031dc88-480.webp",
+    "full": "/img/d97266b308db9031dc88-1832.webp",
+    "srcSet": "/img/d97266b308db9031dc88-480.webp 480w, /img/d97266b308db9031dc88-960.webp 960w, /img/d97266b308db9031dc88-1832.webp 1832w",
+    "width": 1832,
+    "height": 3264
+  },
+  "./img/kuhni/19.jpg": {
+    "src": "/img/2931d6d416e3cb960ae3-480.webp",
+    "full": "/img/2931d6d416e3cb960ae3-1063.webp",
+    "srcSet": "/img/2931d6d416e3cb960ae3-480.webp 480w, /img/2931d6d416e3cb960ae3-960.webp 960w, /img/2931d6d416e3cb960ae3-1063.webp 1063w",
+    "width": 1063,
+    "height": 592
+  },
+  "./img/kuhni/2.jpg": {
+    "src": "/img/7d25ebdc696b905c15f7-480.webp",
+    "full": "/img/7d25ebdc696b905c15f7-1057.webp",
+    "srcSet": "/img/7d25ebdc696b905c15f7-480.webp 480w, /img/7d25ebdc696b905c15f7-960.webp 960w, /img/7d25ebdc696b905c15f7-1057.webp 1057w",
+    "width": 1057,
+    "height": 736
+  },
+  "./img/kuhni/20.jpg": {
+    "src": "/img/02a21db6218bf51dae22-480.webp",
+    "full": "/img/02a21db6218bf51dae22-1150.webp",
+    "srcSet": "/img/02a21db6218bf51dae22-480.webp 480w, /img/02a21db6218bf51dae22-960.webp 960w, /img/02a21db6218bf51dae22-1150.webp 1150w",
+    "width": 1150,
+    "height": 892
+  },
+  "./img/kuhni/21.jpg": {
+    "src": "/img/bb9c1dd742f991caee1c-480.webp",
+    "full": "/img/bb9c1dd742f991caee1c-918.webp",
+    "srcSet": "/img/bb9c1dd742f991caee1c-480.webp 480w, /img/bb9c1dd742f991caee1c-918.webp 918w",
+    "width": 918,
+    "height": 648
+  },
+  "./img/kuhni/22.jpg": {
+    "src": "/img/b43a6db1bb0714a3f204-480.webp",
+    "full": "/img/b43a6db1bb0714a3f204-954.webp",
+    "srcSet": "/img/b43a6db1bb0714a3f204-480.webp 480w, /img/b43a6db1bb0714a3f204-954.webp 954w",
+    "width": 954,
+    "height": 693
+  },
+  "./img/kuhni/23.jpg": {
+    "src": "/img/fa398d34ea9adaf12fb9-480.webp",
+    "full": "/img/fa398d34ea9adaf12fb9-954.webp",
+    "srcSet": "/img/fa398d34ea9adaf12fb9-480.webp 480w, /img/fa398d34ea9adaf12fb9-954.webp 954w",
+    "width": 954,
+    "height": 693
+  },
+  "./img/kuhni/24.jpg": {
+    "src": "/img/5bc9db642003d49726dd-480.webp",
+    "full": "/img/5bc9db642003d49726dd-954.webp",
+    "srcSet": "/img/5bc9db642003d49726dd-480.webp 480w, /img/5bc9db642003d49726dd-954.webp 954w",
+    "width": 954,
+    "height": 693
+  },
+  "./img/kuhni/25.jpg": {
+    "src": "/img/094caea36e1e8b11caf7-480.webp",
+    "full": "/img/094caea36e1e8b11caf7-1832.webp",
+    "srcSet": "/img/094caea36e1e8b11caf7-480.webp 480w, /img/094caea36e1e8b11caf7-960.webp 960w, /img/094caea36e1e8b11caf7-1832.webp 1832w",
+    "width": 1832,
+    "height": 3264
+  },
+  "./img/kuhni/26.jpg": {
+    "src": "/img/f0d58a4eaa80ff0276c6-480.webp",
+    "full": "/img/f0d58a4eaa80ff0276c6-900.webp",
+    "srcSet": "/img/f0d58a4eaa80ff0276c6-480.webp 480w, /img/f0d58a4eaa80ff0276c6-900.webp 900w",
+    "width": 900,
+    "height": 600
+  },
+  "./img/kuhni/27.jpg": {
+    "src": "/img/5f76943b40258edc2d21-480.webp",
+    "full": "/img/5f76943b40258edc2d21-856.webp",
+    "srcSet": "/img/5f76943b40258edc2d21-480.webp 480w, /img/5f76943b40258edc2d21-856.webp 856w",
+    "width": 856,
+    "height": 710
+  },
+  "./img/kuhni/3.jpg": {
+    "src": "/img/e5133aa431a42b3d593d-480.webp",
+    "full": "/img/e5133aa431a42b3d593d-977.webp",
+    "srcSet": "/img/e5133aa431a42b3d593d-480.webp 480w, /img/e5133aa431a42b3d593d-960.webp 960w, /img/e5133aa431a42b3d593d-977.webp 977w",
+    "width": 977,
+    "height": 570
+  },
+  "./img/kuhni/4.jpg": {
+    "src": "/img/3f54c2c9b1a2a57eb61d-480.webp",
+    "full": "/img/3f54c2c9b1a2a57eb61d-1600.webp",
+    "srcSet": "/img/3f54c2c9b1a2a57eb61d-480.webp 480w, /img/3f54c2c9b1a2a57eb61d-960.webp 960w, /img/3f54c2c9b1a2a57eb61d-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "./img/kuhni/5.jpg": {
+    "src": "/img/18b1b9d9d4c03ba5a893-480.webp",
+    "full": "/img/18b1b9d9d4c03ba5a893-1600.webp",
+    "srcSet": "/img/18b1b9d9d4c03ba5a893-480.webp 480w, /img/18b1b9d9d4c03ba5a893-960.webp 960w, /img/18b1b9d9d4c03ba5a893-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "./img/kuhni/6.jpg": {
+    "src": "/img/2f0ad2ebe2b04ce9b0d3-480.webp",
+    "full": "/img/2f0ad2ebe2b04ce9b0d3-1600.webp",
+    "srcSet": "/img/2f0ad2ebe2b04ce9b0d3-480.webp 480w, /img/2f0ad2ebe2b04ce9b0d3-960.webp 960w, /img/2f0ad2ebe2b04ce9b0d3-1600.webp 1600w",
+    "width": 1600,
+    "height": 1200
+  },
+  "./img/kuhni/7.jpg": {
+    "src": "/img/93ba73684ac5ca70c8a6-480.webp",
+    "full": "/img/93ba73684ac5ca70c8a6-883.webp",
+    "srcSet": "/img/93ba73684ac5ca70c8a6-480.webp 480w, /img/93ba73684ac5ca70c8a6-883.webp 883w",
+    "width": 883,
+    "height": 596
+  },
+  "./img/kuhni/8.JPG": {
+    "src": "/img/90d34517fde4c9f9361f-480.webp",
+    "full": "/img/90d34517fde4c9f9361f-1536.webp",
+    "srcSet": "/img/90d34517fde4c9f9361f-480.webp 480w, /img/90d34517fde4c9f9361f-960.webp 960w, /img/90d34517fde4c9f9361f-1536.webp 1536w",
+    "width": 1536,
+    "height": 2048
+  },
+  "./img/kuhni/9.jpg": {
+    "src": "/img/83b1dbfcc8b82a76a23a-480.webp",
+    "full": "/img/83b1dbfcc8b82a76a23a-1920.webp",
+    "srcSet": "/img/83b1dbfcc8b82a76a23a-480.webp 480w, /img/83b1dbfcc8b82a76a23a-960.webp 960w, /img/83b1dbfcc8b82a76a23a-1920.webp 1920w",
+    "width": 1920,
+    "height": 2560
+  },
+  "./img/mezonet/1.jpg": {
+    "src": "/img/7ae845a7469cc1880c87-480.webp",
+    "full": "/img/7ae845a7469cc1880c87-918.webp",
+    "srcSet": "/img/7ae845a7469cc1880c87-480.webp 480w, /img/7ae845a7469cc1880c87-918.webp 918w",
+    "width": 918,
+    "height": 512
+  },
+  "./img/mezonet/2.jpg": {
+    "src": "/img/743c0f4a7d43ebc629f5-480.webp",
+    "full": "/img/743c0f4a7d43ebc629f5-918.webp",
+    "srcSet": "/img/743c0f4a7d43ebc629f5-480.webp 480w, /img/743c0f4a7d43ebc629f5-918.webp 918w",
+    "width": 918,
+    "height": 512
+  },
+  "./img/mezonet/3.jpg": {
+    "src": "/img/1be6caf99b9b0451aeaf-480.webp",
+    "full": "/img/1be6caf99b9b0451aeaf-918.webp",
+    "srcSet": "/img/1be6caf99b9b0451aeaf-480.webp 480w, /img/1be6caf99b9b0451aeaf-918.webp 918w",
+    "width": 918,
+    "height": 512
+  },
+  "./img/mezonet/4.jpg": {
+    "src": "/img/071fd808c6bb8f9030ee-480.webp",
+    "full": "/img/071fd808c6bb8f9030ee-918.webp",
+    "srcSet": "/img/071fd808c6bb8f9030ee-480.webp 480w, /img/071fd808c6bb8f9030ee-918.webp 918w",
+    "width": 918,
+    "height": 512
+  },
+  "./img/mezonet/5.jpg": {
+    "src": "/img/91f920cfd93550fc6023-480.webp",
+    "full": "/img/91f920cfd93550fc6023-918.webp",
+    "srcSet": "/img/91f920cfd93550fc6023-480.webp 480w, /img/91f920cfd93550fc6023-918.webp 918w",
+    "width": 918,
+    "height": 512
+  },
+  "./img/mezonet/6.jpg": {
+    "src": "/img/1f253c51a9fde2831de4-480.webp",
+    "full": "/img/1f253c51a9fde2831de4-1086.webp",
+    "srcSet": "/img/1f253c51a9fde2831de4-480.webp 480w, /img/1f253c51a9fde2831de4-960.webp 960w, /img/1f253c51a9fde2831de4-1086.webp 1086w",
+    "width": 1086,
+    "height": 610
+  },
+  "./img/mezonet/7.jpg": {
+    "src": "/img/0c04f20868277c93038d-480.webp",
+    "full": "/img/0c04f20868277c93038d-1086.webp",
+    "srcSet": "/img/0c04f20868277c93038d-480.webp 480w, /img/0c04f20868277c93038d-960.webp 960w, /img/0c04f20868277c93038d-1086.webp 1086w",
+    "width": 1086,
+    "height": 610
+  },
+  "./img/mezonet/8.jpg": {
+    "src": "/img/57955ab13e893fde0906-480.webp",
+    "full": "/img/57955ab13e893fde0906-1086.webp",
+    "srcSet": "/img/57955ab13e893fde0906-480.webp 480w, /img/57955ab13e893fde0906-960.webp 960w, /img/57955ab13e893fde0906-1086.webp 1086w",
+    "width": 1086,
+    "height": 610
+  },
+  "./img/ofis/1.png": {
+    "src": "/img/28848ba1b71deba035dd-480.webp",
+    "full": "/img/28848ba1b71deba035dd-800.webp",
+    "srcSet": "/img/28848ba1b71deba035dd-480.webp 480w, /img/28848ba1b71deba035dd-800.webp 800w",
+    "width": 800,
+    "height": 576
+  },
+  "./img/ofis/10.jpg": {
+    "src": "/img/195f8cfe8815b7b088bb-480.webp",
+    "full": "/img/195f8cfe8815b7b088bb-1062.webp",
+    "srcSet": "/img/195f8cfe8815b7b088bb-480.webp 480w, /img/195f8cfe8815b7b088bb-960.webp 960w, /img/195f8cfe8815b7b088bb-1062.webp 1062w",
+    "width": 1062,
+    "height": 615
+  },
+  "./img/ofis/11.jpg": {
+    "src": "/img/2768ef81272ff1bd4a1d-480.webp",
+    "full": "/img/2768ef81272ff1bd4a1d-750.webp",
+    "srcSet": "/img/2768ef81272ff1bd4a1d-480.webp 480w, /img/2768ef81272ff1bd4a1d-750.webp 750w",
+    "width": 750,
+    "height": 547
+  },
+  "./img/ofis/12.jpg": {
+    "src": "/img/fac6e2b5c4ec368e4d8e-480.webp",
+    "full": "/img/fac6e2b5c4ec368e4d8e-750.webp",
+    "srcSet": "/img/fac6e2b5c4ec368e4d8e-480.webp 480w, /img/fac6e2b5c4ec368e4d8e-750.webp 750w",
+    "width": 750,
+    "height": 547
+  },
+  "./img/ofis/13.jpg": {
+    "src": "/img/0809a36afc9816e794f6-480.webp",
+    "full": "/img/0809a36afc9816e794f6-750.webp",
+    "srcSet": "/img/0809a36afc9816e794f6-480.webp 480w, /img/0809a36afc9816e794f6-750.webp 750w",
+    "width": 750,
+    "height": 547
+  },
+  "./img/ofis/14.jpg": {
+    "src": "/img/b20ca10f252e695a21b1-480.webp",
+    "full": "/img/b20ca10f252e695a21b1-954.webp",
+    "srcSet": "/img/b20ca10f252e695a21b1-480.webp 480w, /img/b20ca10f252e695a21b1-954.webp 954w",
+    "width": 954,
+    "height": 597
+  },
+  "./img/ofis/15.jpg": {
+    "src": "/img/5ff93cc4e3d9fcf76a6b-480.webp",
+    "full": "/img/5ff93cc4e3d9fcf76a6b-750.webp",
+    "srcSet": "/img/5ff93cc4e3d9fcf76a6b-480.webp 480w, /img/5ff93cc4e3d9fcf76a6b-750.webp 750w",
+    "width": 750,
+    "height": 547
+  },
+  "./img/ofis/16.jpg": {
+    "src": "/img/f66f7d598169512732d9-480.webp",
+    "full": "/img/f66f7d598169512732d9-750.webp",
+    "srcSet": "/img/f66f7d598169512732d9-480.webp 480w, /img/f66f7d598169512732d9-750.webp 750w",
+    "width": 750,
+    "height": 547
+  },
+  "./img/ofis/17.jpg": {
+    "src": "/img/9f04b029dfd5b2fbdfee-480.webp",
+    "full": "/img/9f04b029dfd5b2fbdfee-882.webp",
+    "srcSet": "/img/9f04b029dfd5b2fbdfee-480.webp 480w, /img/9f04b029dfd5b2fbdfee-882.webp 882w",
+    "width": 882,
+    "height": 582
+  },
+  "./img/ofis/18.jpg": {
+    "src": "/img/ff74c9521be86c5be3eb-480.webp",
+    "full": "/img/ff74c9521be86c5be3eb-879.webp",
+    "srcSet": "/img/ff74c9521be86c5be3eb-480.webp 480w, /img/ff74c9521be86c5be3eb-879.webp 879w",
+    "width": 879,
+    "height": 589
+  },
+  "./img/ofis/19.jpg": {
+    "src": "/img/2827d6177b43e5329cfa-480.webp",
+    "full": "/img/2827d6177b43e5329cfa-879.webp",
+    "srcSet": "/img/2827d6177b43e5329cfa-480.webp 480w, /img/2827d6177b43e5329cfa-879.webp 879w",
+    "width": 879,
+    "height": 589
+  },
+  "./img/ofis/2.png": {
+    "src": "/img/7f4b5ea9bda2eb2a5695-480.webp",
+    "full": "/img/7f4b5ea9bda2eb2a5695-800.webp",
+    "srcSet": "/img/7f4b5ea9bda2eb2a5695-480.webp 480w, /img/7f4b5ea9bda2eb2a5695-800.webp 800w",
+    "width": 800,
+    "height": 576
+  },
+  "./img/ofis/20.jpg": {
+    "src": "/img/63d05f9673610262e31e-480.webp",
+    "full": "/img/63d05f9673610262e31e-983.webp",
+    "srcSet": "/img/63d05f9673610262e31e-480.webp 480w, /img/63d05f9673610262e31e-960.webp 960w, /img/63d05f9673610262e31e-983.webp 983w",
+    "width": 983,
+    "height": 542
+  },
+  "./img/ofis/21.jpg": {
+    "src": "/img/da03446e623138f17c34-480.webp",
+    "full": "/img/da03446e623138f17c34-964.webp",
+    "srcSet": "/img/da03446e623138f17c34-480.webp 480w, /img/da03446e623138f17c34-960.webp 960w, /img/da03446e623138f17c34-964.webp 964w",
+    "width": 964,
+    "height": 586
+  },
+  "./img/ofis/22.jpg": {
+    "src": "/img/0a4b392ec6cf663e0916-480.webp",
+    "full": "/img/0a4b392ec6cf663e0916-964.webp",
+    "srcSet": "/img/0a4b392ec6cf663e0916-480.webp 480w, /img/0a4b392ec6cf663e0916-960.webp 960w, /img/0a4b392ec6cf663e0916-964.webp 964w",
+    "width": 964,
+    "height": 586
+  },
+  "./img/ofis/3.jpg": {
+    "src": "/img/fbf792c550fd9f295032-480.webp",
+    "full": "/img/fbf792c550fd9f295032-733.webp",
+    "srcSet": "/img/fbf792c550fd9f295032-480.webp 480w, /img/fbf792c550fd9f295032-733.webp 733w",
+    "width": 733,
+    "height": 496
+  },
+  "./img/ofis/4.jpg": {
+    "src": "/img/f6f4e5d27226db613707-480.webp",
+    "full": "/img/f6f4e5d27226db613707-983.webp",
+    "srcSet": "/img/f6f4e5d27226db613707-480.webp 480w, /img/f6f4e5d27226db613707-960.webp 960w, /img/f6f4e5d27226db613707-983.webp 983w",
+    "width": 983,
+    "height": 542
+  },
+  "./img/ofis/5.jpg": {
+    "src": "/img/391d1e92c255e0c6f96d-480.webp",
+    "full": "/img/391d1e92c255e0c6f96d-983.webp",
+    "srcSet": "/img/391d1e92c255e0c6f96d-480.webp 480w, /img/391d1e92c255e0c6f96d-960.webp 960w, /img/391d1e92c255e0c6f96d-983.webp 983w",
+    "width": 983,
+    "height": 542
+  },
+  "./img/ofis/6.jpg": {
+    "src": "/img/d0ec329201c3b775f269-480.webp",
+    "full": "/img/d0ec329201c3b775f269-983.webp",
+    "srcSet": "/img/d0ec329201c3b775f269-480.webp 480w, /img/d0ec329201c3b775f269-960.webp 960w, /img/d0ec329201c3b775f269-983.webp 983w",
+    "width": 983,
+    "height": 542
+  },
+  "./img/ofis/7.jpg": {
+    "src": "/img/6ada19b9e0383ea975aa-480.webp",
+    "full": "/img/6ada19b9e0383ea975aa-954.webp",
+    "srcSet": "/img/6ada19b9e0383ea975aa-480.webp 480w, /img/6ada19b9e0383ea975aa-954.webp 954w",
+    "width": 954,
+    "height": 597
+  },
+  "./img/ofis/8.jpg": {
+    "src": "/img/0abcf118c306897edc8e-480.webp",
+    "full": "/img/0abcf118c306897edc8e-954.webp",
+    "srcSet": "/img/0abcf118c306897edc8e-480.webp 480w, /img/0abcf118c306897edc8e-954.webp 954w",
+    "width": 954,
+    "height": 597
+  },
+  "./img/ofis/9.jpg": {
+    "src": "/img/8491d1747029aa51280a-480.webp",
+    "full": "/img/8491d1747029aa51280a-879.webp",
+    "srcSet": "/img/8491d1747029aa51280a-480.webp 480w, /img/8491d1747029aa51280a-879.webp 879w",
+    "width": 879,
+    "height": 589
+  },
+  "./img/olga/1.jpg": {
+    "src": "/img/7c2b479d53e7d0f14ed6-480.webp",
+    "full": "/img/7c2b479d53e7d0f14ed6-1920.webp",
+    "srcSet": "/img/7c2b479d53e7d0f14ed6-480.webp 480w, /img/7c2b479d53e7d0f14ed6-960.webp 960w, /img/7c2b479d53e7d0f14ed6-1920.webp 1920w",
+    "width": 1920,
+    "height": 2560
+  },
+  "./img/olga/2.jpg": {
+    "src": "/img/46ef24f50d3ba9698414-480.webp",
+    "full": "/img/46ef24f50d3ba9698414-1920.webp",
+    "srcSet": "/img/46ef24f50d3ba9698414-480.webp 480w, /img/46ef24f50d3ba9698414-960.webp 960w, /img/46ef24f50d3ba9698414-1920.webp 1920w",
+    "width": 1920,
+    "height": 2560
+  },
+  "./img/olga/3.jpg": {
+    "src": "/img/6e4821c73433b35a7e27-480.webp",
+    "full": "/img/6e4821c73433b35a7e27-1920.webp",
+    "srcSet": "/img/6e4821c73433b35a7e27-480.webp 480w, /img/6e4821c73433b35a7e27-960.webp 960w, /img/6e4821c73433b35a7e27-1920.webp 1920w",
+    "width": 1920,
+    "height": 2560
+  },
+  "./img/olga/4.jpg": {
+    "src": "/img/2eccb356eff9847bf6a2-480.webp",
+    "full": "/img/2eccb356eff9847bf6a2-1920.webp",
+    "srcSet": "/img/2eccb356eff9847bf6a2-480.webp 480w, /img/2eccb356eff9847bf6a2-960.webp 960w, /img/2eccb356eff9847bf6a2-1920.webp 1920w",
+    "width": 1920,
+    "height": 2560
+  },
+  "./img/olga/5.jpg": {
+    "src": "/img/913f95ab2251259a52ae-480.webp",
+    "full": "/img/913f95ab2251259a52ae-1920.webp",
+    "srcSet": "/img/913f95ab2251259a52ae-480.webp 480w, /img/913f95ab2251259a52ae-960.webp 960w, /img/913f95ab2251259a52ae-1920.webp 1920w",
+    "width": 1920,
+    "height": 2560
+  },
+  "./img/olga/6.jpg": {
+    "src": "/img/3a3edfd3b7b5222e1bd9-480.webp",
+    "full": "/img/3a3edfd3b7b5222e1bd9-1920.webp",
+    "srcSet": "/img/3a3edfd3b7b5222e1bd9-480.webp 480w, /img/3a3edfd3b7b5222e1bd9-960.webp 960w, /img/3a3edfd3b7b5222e1bd9-1920.webp 1920w",
+    "width": 1920,
+    "height": 2560
+  },
+  "./img/outlet/1.jpg": {
+    "src": "/img/3b1bdcdaf27da4502a0f-480.webp",
+    "full": "/img/3b1bdcdaf27da4502a0f-1701.webp",
+    "srcSet": "/img/3b1bdcdaf27da4502a0f-480.webp 480w, /img/3b1bdcdaf27da4502a0f-960.webp 960w, /img/3b1bdcdaf27da4502a0f-1701.webp 1701w",
+    "width": 1701,
+    "height": 992
+  },
+  "./img/outlet/2.jpg": {
+    "src": "/img/a1ac2fc7466d315651c1-480.webp",
+    "full": "/img/a1ac2fc7466d315651c1-1701.webp",
+    "srcSet": "/img/a1ac2fc7466d315651c1-480.webp 480w, /img/a1ac2fc7466d315651c1-960.webp 960w, /img/a1ac2fc7466d315651c1-1701.webp 1701w",
+    "width": 1701,
+    "height": 992
+  },
+  "./img/outlet/3.jpg": {
+    "src": "/img/80ba737de3ce64135fae-480.webp",
+    "full": "/img/80ba737de3ce64135fae-1701.webp",
+    "srcSet": "/img/80ba737de3ce64135fae-480.webp 480w, /img/80ba737de3ce64135fae-960.webp 960w, /img/80ba737de3ce64135fae-1701.webp 1701w",
+    "width": 1701,
+    "height": 992
+  },
+  "./img/outlet/4.jpg": {
+    "src": "/img/16fa080f28ed9d4b196b-480.webp",
+    "full": "/img/16fa080f28ed9d4b196b-1134.webp",
+    "srcSet": "/img/16fa080f28ed9d4b196b-480.webp 480w, /img/16fa080f28ed9d4b196b-960.webp 960w, /img/16fa080f28ed9d4b196b-1134.webp 1134w",
+    "width": 1134,
+    "height": 567
+  },
+  "./img/outlet/5.jpg": {
+    "src": "/img/2592668bf65298cacadb-480.webp",
+    "full": "/img/2592668bf65298cacadb-1134.webp",
+    "srcSet": "/img/2592668bf65298cacadb-480.webp 480w, /img/2592668bf65298cacadb-960.webp 960w, /img/2592668bf65298cacadb-1134.webp 1134w",
+    "width": 1134,
+    "height": 567
+  },
+  "./img/outlet/6.JPG": {
+    "src": "/img/724d52abe8d1f18fb197-480.webp",
+    "full": "/img/724d52abe8d1f18fb197-1175.webp",
+    "srcSet": "/img/724d52abe8d1f18fb197-480.webp 480w, /img/724d52abe8d1f18fb197-960.webp 960w, /img/724d52abe8d1f18fb197-1175.webp 1175w",
+    "width": 1175,
+    "height": 314
+  },
+  "./img/profile.jpg": {
+    "src": "/img/426d73e49aeb8c92d137-480.webp",
+    "full": "/img/426d73e49aeb8c92d137-900.webp",
+    "srcSet": "/img/426d73e49aeb8c92d137-480.webp 480w, /img/426d73e49aeb8c92d137-900.webp 900w",
+    "width": 900,
+    "height": 1600
+  },
+  "./img/rentap1/1.jpg": {
+    "src": "/img/97f7cc405393547988c2-480.webp",
+    "full": "/img/97f7cc405393547988c2-1200.webp",
+    "srcSet": "/img/97f7cc405393547988c2-480.webp 480w, /img/97f7cc405393547988c2-960.webp 960w, /img/97f7cc405393547988c2-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap1/10.jpg": {
+    "src": "/img/738a9dfd98ad4a9bf12e-480.webp",
+    "full": "/img/738a9dfd98ad4a9bf12e-1200.webp",
+    "srcSet": "/img/738a9dfd98ad4a9bf12e-480.webp 480w, /img/738a9dfd98ad4a9bf12e-960.webp 960w, /img/738a9dfd98ad4a9bf12e-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap1/2.jpg": {
+    "src": "/img/c960428b52e36080f38d-480.webp",
+    "full": "/img/c960428b52e36080f38d-1200.webp",
+    "srcSet": "/img/c960428b52e36080f38d-480.webp 480w, /img/c960428b52e36080f38d-960.webp 960w, /img/c960428b52e36080f38d-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap1/3.jpg": {
+    "src": "/img/fb3fe49d245e27cd6154-480.webp",
+    "full": "/img/fb3fe49d245e27cd6154-1200.webp",
+    "srcSet": "/img/fb3fe49d245e27cd6154-480.webp 480w, /img/fb3fe49d245e27cd6154-960.webp 960w, /img/fb3fe49d245e27cd6154-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap1/4.jpg": {
+    "src": "/img/819994a60651ac617e24-480.webp",
+    "full": "/img/819994a60651ac617e24-1200.webp",
+    "srcSet": "/img/819994a60651ac617e24-480.webp 480w, /img/819994a60651ac617e24-960.webp 960w, /img/819994a60651ac617e24-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap1/5.jpg": {
+    "src": "/img/e485fecf3550eeedefcf-480.webp",
+    "full": "/img/e485fecf3550eeedefcf-1200.webp",
+    "srcSet": "/img/e485fecf3550eeedefcf-480.webp 480w, /img/e485fecf3550eeedefcf-960.webp 960w, /img/e485fecf3550eeedefcf-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap1/6.jpg": {
+    "src": "/img/b8936534de2cea4c00f3-480.webp",
+    "full": "/img/b8936534de2cea4c00f3-1200.webp",
+    "srcSet": "/img/b8936534de2cea4c00f3-480.webp 480w, /img/b8936534de2cea4c00f3-960.webp 960w, /img/b8936534de2cea4c00f3-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap1/7.jpg": {
+    "src": "/img/efe9aff1a839c1693133-480.webp",
+    "full": "/img/efe9aff1a839c1693133-1200.webp",
+    "srcSet": "/img/efe9aff1a839c1693133-480.webp 480w, /img/efe9aff1a839c1693133-960.webp 960w, /img/efe9aff1a839c1693133-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap1/8.jpg": {
+    "src": "/img/e1c367284f6e1c6621c1-480.webp",
+    "full": "/img/e1c367284f6e1c6621c1-1200.webp",
+    "srcSet": "/img/e1c367284f6e1c6621c1-480.webp 480w, /img/e1c367284f6e1c6621c1-960.webp 960w, /img/e1c367284f6e1c6621c1-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap1/9.jpg": {
+    "src": "/img/70295b68e02c0f3cf5f3-480.webp",
+    "full": "/img/70295b68e02c0f3cf5f3-1200.webp",
+    "srcSet": "/img/70295b68e02c0f3cf5f3-480.webp 480w, /img/70295b68e02c0f3cf5f3-960.webp 960w, /img/70295b68e02c0f3cf5f3-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap2/1.jpg": {
+    "src": "/img/82ab0c50db422fe408f9-480.webp",
+    "full": "/img/82ab0c50db422fe408f9-1200.webp",
+    "srcSet": "/img/82ab0c50db422fe408f9-480.webp 480w, /img/82ab0c50db422fe408f9-960.webp 960w, /img/82ab0c50db422fe408f9-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap2/2.jpg": {
+    "src": "/img/5446db75e219c9763f04-480.webp",
+    "full": "/img/5446db75e219c9763f04-1200.webp",
+    "srcSet": "/img/5446db75e219c9763f04-480.webp 480w, /img/5446db75e219c9763f04-960.webp 960w, /img/5446db75e219c9763f04-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap2/3.jpg": {
+    "src": "/img/fda50e1912a9583fcafc-480.webp",
+    "full": "/img/fda50e1912a9583fcafc-1200.webp",
+    "srcSet": "/img/fda50e1912a9583fcafc-480.webp 480w, /img/fda50e1912a9583fcafc-960.webp 960w, /img/fda50e1912a9583fcafc-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap2/4.jpg": {
+    "src": "/img/318d0bba12fcdb979fdb-480.webp",
+    "full": "/img/318d0bba12fcdb979fdb-1200.webp",
+    "srcSet": "/img/318d0bba12fcdb979fdb-480.webp 480w, /img/318d0bba12fcdb979fdb-960.webp 960w, /img/318d0bba12fcdb979fdb-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap2/5.jpg": {
+    "src": "/img/b9972324a2f6a5f14e73-480.webp",
+    "full": "/img/b9972324a2f6a5f14e73-1200.webp",
+    "srcSet": "/img/b9972324a2f6a5f14e73-480.webp 480w, /img/b9972324a2f6a5f14e73-960.webp 960w, /img/b9972324a2f6a5f14e73-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap2/6.jpg": {
+    "src": "/img/c191110e9c16b5c80be5-480.webp",
+    "full": "/img/c191110e9c16b5c80be5-1200.webp",
+    "srcSet": "/img/c191110e9c16b5c80be5-480.webp 480w, /img/c191110e9c16b5c80be5-960.webp 960w, /img/c191110e9c16b5c80be5-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap2/7.jpg": {
+    "src": "/img/15795df33cc36d23b1fa-480.webp",
+    "full": "/img/15795df33cc36d23b1fa-1200.webp",
+    "srcSet": "/img/15795df33cc36d23b1fa-480.webp 480w, /img/15795df33cc36d23b1fa-960.webp 960w, /img/15795df33cc36d23b1fa-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap2/8.jpg": {
+    "src": "/img/2181530f9d5e7d2c36ed-480.webp",
+    "full": "/img/2181530f9d5e7d2c36ed-1200.webp",
+    "srcSet": "/img/2181530f9d5e7d2c36ed-480.webp 480w, /img/2181530f9d5e7d2c36ed-960.webp 960w, /img/2181530f9d5e7d2c36ed-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap2/9.jpg": {
+    "src": "/img/1f1362780df2bb631903-480.webp",
+    "full": "/img/1f1362780df2bb631903-1200.webp",
+    "srcSet": "/img/1f1362780df2bb631903-480.webp 480w, /img/1f1362780df2bb631903-960.webp 960w, /img/1f1362780df2bb631903-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap3/1.jpg": {
+    "src": "/img/54659e505b98b7f79535-480.webp",
+    "full": "/img/54659e505b98b7f79535-1200.webp",
+    "srcSet": "/img/54659e505b98b7f79535-480.webp 480w, /img/54659e505b98b7f79535-960.webp 960w, /img/54659e505b98b7f79535-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap3/2.jpg": {
+    "src": "/img/ba0ad7c41488b06347bc-480.webp",
+    "full": "/img/ba0ad7c41488b06347bc-1200.webp",
+    "srcSet": "/img/ba0ad7c41488b06347bc-480.webp 480w, /img/ba0ad7c41488b06347bc-960.webp 960w, /img/ba0ad7c41488b06347bc-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap3/3.jpg": {
+    "src": "/img/7f0b925cfc0b59e99487-480.webp",
+    "full": "/img/7f0b925cfc0b59e99487-1200.webp",
+    "srcSet": "/img/7f0b925cfc0b59e99487-480.webp 480w, /img/7f0b925cfc0b59e99487-960.webp 960w, /img/7f0b925cfc0b59e99487-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap3/4.jpg": {
+    "src": "/img/babb39f45c1adca2eba3-480.webp",
+    "full": "/img/babb39f45c1adca2eba3-1200.webp",
+    "srcSet": "/img/babb39f45c1adca2eba3-480.webp 480w, /img/babb39f45c1adca2eba3-960.webp 960w, /img/babb39f45c1adca2eba3-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap4/1.jpg": {
+    "src": "/img/b19ebbf6d28f3fa973e4-480.webp",
+    "full": "/img/b19ebbf6d28f3fa973e4-1200.webp",
+    "srcSet": "/img/b19ebbf6d28f3fa973e4-480.webp 480w, /img/b19ebbf6d28f3fa973e4-960.webp 960w, /img/b19ebbf6d28f3fa973e4-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap4/2.jpg": {
+    "src": "/img/b06c1cf7f4b841a6b45d-480.webp",
+    "full": "/img/b06c1cf7f4b841a6b45d-1200.webp",
+    "srcSet": "/img/b06c1cf7f4b841a6b45d-480.webp 480w, /img/b06c1cf7f4b841a6b45d-960.webp 960w, /img/b06c1cf7f4b841a6b45d-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap4/3.jpg": {
+    "src": "/img/bce7885aba08284af15f-480.webp",
+    "full": "/img/bce7885aba08284af15f-1200.webp",
+    "srcSet": "/img/bce7885aba08284af15f-480.webp 480w, /img/bce7885aba08284af15f-960.webp 960w, /img/bce7885aba08284af15f-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap4/4.jpg": {
+    "src": "/img/5d23ada4c11fa7d3e999-480.webp",
+    "full": "/img/5d23ada4c11fa7d3e999-1200.webp",
+    "srcSet": "/img/5d23ada4c11fa7d3e999-480.webp 480w, /img/5d23ada4c11fa7d3e999-960.webp 960w, /img/5d23ada4c11fa7d3e999-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap4/5.jpg": {
+    "src": "/img/062735b6c27117ea0117-480.webp",
+    "full": "/img/062735b6c27117ea0117-1200.webp",
+    "srcSet": "/img/062735b6c27117ea0117-480.webp 480w, /img/062735b6c27117ea0117-960.webp 960w, /img/062735b6c27117ea0117-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap4/6.jpg": {
+    "src": "/img/9692026c7f4d9fbdba4f-480.webp",
+    "full": "/img/9692026c7f4d9fbdba4f-1200.webp",
+    "srcSet": "/img/9692026c7f4d9fbdba4f-480.webp 480w, /img/9692026c7f4d9fbdba4f-960.webp 960w, /img/9692026c7f4d9fbdba4f-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap4/7.jpg": {
+    "src": "/img/7842171375e62c6420a6-480.webp",
+    "full": "/img/7842171375e62c6420a6-1200.webp",
+    "srcSet": "/img/7842171375e62c6420a6-480.webp 480w, /img/7842171375e62c6420a6-960.webp 960w, /img/7842171375e62c6420a6-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap4/8.jpg": {
+    "src": "/img/6f23f1efdcebe139770f-480.webp",
+    "full": "/img/6f23f1efdcebe139770f-1200.webp",
+    "srcSet": "/img/6f23f1efdcebe139770f-480.webp 480w, /img/6f23f1efdcebe139770f-960.webp 960w, /img/6f23f1efdcebe139770f-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap5/1.jpg": {
+    "src": "/img/0d3ef263a42406fef2e7-480.webp",
+    "full": "/img/0d3ef263a42406fef2e7-1200.webp",
+    "srcSet": "/img/0d3ef263a42406fef2e7-480.webp 480w, /img/0d3ef263a42406fef2e7-960.webp 960w, /img/0d3ef263a42406fef2e7-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap5/2.jpg": {
+    "src": "/img/73037812eb12e6740752-480.webp",
+    "full": "/img/73037812eb12e6740752-1200.webp",
+    "srcSet": "/img/73037812eb12e6740752-480.webp 480w, /img/73037812eb12e6740752-960.webp 960w, /img/73037812eb12e6740752-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap5/3.jpg": {
+    "src": "/img/39c9ab56b9bc18d3abb3-480.webp",
+    "full": "/img/39c9ab56b9bc18d3abb3-1200.webp",
+    "srcSet": "/img/39c9ab56b9bc18d3abb3-480.webp 480w, /img/39c9ab56b9bc18d3abb3-960.webp 960w, /img/39c9ab56b9bc18d3abb3-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap6/1.jpg": {
+    "src": "/img/4c7f0d855976602aacc0-480.webp",
+    "full": "/img/4c7f0d855976602aacc0-1200.webp",
+    "srcSet": "/img/4c7f0d855976602aacc0-480.webp 480w, /img/4c7f0d855976602aacc0-960.webp 960w, /img/4c7f0d855976602aacc0-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap6/2.jpg": {
+    "src": "/img/9d6c7fc6025967d0f593-480.webp",
+    "full": "/img/9d6c7fc6025967d0f593-1200.webp",
+    "srcSet": "/img/9d6c7fc6025967d0f593-480.webp 480w, /img/9d6c7fc6025967d0f593-960.webp 960w, /img/9d6c7fc6025967d0f593-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap6/4.jpg": {
+    "src": "/img/2d98ad5dbf04129ca247-480.webp",
+    "full": "/img/2d98ad5dbf04129ca247-1200.webp",
+    "srcSet": "/img/2d98ad5dbf04129ca247-480.webp 480w, /img/2d98ad5dbf04129ca247-960.webp 960w, /img/2d98ad5dbf04129ca247-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap6/5.jpg": {
+    "src": "/img/4416d04fbddf674066bc-480.webp",
+    "full": "/img/4416d04fbddf674066bc-1200.webp",
+    "srcSet": "/img/4416d04fbddf674066bc-480.webp 480w, /img/4416d04fbddf674066bc-960.webp 960w, /img/4416d04fbddf674066bc-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/rentap6/6.jpg": {
+    "src": "/img/b4bcd047f1ab61f9fd5a-480.webp",
+    "full": "/img/b4bcd047f1ab61f9fd5a-1200.webp",
+    "srcSet": "/img/b4bcd047f1ab61f9fd5a-480.webp 480w, /img/b4bcd047f1ab61f9fd5a-960.webp 960w, /img/b4bcd047f1ab61f9fd5a-1200.webp 1200w",
+    "width": 1200,
+    "height": 750
+  },
+  "./img/sozopol/1.jpg": {
+    "src": "/img/e339b551531049e6e94a-480.webp",
+    "full": "/img/e339b551531049e6e94a-924.webp",
+    "srcSet": "/img/e339b551531049e6e94a-480.webp 480w, /img/e339b551531049e6e94a-924.webp 924w",
+    "width": 924,
+    "height": 857
+  },
+  "./img/sozopol/2.jpg": {
+    "src": "/img/bd24ab8ac8790789656f-480.webp",
+    "full": "/img/bd24ab8ac8790789656f-1145.webp",
+    "srcSet": "/img/bd24ab8ac8790789656f-480.webp 480w, /img/bd24ab8ac8790789656f-960.webp 960w, /img/bd24ab8ac8790789656f-1145.webp 1145w",
+    "width": 1145,
+    "height": 786
+  },
+  "./img/sozopol/3.jpg": {
+    "src": "/img/c32d400d7b98f09c6021-480.webp",
+    "full": "/img/c32d400d7b98f09c6021-824.webp",
+    "srcSet": "/img/c32d400d7b98f09c6021-480.webp 480w, /img/c32d400d7b98f09c6021-824.webp 824w",
+    "width": 824,
+    "height": 614
+  },
+  "./img/sozopol/4.jpg": {
+    "src": "/img/51a2a8ab90a8cb379dcc-480.webp",
+    "full": "/img/51a2a8ab90a8cb379dcc-1920.webp",
+    "srcSet": "/img/51a2a8ab90a8cb379dcc-480.webp 480w, /img/51a2a8ab90a8cb379dcc-960.webp 960w, /img/51a2a8ab90a8cb379dcc-1920.webp 1920w",
+    "width": 1920,
+    "height": 1440
+  },
+  "./img/sozopol/5.jpg": {
+    "src": "/img/b8a7777f90618e8be922-480.webp",
+    "full": "/img/b8a7777f90618e8be922-1920.webp",
+    "srcSet": "/img/b8a7777f90618e8be922-480.webp 480w, /img/b8a7777f90618e8be922-960.webp 960w, /img/b8a7777f90618e8be922-1920.webp 1920w",
+    "width": 1920,
+    "height": 1440
+  },
+  "./img/sozopol/6.jpg": {
+    "src": "/img/93321b7307bf744d5558-480.webp",
+    "full": "/img/93321b7307bf744d5558-1920.webp",
+    "srcSet": "/img/93321b7307bf744d5558-480.webp 480w, /img/93321b7307bf744d5558-960.webp 960w, /img/93321b7307bf744d5558-1920.webp 1920w",
+    "width": 1920,
+    "height": 1440
+  },
+  "./img/sozopol/7.jpg": {
+    "src": "/img/209166ca44fe90367bd6-480.webp",
+    "full": "/img/209166ca44fe90367bd6-1920.webp",
+    "srcSet": "/img/209166ca44fe90367bd6-480.webp 480w, /img/209166ca44fe90367bd6-960.webp 960w, /img/209166ca44fe90367bd6-1920.webp 1920w",
+    "width": 1920,
+    "height": 1440
+  },
+  "./img/sozopol/8.jpg": {
+    "src": "/img/a4fb223ef4ff99a23377-480.webp",
+    "full": "/img/a4fb223ef4ff99a23377-1920.webp",
+    "srcSet": "/img/a4fb223ef4ff99a23377-480.webp 480w, /img/a4fb223ef4ff99a23377-960.webp 960w, /img/a4fb223ef4ff99a23377-1920.webp 1920w",
+    "width": 1920,
+    "height": 1440
+  },
+  "./img/studentski/1.jpg": {
+    "src": "/img/3550b512247369e0bbe9-480.webp",
+    "full": "/img/3550b512247369e0bbe9-768.webp",
+    "srcSet": "/img/3550b512247369e0bbe9-480.webp 480w, /img/3550b512247369e0bbe9-768.webp 768w",
+    "width": 768,
+    "height": 477
+  },
+  "./img/studentski/2.jpg": {
+    "src": "/img/9836c9a036815cd82c78-480.webp",
+    "full": "/img/9836c9a036815cd82c78-768.webp",
+    "srcSet": "/img/9836c9a036815cd82c78-480.webp 480w, /img/9836c9a036815cd82c78-768.webp 768w",
+    "width": 768,
+    "height": 477
+  },
+  "./img/studentski/3.jpg": {
+    "src": "/img/ae2dd645fd2a6cf49893-480.webp",
+    "full": "/img/ae2dd645fd2a6cf49893-768.webp",
+    "srcSet": "/img/ae2dd645fd2a6cf49893-480.webp 480w, /img/ae2dd645fd2a6cf49893-768.webp 768w",
+    "width": 768,
+    "height": 477
+  },
+  "./img/studentski/4.jpg": {
+    "src": "/img/52363ba4b017ea65c253-480.webp",
+    "full": "/img/52363ba4b017ea65c253-599.webp",
+    "srcSet": "/img/52363ba4b017ea65c253-480.webp 480w, /img/52363ba4b017ea65c253-599.webp 599w",
+    "width": 599,
+    "height": 611
+  },
+  "./img/studentski/5.jpg": {
+    "src": "/img/7c48081613239bbceba5-480.webp",
+    "full": "/img/7c48081613239bbceba5-568.webp",
+    "srcSet": "/img/7c48081613239bbceba5-480.webp 480w, /img/7c48081613239bbceba5-568.webp 568w",
+    "width": 568,
+    "height": 611
+  },
+  "./img/studentski/6.jpg": {
+    "src": "/img/f55b5fac2f07f05bcaf3-480.webp",
+    "full": "/img/f55b5fac2f07f05bcaf3-599.webp",
+    "srcSet": "/img/f55b5fac2f07f05bcaf3-480.webp 480w, /img/f55b5fac2f07f05bcaf3-599.webp 599w",
+    "width": 599,
+    "height": 611
+  },
+  "./img/studentskiGrad/1.jpg": {
+    "src": "/img/f5e8f56f90e8bac682d4-480.webp",
+    "full": "/img/f5e8f56f90e8bac682d4-857.webp",
+    "srcSet": "/img/f5e8f56f90e8bac682d4-480.webp 480w, /img/f5e8f56f90e8bac682d4-857.webp 857w",
+    "width": 857,
+    "height": 434
+  },
+  "./img/studentskiGrad/2.jpg": {
+    "src": "/img/d371b00d2e18cd604188-480.webp",
+    "full": "/img/d371b00d2e18cd604188-1048.webp",
+    "srcSet": "/img/d371b00d2e18cd604188-480.webp 480w, /img/d371b00d2e18cd604188-960.webp 960w, /img/d371b00d2e18cd604188-1048.webp 1048w",
+    "width": 1048,
+    "height": 600
+  },
+  "./img/studentskiGrad/3.jpg": {
+    "src": "/img/3c240ffb6877a9ac4180-480.webp",
+    "full": "/img/3c240ffb6877a9ac4180-857.webp",
+    "srcSet": "/img/3c240ffb6877a9ac4180-480.webp 480w, /img/3c240ffb6877a9ac4180-857.webp 857w",
+    "width": 857,
+    "height": 434
+  },
+  "./img/studentskiGrad/4.jpg": {
+    "src": "/img/348e6b7d8b22c1ec608a-480.webp",
+    "full": "/img/348e6b7d8b22c1ec608a-613.webp",
+    "srcSet": "/img/348e6b7d8b22c1ec608a-480.webp 480w, /img/348e6b7d8b22c1ec608a-613.webp 613w",
+    "width": 613,
+    "height": 739
+  },
+  "./img/studentskiGrad/5.jpg": {
+    "src": "/img/b73e0a85e66578a297c4-480.webp",
+    "full": "/img/b73e0a85e66578a297c4-1048.webp",
+    "srcSet": "/img/b73e0a85e66578a297c4-480.webp 480w, /img/b73e0a85e66578a297c4-960.webp 960w, /img/b73e0a85e66578a297c4-1048.webp 1048w",
+    "width": 1048,
+    "height": 600
+  },
+  "./img/tv/1.jpg": {
+    "src": "/img/2ab775c3780101b3ae0f-480.webp",
+    "full": "/img/2ab775c3780101b3ae0f-950.webp",
+    "srcSet": "/img/2ab775c3780101b3ae0f-480.webp 480w, /img/2ab775c3780101b3ae0f-950.webp 950w",
+    "width": 950,
+    "height": 550
+  },
+  "./img/tv/10.png": {
+    "src": "/img/5165160198008f3f0d40-480.webp",
+    "full": "/img/5165160198008f3f0d40-905.webp",
+    "srcSet": "/img/5165160198008f3f0d40-480.webp 480w, /img/5165160198008f3f0d40-905.webp 905w",
+    "width": 905,
+    "height": 680
+  },
+  "./img/tv/11.jpg": {
+    "src": "/img/fb85c13ac03373eb5734-480.webp",
+    "full": "/img/fb85c13ac03373eb5734-856.webp",
+    "srcSet": "/img/fb85c13ac03373eb5734-480.webp 480w, /img/fb85c13ac03373eb5734-856.webp 856w",
+    "width": 856,
+    "height": 710
+  },
+  "./img/tv/12.jpg": {
+    "src": "/img/2931d6d416e3cb960ae3-480.webp",
+    "full": "/img/2931d6d416e3cb960ae3-1063.webp",
+    "srcSet": "/img/2931d6d416e3cb960ae3-480.webp 480w, /img/2931d6d416e3cb960ae3-960.webp 960w, /img/2931d6d416e3cb960ae3-1063.webp 1063w",
+    "width": 1063,
+    "height": 592
+  },
+  "./img/tv/13.jpg": {
+    "src": "/img/00818e6ab03fe1c2b051-480.webp",
+    "full": "/img/00818e6ab03fe1c2b051-1109.webp",
+    "srcSet": "/img/00818e6ab03fe1c2b051-480.webp 480w, /img/00818e6ab03fe1c2b051-960.webp 960w, /img/00818e6ab03fe1c2b051-1109.webp 1109w",
+    "width": 1109,
+    "height": 731
+  },
+  "./img/tv/2.jpg": {
+    "src": "/img/7f056bf58344adf04db4-480.webp",
+    "full": "/img/7f056bf58344adf04db4-931.webp",
+    "srcSet": "/img/7f056bf58344adf04db4-480.webp 480w, /img/7f056bf58344adf04db4-931.webp 931w",
+    "width": 931,
+    "height": 591
+  },
+  "./img/tv/3.jpg": {
+    "src": "/img/743c0f4a7d43ebc629f5-480.webp",
+    "full": "/img/743c0f4a7d43ebc629f5-918.webp",
+    "srcSet": "/img/743c0f4a7d43ebc629f5-480.webp 480w, /img/743c0f4a7d43ebc629f5-918.webp 918w",
+    "width": 918,
+    "height": 512
+  },
+  "./img/tv/4.png": {
+    "src": "/img/c467542e15565c5fd061-480.webp",
+    "full": "/img/c467542e15565c5fd061-804.webp",
+    "srcSet": "/img/c467542e15565c5fd061-480.webp 480w, /img/c467542e15565c5fd061-804.webp 804w",
+    "width": 804,
+    "height": 580
+  },
+  "./img/tv/5.jpg": {
+    "src": "/img/c3f7b22434981628fc7a-480.webp",
+    "full": "/img/c3f7b22434981628fc7a-1920.webp",
+    "srcSet": "/img/c3f7b22434981628fc7a-480.webp 480w, /img/c3f7b22434981628fc7a-960.webp 960w, /img/c3f7b22434981628fc7a-1920.webp 1920w",
+    "width": 1920,
+    "height": 1078
+  },
+  "./img/tv/6.jpg": {
+    "src": "/img/481e10792de0d50123cd-480.webp",
+    "full": "/img/481e10792de0d50123cd-1920.webp",
+    "srcSet": "/img/481e10792de0d50123cd-480.webp 480w, /img/481e10792de0d50123cd-960.webp 960w, /img/481e10792de0d50123cd-1920.webp 1920w",
+    "width": 1920,
+    "height": 1078
+  },
+  "./img/tv/7.jpg": {
+    "src": "/img/2ff0fc005e44421062d4-480.webp",
+    "full": "/img/2ff0fc005e44421062d4-1036.webp",
+    "srcSet": "/img/2ff0fc005e44421062d4-480.webp 480w, /img/2ff0fc005e44421062d4-960.webp 960w, /img/2ff0fc005e44421062d4-1036.webp 1036w",
+    "width": 1036,
+    "height": 608
+  },
+  "./img/tv/8.jpg": {
+    "src": "/img/29389479aaaed756e2e5-480.webp",
+    "full": "/img/29389479aaaed756e2e5-1036.webp",
+    "srcSet": "/img/29389479aaaed756e2e5-480.webp 480w, /img/29389479aaaed756e2e5-960.webp 960w, /img/29389479aaaed756e2e5-1036.webp 1036w",
+    "width": 1036,
+    "height": 608
+  },
+  "./img/tv/9.jpg": {
+    "src": "/img/62ec364cf6a389254815-480.webp",
+    "full": "/img/62ec364cf6a389254815-1036.webp",
+    "srcSet": "/img/62ec364cf6a389254815-480.webp 480w, /img/62ec364cf6a389254815-960.webp 960w, /img/62ec364cf6a389254815-1036.webp 1036w",
+    "width": 1036,
+    "height": 608
+  },
+  "./img/Vladimir/1.JPG": {
+    "src": "/img/3590f05c33f8cefb11ed-480.webp",
+    "full": "/img/3590f05c33f8cefb11ed-1920.webp",
+    "srcSet": "/img/3590f05c33f8cefb11ed-480.webp 480w, /img/3590f05c33f8cefb11ed-960.webp 960w, /img/3590f05c33f8cefb11ed-1920.webp 1920w",
+    "width": 1920,
+    "height": 1078
+  },
+  "./img/Vladimir/2.JPG": {
+    "src": "/img/32dba42fcd2a88f01e54-480.webp",
+    "full": "/img/32dba42fcd2a88f01e54-1920.webp",
+    "srcSet": "/img/32dba42fcd2a88f01e54-480.webp 480w, /img/32dba42fcd2a88f01e54-960.webp 960w, /img/32dba42fcd2a88f01e54-1920.webp 1920w",
+    "width": 1920,
+    "height": 1277
+  },
+  "./img/Vladimir/3.JPG": {
+    "src": "/img/822e0c8589759bbdef07-480.webp",
+    "full": "/img/822e0c8589759bbdef07-1920.webp",
+    "srcSet": "/img/822e0c8589759bbdef07-480.webp 480w, /img/822e0c8589759bbdef07-960.webp 960w, /img/822e0c8589759bbdef07-1920.webp 1920w",
+    "width": 1920,
+    "height": 2888
+  },
+  "./img/Vladimir/4.JPG": {
+    "src": "/img/7c3ff2939d9dac2fe07f-480.webp",
+    "full": "/img/7c3ff2939d9dac2fe07f-1920.webp",
+    "srcSet": "/img/7c3ff2939d9dac2fe07f-480.webp 480w, /img/7c3ff2939d9dac2fe07f-960.webp 960w, /img/7c3ff2939d9dac2fe07f-1920.webp 1920w",
+    "width": 1920,
+    "height": 1277
+  },
+  "./img/Vladimir/5.JPG": {
+    "src": "/img/763344a4359fc2530b72-480.webp",
+    "full": "/img/763344a4359fc2530b72-1920.webp",
+    "srcSet": "/img/763344a4359fc2530b72-480.webp 480w, /img/763344a4359fc2530b72-960.webp 960w, /img/763344a4359fc2530b72-1920.webp 1920w",
+    "width": 1920,
+    "height": 986
+  },
+  "./img/Vladimir/6.JPG": {
+    "src": "/img/7436ba5c470dacf31b21-480.webp",
+    "full": "/img/7436ba5c470dacf31b21-1920.webp",
+    "srcSet": "/img/7436ba5c470dacf31b21-480.webp 480w, /img/7436ba5c470dacf31b21-960.webp 960w, /img/7436ba5c470dacf31b21-1920.webp 1920w",
+    "width": 1920,
+    "height": 2888
+  },
+  "./img/Vladimir/7.JPG": {
+    "src": "/img/3602c22f755e389bfd80-480.webp",
+    "full": "/img/3602c22f755e389bfd80-1920.webp",
+    "srcSet": "/img/3602c22f755e389bfd80-480.webp 480w, /img/3602c22f755e389bfd80-960.webp 960w, /img/3602c22f755e389bfd80-1920.webp 1920w",
+    "width": 1920,
+    "height": 1277
+  },
+  "./img/Vladimir/8.jpg": {
+    "src": "/img/cecdc37e1f2f6fa3f089-480.webp",
+    "full": "/img/cecdc37e1f2f6fa3f089-1920.webp",
+    "srcSet": "/img/cecdc37e1f2f6fa3f089-480.webp 480w, /img/cecdc37e1f2f6fa3f089-960.webp 960w, /img/cecdc37e1f2f6fa3f089-1920.webp 1920w",
+    "width": 1920,
+    "height": 2560
+  },
+  "./img/vlas/1.jpg": {
+    "src": "/img/94afc7db78a658630970-480.webp",
+    "full": "/img/94afc7db78a658630970-1477.webp",
+    "srcSet": "/img/94afc7db78a658630970-480.webp 480w, /img/94afc7db78a658630970-960.webp 960w, /img/94afc7db78a658630970-1477.webp 1477w",
+    "width": 1477,
+    "height": 657
+  },
+  "./img/vlas/2.jpg": {
+    "src": "/img/be048eb7d4ef2a9c9f37-480.webp",
+    "full": "/img/be048eb7d4ef2a9c9f37-682.webp",
+    "srcSet": "/img/be048eb7d4ef2a9c9f37-480.webp 480w, /img/be048eb7d4ef2a9c9f37-682.webp 682w",
+    "width": 682,
+    "height": 540
+  },
+  "./img/vlas/3.jpg": {
+    "src": "/img/153aec8eebd29a6d2208-480.webp",
+    "full": "/img/153aec8eebd29a6d2208-1031.webp",
+    "srcSet": "/img/153aec8eebd29a6d2208-480.webp 480w, /img/153aec8eebd29a6d2208-960.webp 960w, /img/153aec8eebd29a6d2208-1031.webp 1031w",
+    "width": 1031,
+    "height": 610
+  },
+  "./img/vlas/4.jpg": {
+    "src": "/img/cdd35a9573f3581d3f0f-480.webp",
+    "full": "/img/cdd35a9573f3581d3f0f-925.webp",
+    "srcSet": "/img/cdd35a9573f3581d3f0f-480.webp 480w, /img/cdd35a9573f3581d3f0f-925.webp 925w",
+    "width": 925,
+    "height": 596
+  },
+  "./img/white/1.jpg": {
+    "src": "/img/79d57fead7f0b6c48ce1-480.webp",
+    "full": "/img/79d57fead7f0b6c48ce1-1036.webp",
+    "srcSet": "/img/79d57fead7f0b6c48ce1-480.webp 480w, /img/79d57fead7f0b6c48ce1-960.webp 960w, /img/79d57fead7f0b6c48ce1-1036.webp 1036w",
+    "width": 1036,
+    "height": 608
+  },
+  "./img/white/10.jpg": {
+    "src": "/img/5a4c7febe6a79483a157-480.webp",
+    "full": "/img/5a4c7febe6a79483a157-1036.webp",
+    "srcSet": "/img/5a4c7febe6a79483a157-480.webp 480w, /img/5a4c7febe6a79483a157-960.webp 960w, /img/5a4c7febe6a79483a157-1036.webp 1036w",
+    "width": 1036,
+    "height": 608
+  },
+  "./img/white/11.jpg": {
+    "src": "/img/0b1515f6825f0b79b161-480.webp",
+    "full": "/img/0b1515f6825f0b79b161-1036.webp",
+    "srcSet": "/img/0b1515f6825f0b79b161-480.webp 480w, /img/0b1515f6825f0b79b161-960.webp 960w, /img/0b1515f6825f0b79b161-1036.webp 1036w",
+    "width": 1036,
+    "height": 608
+  },
+  "./img/white/12.jpg": {
+    "src": "/img/94feb110e2fd9ec8a27c-480.webp",
+    "full": "/img/94feb110e2fd9ec8a27c-568.webp",
+    "srcSet": "/img/94feb110e2fd9ec8a27c-480.webp 480w, /img/94feb110e2fd9ec8a27c-568.webp 568w",
+    "width": 568,
+    "height": 611
+  },
+  "./img/white/13.jpg": {
+    "src": "/img/431890887e420bbeaadf-480.webp",
+    "full": "/img/431890887e420bbeaadf-568.webp",
+    "srcSet": "/img/431890887e420bbeaadf-480.webp 480w, /img/431890887e420bbeaadf-568.webp 568w",
+    "width": 568,
+    "height": 611
+  },
+  "./img/white/2.jpg": {
+    "src": "/img/62ec364cf6a389254815-480.webp",
+    "full": "/img/62ec364cf6a389254815-1036.webp",
+    "srcSet": "/img/62ec364cf6a389254815-480.webp 480w, /img/62ec364cf6a389254815-960.webp 960w, /img/62ec364cf6a389254815-1036.webp 1036w",
+    "width": 1036,
+    "height": 608
+  },
+  "./img/white/3.jpg": {
+    "src": "/img/9741d4e6b3b13e72ce8c-480.webp",
+    "full": "/img/9741d4e6b3b13e72ce8c-1036.webp",
+    "srcSet": "/img/9741d4e6b3b13e72ce8c-480.webp 480w, /img/9741d4e6b3b13e72ce8c-960.webp 960w, /img/9741d4e6b3b13e72ce8c-1036.webp 1036w",
+    "width": 1036,
+    "height": 608
+  },
+  "./img/white/4.jpg": {
+    "src": "/img/96e0b8204f9cf4f85d4d-480.webp",
+    "full": "/img/96e0b8204f9cf4f85d4d-1036.webp",
+    "srcSet": "/img/96e0b8204f9cf4f85d4d-480.webp 480w, /img/96e0b8204f9cf4f85d4d-960.webp 960w, /img/96e0b8204f9cf4f85d4d-1036.webp 1036w",
+    "width": 1036,
+    "height": 608
+  },
+  "./img/white/5.jpg": {
+    "src": "/img/994ff600b28ea6600f9a-480.webp",
+    "full": "/img/994ff600b28ea6600f9a-1036.webp",
+    "srcSet": "/img/994ff600b28ea6600f9a-480.webp 480w, /img/994ff600b28ea6600f9a-960.webp 960w, /img/994ff600b28ea6600f9a-1036.webp 1036w",
+    "width": 1036,
+    "height": 608
+  },
+  "./img/white/6.jpg": {
+    "src": "/img/9f4ade215a97136fdfe6-480.webp",
+    "full": "/img/9f4ade215a97136fdfe6-1036.webp",
+    "srcSet": "/img/9f4ade215a97136fdfe6-480.webp 480w, /img/9f4ade215a97136fdfe6-960.webp 960w, /img/9f4ade215a97136fdfe6-1036.webp 1036w",
+    "width": 1036,
+    "height": 608
+  },
+  "./img/white/7.jpg": {
+    "src": "/img/f5599a8814e4f20cb817-480.webp",
+    "full": "/img/f5599a8814e4f20cb817-1036.webp",
+    "srcSet": "/img/f5599a8814e4f20cb817-480.webp 480w, /img/f5599a8814e4f20cb817-960.webp 960w, /img/f5599a8814e4f20cb817-1036.webp 1036w",
+    "width": 1036,
+    "height": 608
+  },
+  "./img/white/8.jpg": {
+    "src": "/img/4a9fffd321869431de4a-480.webp",
+    "full": "/img/4a9fffd321869431de4a-1036.webp",
+    "srcSet": "/img/4a9fffd321869431de4a-480.webp 480w, /img/4a9fffd321869431de4a-960.webp 960w, /img/4a9fffd321869431de4a-1036.webp 1036w",
+    "width": 1036,
+    "height": 608
+  },
+  "./img/white/9.jpg": {
+    "src": "/img/e48ca1e6af8e4fb33718-480.webp",
+    "full": "/img/e48ca1e6af8e4fb33718-1036.webp",
+    "srcSet": "/img/e48ca1e6af8e4fb33718-480.webp 480w, /img/e48ca1e6af8e4fb33718-960.webp 960w, /img/e48ca1e6af8e4fb33718-1036.webp 1036w",
+    "width": 1036,
+    "height": 608
+  },
+  "./img/wienerNeustadt/1.jpg": {
+    "src": "/img/57e586a1375e018405fb-480.webp",
+    "full": "/img/57e586a1375e018405fb-1025.webp",
+    "srcSet": "/img/57e586a1375e018405fb-480.webp 480w, /img/57e586a1375e018405fb-960.webp 960w, /img/57e586a1375e018405fb-1025.webp 1025w",
+    "width": 1025,
+    "height": 534
+  },
+  "./img/wienerNeustadt/10.jpg": {
+    "src": "/img/76043b31c20a5230e582-480.webp",
+    "full": "/img/76043b31c20a5230e582-1920.webp",
+    "srcSet": "/img/76043b31c20a5230e582-480.webp 480w, /img/76043b31c20a5230e582-960.webp 960w, /img/76043b31c20a5230e582-1920.webp 1920w",
+    "width": 1920,
+    "height": 1197
+  },
+  "./img/wienerNeustadt/2.jpg": {
+    "src": "/img/56256ab10fb41d603548-480.webp",
+    "full": "/img/56256ab10fb41d603548-1025.webp",
+    "srcSet": "/img/56256ab10fb41d603548-480.webp 480w, /img/56256ab10fb41d603548-960.webp 960w, /img/56256ab10fb41d603548-1025.webp 1025w",
+    "width": 1025,
+    "height": 534
+  },
+  "./img/wienerNeustadt/3.jpg": {
+    "src": "/img/e387d6851fd37beb715f-480.webp",
+    "full": "/img/e387d6851fd37beb715f-1920.webp",
+    "srcSet": "/img/e387d6851fd37beb715f-480.webp 480w, /img/e387d6851fd37beb715f-960.webp 960w, /img/e387d6851fd37beb715f-1920.webp 1920w",
+    "width": 1920,
+    "height": 1197
+  },
+  "./img/wienerNeustadt/4.jpg": {
+    "src": "/img/53bda78141e0a9b5de8d-480.webp",
+    "full": "/img/53bda78141e0a9b5de8d-1920.webp",
+    "srcSet": "/img/53bda78141e0a9b5de8d-480.webp 480w, /img/53bda78141e0a9b5de8d-960.webp 960w, /img/53bda78141e0a9b5de8d-1920.webp 1920w",
+    "width": 1920,
+    "height": 1197
+  },
+  "./img/wienerNeustadt/5.jpg": {
+    "src": "/img/ed045cf65b2a2e59137a-480.webp",
+    "full": "/img/ed045cf65b2a2e59137a-1920.webp",
+    "srcSet": "/img/ed045cf65b2a2e59137a-480.webp 480w, /img/ed045cf65b2a2e59137a-960.webp 960w, /img/ed045cf65b2a2e59137a-1920.webp 1920w",
+    "width": 1920,
+    "height": 1197
+  },
+  "./img/wienerNeustadt/6.jpg": {
+    "src": "/img/a58c3e4bcf6dcda27981-480.webp",
+    "full": "/img/a58c3e4bcf6dcda27981-1920.webp",
+    "srcSet": "/img/a58c3e4bcf6dcda27981-480.webp 480w, /img/a58c3e4bcf6dcda27981-960.webp 960w, /img/a58c3e4bcf6dcda27981-1920.webp 1920w",
+    "width": 1920,
+    "height": 1197
+  },
+  "./img/wienerNeustadt/7.jpg": {
+    "src": "/img/a6b6ef45ea82b2ede074-480.webp",
+    "full": "/img/a6b6ef45ea82b2ede074-1920.webp",
+    "srcSet": "/img/a6b6ef45ea82b2ede074-480.webp 480w, /img/a6b6ef45ea82b2ede074-960.webp 960w, /img/a6b6ef45ea82b2ede074-1920.webp 1920w",
+    "width": 1920,
+    "height": 1197
+  },
+  "./img/wienerNeustadt/8.jpg": {
+    "src": "/img/174d797773c83afe1567-480.webp",
+    "full": "/img/174d797773c83afe1567-1920.webp",
+    "srcSet": "/img/174d797773c83afe1567-480.webp 480w, /img/174d797773c83afe1567-960.webp 960w, /img/174d797773c83afe1567-1920.webp 1920w",
+    "width": 1920,
+    "height": 1308
+  },
+  "./img/wienerNeustadt/9.jpg": {
+    "src": "/img/a85e7dea4587977533c0-480.webp",
+    "full": "/img/a85e7dea4587977533c0-1920.webp",
+    "srcSet": "/img/a85e7dea4587977533c0-480.webp 480w, /img/a85e7dea4587977533c0-960.webp 960w, /img/a85e7dea4587977533c0-1920.webp 1920w",
+    "width": 1920,
+    "height": 1197
+  },
+  "./img/wienerNeustadt1/1.jpg": {
+    "src": "/img/827a5f752637cf3119b5-480.webp",
+    "full": "/img/827a5f752637cf3119b5-1440.webp",
+    "srcSet": "/img/827a5f752637cf3119b5-480.webp 480w, /img/827a5f752637cf3119b5-960.webp 960w, /img/827a5f752637cf3119b5-1440.webp 1440w",
+    "width": 1440,
+    "height": 1080
+  },
+  "./img/wienerNeustadt1/2.jpg": {
+    "src": "/img/14f3090ef7552e182087-480.webp",
+    "full": "/img/14f3090ef7552e182087-1436.webp",
+    "srcSet": "/img/14f3090ef7552e182087-480.webp 480w, /img/14f3090ef7552e182087-960.webp 960w, /img/14f3090ef7552e182087-1436.webp 1436w",
+    "width": 1436,
+    "height": 1080
+  },
+  "./img/wienerNeustadt2/1.jpg": {
+    "src": "/img/3cb42f23dfb338207c34-480.webp",
+    "full": "/img/3cb42f23dfb338207c34-1000.webp",
+    "srcSet": "/img/3cb42f23dfb338207c34-480.webp 480w, /img/3cb42f23dfb338207c34-960.webp 960w, /img/3cb42f23dfb338207c34-1000.webp 1000w",
+    "width": 1000,
+    "height": 470
+  },
+  "./img/wienerNeustadt2/2.jpg": {
+    "src": "/img/560e3d368ba3f085a678-480.webp",
+    "full": "/img/560e3d368ba3f085a678-1000.webp",
+    "srcSet": "/img/560e3d368ba3f085a678-480.webp 480w, /img/560e3d368ba3f085a678-960.webp 960w, /img/560e3d368ba3f085a678-1000.webp 1000w",
+    "width": 1000,
+    "height": 470
+  },
+  "./img/wienerNeustadt2/3.jpg": {
+    "src": "/img/e732108b41b99a3f4651-480.webp",
+    "full": "/img/e732108b41b99a3f4651-1000.webp",
+    "srcSet": "/img/e732108b41b99a3f4651-480.webp 480w, /img/e732108b41b99a3f4651-960.webp 960w, /img/e732108b41b99a3f4651-1000.webp 1000w",
+    "width": 1000,
+    "height": 470
+  },
+  "./img/wienerNeustadt3/1.jpg": {
+    "src": "/img/f3066b8ceb73e45ba690-480.webp",
+    "full": "/img/f3066b8ceb73e45ba690-1420.webp",
+    "srcSet": "/img/f3066b8ceb73e45ba690-480.webp 480w, /img/f3066b8ceb73e45ba690-960.webp 960w, /img/f3066b8ceb73e45ba690-1420.webp 1420w",
+    "width": 1420,
+    "height": 604
+  },
+  "./img/wienerNeustadt3/2.jpg": {
+    "src": "/img/cfb76c3752373956a109-480.webp",
+    "full": "/img/cfb76c3752373956a109-1144.webp",
+    "srcSet": "/img/cfb76c3752373956a109-480.webp 480w, /img/cfb76c3752373956a109-960.webp 960w, /img/cfb76c3752373956a109-1144.webp 1144w",
+    "width": 1144,
+    "height": 612
+  },
+  "./img/wienerNeustadt3/3.jpg": {
+    "src": "/img/0cf78e5d56cd4d24faba-480.webp",
+    "full": "/img/0cf78e5d56cd4d24faba-1144.webp",
+    "srcSet": "/img/0cf78e5d56cd4d24faba-480.webp 480w, /img/0cf78e5d56cd4d24faba-960.webp 960w, /img/0cf78e5d56cd4d24faba-1144.webp 1144w",
+    "width": 1144,
+    "height": 612
+  },
+  "./img/wienerNeustadt3/4.jpg": {
+    "src": "/img/17846b7fc0bd62904c90-480.webp",
+    "full": "/img/17846b7fc0bd62904c90-1144.webp",
+    "srcSet": "/img/17846b7fc0bd62904c90-480.webp 480w, /img/17846b7fc0bd62904c90-960.webp 960w, /img/17846b7fc0bd62904c90-1144.webp 1144w",
+    "width": 1144,
+    "height": 612
+  },
+  "./img/wienerNeustadt3/5.jpg": {
+    "src": "/img/b8d9897527f994216c6b-480.webp",
+    "full": "/img/b8d9897527f994216c6b-1025.webp",
+    "srcSet": "/img/b8d9897527f994216c6b-480.webp 480w, /img/b8d9897527f994216c6b-960.webp 960w, /img/b8d9897527f994216c6b-1025.webp 1025w",
+    "width": 1025,
+    "height": 680
+  },
+  "./img/wienerNeustadt3/6.jpg": {
+    "src": "/img/4a03d1543757944e7e02-480.webp",
+    "full": "/img/4a03d1543757944e7e02-1232.webp",
+    "srcSet": "/img/4a03d1543757944e7e02-480.webp 480w, /img/4a03d1543757944e7e02-960.webp 960w, /img/4a03d1543757944e7e02-1232.webp 1232w",
+    "width": 1232,
+    "height": 664
+  },
+  "./img/zavedenia/1.jpg": {
+    "src": "/img/ac2281435d21f9526688-480.webp",
+    "full": "/img/ac2281435d21f9526688-1507.webp",
+    "srcSet": "/img/ac2281435d21f9526688-480.webp 480w, /img/ac2281435d21f9526688-960.webp 960w, /img/ac2281435d21f9526688-1507.webp 1507w",
+    "width": 1507,
+    "height": 827
+  },
+  "./img/zavedenia/10.jpg": {
+    "src": "/img/46188887087d59672c27-480.webp",
+    "full": "/img/46188887087d59672c27-1920.webp",
+    "srcSet": "/img/46188887087d59672c27-480.webp 480w, /img/46188887087d59672c27-960.webp 960w, /img/46188887087d59672c27-1920.webp 1920w",
+    "width": 1920,
+    "height": 1078
+  },
+  "./img/zavedenia/11.jpg": {
+    "src": "/img/a1622cef6ce300eb115d-480.webp",
+    "full": "/img/a1622cef6ce300eb115d-1920.webp",
+    "srcSet": "/img/a1622cef6ce300eb115d-480.webp 480w, /img/a1622cef6ce300eb115d-960.webp 960w, /img/a1622cef6ce300eb115d-1920.webp 1920w",
+    "width": 1920,
+    "height": 1078
+  },
+  "./img/zavedenia/12.jpg": {
+    "src": "/img/545638cab32b3703f2ab-480.webp",
+    "full": "/img/545638cab32b3703f2ab-600.webp",
+    "srcSet": "/img/545638cab32b3703f2ab-480.webp 480w, /img/545638cab32b3703f2ab-600.webp 600w",
+    "width": 600,
+    "height": 430
+  },
+  "./img/zavedenia/13.jpg": {
+    "src": "/img/f3b526e5656e18e9a7d1-480.webp",
+    "full": "/img/f3b526e5656e18e9a7d1-1600.webp",
+    "srcSet": "/img/f3b526e5656e18e9a7d1-480.webp 480w, /img/f3b526e5656e18e9a7d1-960.webp 960w, /img/f3b526e5656e18e9a7d1-1600.webp 1600w",
+    "width": 1600,
+    "height": 1067
+  },
+  "./img/zavedenia/2.jpg": {
+    "src": "/img/1651d718d16a7c8fd6cc-480.webp",
+    "full": "/img/1651d718d16a7c8fd6cc-1024.webp",
+    "srcSet": "/img/1651d718d16a7c8fd6cc-480.webp 480w, /img/1651d718d16a7c8fd6cc-960.webp 960w, /img/1651d718d16a7c8fd6cc-1024.webp 1024w",
+    "width": 1024,
+    "height": 683
+  },
+  "./img/zavedenia/3.jpg": {
+    "src": "/img/8c66b40f21155c006283-480.webp",
+    "full": "/img/8c66b40f21155c006283-1920.webp",
+    "srcSet": "/img/8c66b40f21155c006283-480.webp 480w, /img/8c66b40f21155c006283-960.webp 960w, /img/8c66b40f21155c006283-1920.webp 1920w",
+    "width": 1920,
+    "height": 1078
+  },
+  "./img/zavedenia/4.jpg": {
+    "src": "/img/02a7bc535fca0bf8188c-480.webp",
+    "full": "/img/02a7bc535fca0bf8188c-1024.webp",
+    "srcSet": "/img/02a7bc535fca0bf8188c-480.webp 480w, /img/02a7bc535fca0bf8188c-960.webp 960w, /img/02a7bc535fca0bf8188c-1024.webp 1024w",
+    "width": 1024,
+    "height": 683
+  },
+  "./img/zavedenia/5.jpg": {
+    "src": "/img/7f91ddf7bd75d7642671-480.webp",
+    "full": "/img/7f91ddf7bd75d7642671-1920.webp",
+    "srcSet": "/img/7f91ddf7bd75d7642671-480.webp 480w, /img/7f91ddf7bd75d7642671-960.webp 960w, /img/7f91ddf7bd75d7642671-1920.webp 1920w",
+    "width": 1920,
+    "height": 696
+  },
+  "./img/zavedenia/6.jpg": {
+    "src": "/img/ec4dd823bad253736346-480.webp",
+    "full": "/img/ec4dd823bad253736346-1920.webp",
+    "srcSet": "/img/ec4dd823bad253736346-480.webp 480w, /img/ec4dd823bad253736346-960.webp 960w, /img/ec4dd823bad253736346-1920.webp 1920w",
+    "width": 1920,
+    "height": 1078
+  },
+  "./img/zavedenia/7.jpg": {
+    "src": "/img/0a22434038cc46d41369-480.webp",
+    "full": "/img/0a22434038cc46d41369-1920.webp",
+    "srcSet": "/img/0a22434038cc46d41369-480.webp 480w, /img/0a22434038cc46d41369-960.webp 960w, /img/0a22434038cc46d41369-1920.webp 1920w",
+    "width": 1920,
+    "height": 1078
+  },
+  "./img/zavedenia/8.jpg": {
+    "src": "/img/0349a3544214adae9e64-480.webp",
+    "full": "/img/0349a3544214adae9e64-1920.webp",
+    "srcSet": "/img/0349a3544214adae9e64-480.webp 480w, /img/0349a3544214adae9e64-960.webp 960w, /img/0349a3544214adae9e64-1920.webp 1920w",
+    "width": 1920,
+    "height": 1078
+  },
+  "./img/zavedenia/9.jpg": {
+    "src": "/img/41b4461f87fa1818da3c-480.webp",
+    "full": "/img/41b4461f87fa1818da3c-1920.webp",
+    "srcSet": "/img/41b4461f87fa1818da3c-480.webp 480w, /img/41b4461f87fa1818da3c-960.webp 960w, /img/41b4461f87fa1818da3c-1920.webp 1920w",
+    "width": 1920,
+    "height": 1078
+  },
+  "./img/Zlatovryh1/1.jpg": {
+    "src": "/img/4576c9068ab90ae83abf-480.webp",
+    "full": "/img/4576c9068ab90ae83abf-1920.webp",
+    "srcSet": "/img/4576c9068ab90ae83abf-480.webp 480w, /img/4576c9068ab90ae83abf-960.webp 960w, /img/4576c9068ab90ae83abf-1920.webp 1920w",
+    "width": 1920,
+    "height": 1078
+  },
+  "./img/Zlatovryh1/2.jpg": {
+    "src": "/img/40f21a5cef936192b228-480.webp",
+    "full": "/img/40f21a5cef936192b228-1832.webp",
+    "srcSet": "/img/40f21a5cef936192b228-480.webp 480w, /img/40f21a5cef936192b228-960.webp 960w, /img/40f21a5cef936192b228-1832.webp 1832w",
+    "width": 1832,
+    "height": 3264
+  },
+  "./img/Zlatovryh1/3.jpg": {
+    "src": "/img/d97266b308db9031dc88-480.webp",
+    "full": "/img/d97266b308db9031dc88-1832.webp",
+    "srcSet": "/img/d97266b308db9031dc88-480.webp 480w, /img/d97266b308db9031dc88-960.webp 960w, /img/d97266b308db9031dc88-1832.webp 1832w",
+    "width": 1832,
+    "height": 3264
+  },
+  "./img/Zlatovryh1/4.jpg": {
+    "src": "/img/eee21b9cc9a9bb7d6e10-480.webp",
+    "full": "/img/eee21b9cc9a9bb7d6e10-1832.webp",
+    "srcSet": "/img/eee21b9cc9a9bb7d6e10-480.webp 480w, /img/eee21b9cc9a9bb7d6e10-960.webp 960w, /img/eee21b9cc9a9bb7d6e10-1832.webp 1832w",
+    "width": 1832,
+    "height": 3264
+  },
+  "./img/Zlatovryh1/5.jpg": {
+    "src": "/img/25cb34de4a1645e25620-480.webp",
+    "full": "/img/25cb34de4a1645e25620-1920.webp",
+    "srcSet": "/img/25cb34de4a1645e25620-480.webp 480w, /img/25cb34de4a1645e25620-960.webp 960w, /img/25cb34de4a1645e25620-1920.webp 1920w",
+    "width": 1920,
+    "height": 1078
+  },
+  "./img/Zlatovryh1/6.jpg": {
+    "src": "/img/a1f1571ca164d32e0937-480.webp",
+    "full": "/img/a1f1571ca164d32e0937-1920.webp",
+    "srcSet": "/img/a1f1571ca164d32e0937-480.webp 480w, /img/a1f1571ca164d32e0937-960.webp 960w, /img/a1f1571ca164d32e0937-1920.webp 1920w",
+    "width": 1920,
+    "height": 1078
+  },
+  "./img/Zlatovryh1/7.jpg": {
+    "src": "/img/a016f064e7d87f644ff2-480.webp",
+    "full": "/img/a016f064e7d87f644ff2-1920.webp",
+    "srcSet": "/img/a016f064e7d87f644ff2-480.webp 480w, /img/a016f064e7d87f644ff2-960.webp 960w, /img/a016f064e7d87f644ff2-1920.webp 1920w",
+    "width": 1920,
+    "height": 1078
+  },
+  "./img/Zlatovryh2/1.jpg": {
+    "src": "/img/cf17aaa35a6b6acfb1ed-480.webp",
+    "full": "/img/cf17aaa35a6b6acfb1ed-1920.webp",
+    "srcSet": "/img/cf17aaa35a6b6acfb1ed-480.webp 480w, /img/cf17aaa35a6b6acfb1ed-960.webp 960w, /img/cf17aaa35a6b6acfb1ed-1920.webp 1920w",
+    "width": 1920,
+    "height": 1078
+  },
+  "./img/Zlatovryh2/10.jpg": {
+    "src": "/img/db8935258c9e3018d7c1-480.webp",
+    "full": "/img/db8935258c9e3018d7c1-1832.webp",
+    "srcSet": "/img/db8935258c9e3018d7c1-480.webp 480w, /img/db8935258c9e3018d7c1-960.webp 960w, /img/db8935258c9e3018d7c1-1832.webp 1832w",
+    "width": 1832,
+    "height": 3264
+  },
+  "./img/Zlatovryh2/2.jpg": {
+    "src": "/img/11ff1a21b5d69761e264-480.webp",
+    "full": "/img/11ff1a21b5d69761e264-1920.webp",
+    "srcSet": "/img/11ff1a21b5d69761e264-480.webp 480w, /img/11ff1a21b5d69761e264-960.webp 960w, /img/11ff1a21b5d69761e264-1920.webp 1920w",
+    "width": 1920,
+    "height": 1078
+  },
+  "./img/Zlatovryh2/3.jpg": {
+    "src": "/img/481e10792de0d50123cd-480.webp",
+    "full": "/img/481e10792de0d50123cd-1920.webp",
+    "srcSet": "/img/481e10792de0d50123cd-480.webp 480w, /img/481e10792de0d50123cd-960.webp 960w, /img/481e10792de0d50123cd-1920.webp 1920w",
+    "width": 1920,
+    "height": 1078
+  },
+  "./img/Zlatovryh2/4.jpg": {
+    "src": "/img/c55f60b759ac0afabb1e-480.webp",
+    "full": "/img/c55f60b759ac0afabb1e-1920.webp",
+    "srcSet": "/img/c55f60b759ac0afabb1e-480.webp 480w, /img/c55f60b759ac0afabb1e-960.webp 960w, /img/c55f60b759ac0afabb1e-1920.webp 1920w",
+    "width": 1920,
+    "height": 1078
+  },
+  "./img/Zlatovryh2/5.jpg": {
+    "src": "/img/746c509e84ca1e455d76-480.webp",
+    "full": "/img/746c509e84ca1e455d76-1832.webp",
+    "srcSet": "/img/746c509e84ca1e455d76-480.webp 480w, /img/746c509e84ca1e455d76-960.webp 960w, /img/746c509e84ca1e455d76-1832.webp 1832w",
+    "width": 1832,
+    "height": 3264
+  },
+  "./img/Zlatovryh2/6.jpg": {
+    "src": "/img/6c6f3320221333b1d3f1-480.webp",
+    "full": "/img/6c6f3320221333b1d3f1-1832.webp",
+    "srcSet": "/img/6c6f3320221333b1d3f1-480.webp 480w, /img/6c6f3320221333b1d3f1-960.webp 960w, /img/6c6f3320221333b1d3f1-1832.webp 1832w",
+    "width": 1832,
+    "height": 3264
+  },
+  "./img/Zlatovryh2/7.jpg": {
+    "src": "/img/fb7e05662c0ccc8f6fa8-480.webp",
+    "full": "/img/fb7e05662c0ccc8f6fa8-1832.webp",
+    "srcSet": "/img/fb7e05662c0ccc8f6fa8-480.webp 480w, /img/fb7e05662c0ccc8f6fa8-960.webp 960w, /img/fb7e05662c0ccc8f6fa8-1832.webp 1832w",
+    "width": 1832,
+    "height": 3264
+  },
+  "./img/Zlatovryh2/8.jpg": {
+    "src": "/img/be139ebb12e2ee317df4-480.webp",
+    "full": "/img/be139ebb12e2ee317df4-1832.webp",
+    "srcSet": "/img/be139ebb12e2ee317df4-480.webp 480w, /img/be139ebb12e2ee317df4-960.webp 960w, /img/be139ebb12e2ee317df4-1832.webp 1832w",
+    "width": 1832,
+    "height": 3264
+  },
+  "./img/Zlatovryh2/9.jpg": {
+    "src": "/img/7be1f2496ae76719584c-480.webp",
+    "full": "/img/7be1f2496ae76719584c-1832.webp",
+    "srcSet": "/img/7be1f2496ae76719584c-480.webp 480w, /img/7be1f2496ae76719584c-960.webp 960w, /img/7be1f2496ae76719584c-1832.webp 1832w",
+    "width": 1832,
+    "height": 3264
+  }
+}
