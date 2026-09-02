@@ -52,13 +52,36 @@ test("navigation, deep links, and image modal work", async ({ page }) => {
 });
 
 test("contact links are semantic and safe", async ({ page }) => {
-  await page.goto("/contact");
+  const response = await page.goto("/contact");
+  expect(response?.headers()["content-security-policy"]).toContain(
+    "script-src 'self' 'wasm-unsafe-eval'",
+  );
   await expect(
     page.getByRole("link", { name: /globalarh@abv.bg/ }),
   ).toHaveAttribute("href", "mailto:globalarh@abv.bg");
   await expect(
     page.getByRole("link", { name: /diana-radeva/ }),
   ).toHaveAttribute("rel", /noopener/);
+});
+
+test("@desktop-only contact model loads under the production CSP", async ({
+  page,
+}) => {
+  const pageErrors: string[] = [];
+  page.on("pageerror", (error) => pageErrors.push(error.message));
+
+  const modelResponse = page.waitForResponse((response) =>
+    response.url().endsWith("/model.glb"),
+  );
+  await page.goto("/contact");
+
+  await expect(page.locator('.Contact[data-model-loaded="true"]')).toBeVisible({
+    timeout: 15_000,
+  });
+  expect((await modelResponse).ok()).toBe(true);
+  expect(
+    pageErrors.filter((message) => /model\.glb|WebAssembly/i.test(message)),
+  ).toEqual([]);
 });
 
 test("@desktop-only contact details are centered in the footer band", async ({

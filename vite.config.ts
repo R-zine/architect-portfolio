@@ -1,12 +1,29 @@
 import { defineConfig } from "vitest/config";
 import react from "@vitejs/plugin-react";
 
+const contentSecurityPolicy = [
+  "default-src 'self'",
+  "img-src 'self' data:",
+  "style-src 'self' 'unsafe-inline'",
+  "script-src 'self' 'wasm-unsafe-eval'",
+  "connect-src 'self'",
+  "font-src 'self'",
+  "object-src 'none'",
+  "base-uri 'self'",
+  "frame-ancestors 'none'",
+].join("; ");
+
 export default defineConfig({
   plugins: [react()],
   build: {
     chunkSizeWarningLimit: 1100,
     target: "es2022",
     sourcemap: true,
+  },
+  preview: {
+    headers: {
+      "Content-Security-Policy": contentSecurityPolicy,
+    },
   },
   test: {
     environment: "jsdom",

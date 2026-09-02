@@ -1,12 +1,13 @@
 import { useGLTF } from "@react-three/drei";
-import { useMemo } from "react";
+import { useEffect, useMemo } from "react";
 import { Mesh } from "three";
 
 interface ModelProps {
   scale?: number;
+  onLoad?: () => void;
 }
 
-export function Model(props: ModelProps) {
+export function Model({ onLoad, ...props }: ModelProps) {
   const { scene } = useGLTF("/model.glb");
   const model = useMemo(() => {
     const clone = scene.clone(true);
@@ -18,6 +19,10 @@ export function Model(props: ModelProps) {
     });
     return clone;
   }, [scene]);
+
+  useEffect(() => {
+    onLoad?.();
+  }, [onLoad]);
 
   return (
     <primitive {...props} object={model} rotation={[-Math.PI / 2, 0, 0]} />

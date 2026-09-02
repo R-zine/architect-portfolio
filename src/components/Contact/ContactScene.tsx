@@ -1,6 +1,6 @@
 import { OrbitControls, Stage } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
-import { Component, Suspense } from "react";
+import { Component, Suspense, useCallback, useState } from "react";
 import type { ReactNode } from "react";
 
 import { Model } from "./Model";
@@ -32,12 +32,16 @@ class SceneErrorBoundary extends Component<
 }
 
 function ContactScene() {
+  const [modelLoaded, setModelLoaded] = useState(false);
+  const handleModelLoad = useCallback(() => setModelLoaded(true), []);
+
   return (
     <SceneErrorBoundary>
       <div
         className="Contact"
         role="img"
         aria-label="Interactive 3D furniture model"
+        data-model-loaded={modelLoaded}
       >
         <Canvas shadows camera={{ fov: 50 }}>
           <Suspense fallback={null}>
@@ -48,7 +52,7 @@ function ContactScene() {
               environment={null}
               shadows="contact"
             >
-              <Model scale={0.002} />
+              <Model scale={0.002} onLoad={handleModelLoad} />
               <OrbitControls
                 makeDefault
                 autoRotate

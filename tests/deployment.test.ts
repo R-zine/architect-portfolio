@@ -20,6 +20,8 @@ describe("production font delivery", () => {
       'url("/assets/fonts/roboto-condensed-cyrillic.woff2")',
     );
     expect(headers).toContain("font-src 'self'");
+    expect(headers).toContain("script-src 'self' 'wasm-unsafe-eval'");
+    expect(headers).not.toContain("script-src 'self' 'unsafe-eval'");
     expect(
       existsSync(
         resolve(
