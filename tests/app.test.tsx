@@ -4,6 +4,7 @@ import { MemoryRouter, useLocation } from "react-router";
 import { describe, expect, it, vi } from "vitest";
 
 import App from "../src/App";
+import { matchMediaMock } from "./setup";
 
 function LocationProbe() {
   const location = useLocation();
@@ -64,7 +65,7 @@ describe("portfolio application", () => {
     const imageButtons = await screen.findAllByRole("button", {
       name: "Open portfolio image",
     });
-    await user.click(imageButtons[0]);
+    await user.click(imageButtons[0]!);
     expect(screen.getByRole("dialog")).toBeVisible();
     expect(screen.getByRole("button", { name: "Back" })).toHaveFocus();
 
@@ -97,10 +98,10 @@ describe("portfolio application", () => {
   });
 
   it("reveals contact actions progressively when motion is enabled", async () => {
-    const defaultMatchMedia = window.matchMedia.getMockImplementation();
-    let unmount;
+    const defaultMatchMedia = matchMediaMock.getMockImplementation();
+    let unmount: (() => void) | undefined;
 
-    window.matchMedia.mockImplementation((query) => ({
+    matchMediaMock.mockImplementation((query: string): MediaQueryList => ({
       matches: query.includes("max-width: 1280px"),
       media: query,
       onchange: null,
@@ -108,7 +109,7 @@ describe("portfolio application", () => {
       removeEventListener: vi.fn(),
       addListener: vi.fn(),
       removeListener: vi.fn(),
-      dispatchEvent: vi.fn(),
+      dispatchEvent: vi.fn(() => true),
     }));
 
     try {
@@ -123,7 +124,9 @@ describe("portfolio application", () => {
       );
     } finally {
       unmount?.();
-      window.matchMedia.mockImplementation(defaultMatchMedia);
+      if (defaultMatchMedia) {
+        matchMediaMock.mockImplementation(defaultMatchMedia);
+      }
     }
   });
 });

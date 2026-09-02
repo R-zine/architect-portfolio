@@ -1,7 +1,8 @@
 import AxeBuilder from "@axe-core/playwright";
 import { expect, test } from "@playwright/test";
+import type { Locator, Page } from "@playwright/test";
 
-async function waitForSettledPage(page) {
+async function waitForSettledPage(page: Page): Promise<void> {
   await page.locator("main").first().waitFor({ state: "attached" });
   await page.waitForFunction(() => {
     let element = document.querySelector("main");
@@ -68,12 +69,12 @@ test("@desktop-only contact details are centered in the footer band", async ({
   await page.locator(".icons").waitFor({ state: "attached" });
 
   const geometry = await page.evaluate(() => {
-    const details = document.querySelector(".icons").getBoundingClientRect();
+    const details = document.querySelector(".icons")!.getBoundingClientRect();
     const firstLink = document
-      .querySelector(".icon-cont a")
+      .querySelector(".icon-cont a")!
       .getBoundingClientRect();
     const footer = document
-      .querySelector(".footer-banner")
+      .querySelector(".footer-banner")!
       .getBoundingClientRect();
 
     return {
@@ -97,13 +98,13 @@ test("@desktop-only menu line traces and retracts as one continuous path", async
   await page.emulateMedia({ reducedMotion: "no-preference" });
   await page.goto("/");
 
-  const lineWidth = (className) =>
+  const lineWidth = (className: string): Promise<number> =>
     page
       .locator(className)
       .evaluate((element) =>
         Number.parseFloat(getComputedStyle(element).width),
       );
-  const lineHeight = (className) =>
+  const lineHeight = (className: string): Promise<number> =>
     page
       .locator(className)
       .evaluate((element) =>
@@ -238,7 +239,7 @@ test("@desktop-only gallery keeps the menu-open frame", async ({ page }) => {
   const firstSegment = await page.locator(".l3").evaluate((line) => {
     const bounds = line.getBoundingClientRect();
     const buttonBounds = document
-      .querySelector(".menu--main--btn")
+      .querySelector(".menu--main--btn")!
       .getBoundingClientRect();
     return {
       buttonLeft: buttonBounds.left,
@@ -267,7 +268,7 @@ test("@desktop-only gallery keeps the menu-open frame", async ({ page }) => {
   );
   const secondSegment = await page.locator(".l4").evaluate((line) => {
     const bounds = line.getBoundingClientRect();
-    const firstBounds = document.querySelector(".l3").getBoundingClientRect();
+    const firstBounds = document.querySelector(".l3")!.getBoundingClientRect();
     return { firstTop: firstBounds.top, top: bounds.top };
   });
   expect(secondSegment.top).toBeCloseTo(secondSegment.firstTop, 0);
@@ -284,7 +285,7 @@ test("@desktop-only gallery keeps the menu-open frame", async ({ page }) => {
   );
   const finalSegment = await page.locator(".l5").evaluate((line) => {
     const bounds = line.getBoundingClientRect();
-    const secondBounds = document.querySelector(".l4").getBoundingClientRect();
+    const secondBounds = document.querySelector(".l4")!.getBoundingClientRect();
     return { right: bounds.right, secondLeft: secondBounds.left };
   });
   expect(finalSegment.right).toBeCloseTo(finalSegment.secondLeft, 0);
@@ -310,7 +311,7 @@ test("@desktop-only gallery pictures fade as they enter and leave the scroll are
   const firstPicture = pictures.first();
   const partiallyVisiblePicture = pictures.nth(6);
   const lastPicture = pictures.last();
-  const opacity = (picture) =>
+  const opacity = (picture: Locator): Promise<number> =>
     picture.evaluate((element) =>
       Number.parseFloat(getComputedStyle(element).opacity),
     );
@@ -318,7 +319,7 @@ test("@desktop-only gallery pictures fade as they enter and leave the scroll are
   await expect.poll(() => opacity(firstPicture)).toBeGreaterThan(0.99);
   const visiblePixels = await partiallyVisiblePicture.evaluate((element) => {
     const pictureBounds = element.getBoundingClientRect();
-    const galleryBounds = element.parentElement.getBoundingClientRect();
+    const galleryBounds = element.parentElement!.getBoundingClientRect();
     return Math.max(
       0,
       Math.min(pictureBounds.bottom, galleryBounds.bottom) -
@@ -374,10 +375,10 @@ test("@desktop-only footer line flows into the gallery scrollbar", async ({
 
   const startingGeometry = await page.evaluate(() => {
     const horizontalBounds = document
-      .querySelector(".fl1")
+      .querySelector(".fl1")!
       .getBoundingClientRect();
     const travelingBounds = document
-      .querySelector(".Scroll")
+      .querySelector(".Scroll")!
       .getBoundingClientRect();
     return {
       horizontalRight: horizontalBounds.right,
@@ -408,13 +409,13 @@ test("@desktop-only footer line flows into the gallery scrollbar", async ({
 
   const transitionGeometry = await page.evaluate(() => {
     const horizontalBounds = document
-      .querySelector(".fl1")
+      .querySelector(".fl1")!
       .getBoundingClientRect();
     const verticalBounds = document
-      .querySelector(".fl2")
+      .querySelector(".fl2")!
       .getBoundingClientRect();
     const travelingBounds = document
-      .querySelector(".Scroll")
+      .querySelector(".Scroll")!
       .getBoundingClientRect();
     return {
       horizontalTop: horizontalBounds.top,
@@ -437,10 +438,10 @@ test("@desktop-only footer line flows into the gallery scrollbar", async ({
   await gallery.waitFor();
   const alignment = await page.evaluate(() => {
     const galleryBounds = document
-      .querySelector(".Buildings")
+      .querySelector(".Buildings")!
       .getBoundingClientRect();
     const travelingBounds = document
-      .querySelector(".Scroll")
+      .querySelector(".Scroll")!
       .getBoundingClientRect();
     return Math.abs(galleryBounds.right - travelingBounds.right);
   });
@@ -500,10 +501,10 @@ test("@desktop-only footer line flows into the gallery scrollbar", async ({
 
   const returnedGeometry = await page.evaluate(() => {
     const horizontalBounds = document
-      .querySelector(".fl1")
+      .querySelector(".fl1")!
       .getBoundingClientRect();
     const travelingBounds = document
-      .querySelector(".Scroll")
+      .querySelector(".Scroll")!
       .getBoundingClientRect();
     return {
       horizontalRight: horizontalBounds.right,
@@ -593,13 +594,15 @@ test("@desktop-only visual layout remains stable", async ({ page }) => {
 test("homepage stays within initial transfer budgets and does not fetch 3D assets", async ({
   page,
 }) => {
-  const requests = [];
+  const requests: string[] = [];
   page.on("request", (request) => requests.push(request.url()));
   await page.goto("/");
   await page.getByRole("heading", { name: "Buildings" }).waitFor();
 
   const resources = await page.evaluate(() =>
-    performance.getEntriesByType("resource").map((entry) => ({
+    (
+      performance.getEntriesByType("resource") as PerformanceResourceTiming[]
+    ).map((entry) => ({
       name: entry.name,
       size: entry.encodedBodySize,
       type: entry.initiatorType,

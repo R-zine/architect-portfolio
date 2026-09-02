@@ -1,11 +1,24 @@
 import { lazy, Suspense, useEffect, useState } from "react";
 
+import type { Language } from "../../types";
 import AnimatedPage from "../AnimatedPage";
 import "./contact.css";
 
-const ContactScene = lazy(() => import("./ContactScene.jsx"));
+const ContactScene = lazy(() => import("./ContactScene"));
 
-const contacts = [
+interface ContactItem {
+  href: string;
+  icon: string;
+  className: string;
+  text: string;
+  external?: boolean;
+}
+
+interface ContactProps {
+  language: Language;
+}
+
+const contacts: readonly ContactItem[] = [
   {
     href: "tel:+359894696679",
     icon: "/assets/phone.svg",
@@ -27,7 +40,7 @@ const contacts = [
   },
 ];
 
-function useMediaQuery(query) {
+function useMediaQuery(query: string): boolean {
   const [matches, setMatches] = useState(
     () => window.matchMedia(query).matches,
   );
@@ -42,7 +55,7 @@ function useMediaQuery(query) {
   return matches;
 }
 
-function Contact({ language }) {
+function Contact({ language }: ContactProps) {
   const mobile = useMediaQuery("(max-width: 1280px)");
   const reduceMotion = useMediaQuery("(prefers-reduced-motion: reduce)");
   const [visibleContacts, setVisibleContacts] = useState(

@@ -4,9 +4,17 @@ import { useLocation } from "react-router";
 
 import logo from "../../assets/logo.png";
 import logoMobile from "../../assets/logoMobile.png";
+import type { Language, LocalizedText } from "../../types";
 import "./footer.css";
 
-function Footer({ label, category, mode, language }) {
+interface FooterProps {
+  label: LocalizedText;
+  category: string;
+  mode: boolean;
+  language: Language;
+}
+
+function Footer({ label, category, mode, language }: FooterProps) {
   const location = useLocation();
   const reduceMotion = useReducedMotion();
   const [introComplete, setIntroComplete] = useState(mode || reduceMotion);

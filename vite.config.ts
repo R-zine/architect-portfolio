@@ -1,4 +1,4 @@
-import { defineConfig } from "vite";
+import { defineConfig } from "vitest/config";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
@@ -11,18 +11,18 @@ export default defineConfig({
   test: {
     environment: "jsdom",
     globals: true,
-    include: ["tests/**/*.test.{js,jsx}"],
-    setupFiles: ["./tests/setup.js"],
+    include: ["tests/**/*.test.{ts,tsx}"],
+    setupFiles: ["./tests/setup.ts"],
     testTimeout: 15_000,
     coverage: {
       provider: "v8",
       reporter: ["text", "json-summary", "html"],
-      include: ["src/**/*.{js,jsx}"],
+      include: ["src/**/*.{ts,tsx}"],
       exclude: [
         "src/generated/**",
-        "src/components/Contact/Model.jsx",
-        "src/components/Contact/ContactScene.jsx",
-        "src/components/Buildings/buildings.js",
+        "src/components/Contact/Model.tsx",
+        "src/components/Contact/ContactScene.tsx",
+        "src/components/Buildings/galleryData.ts",
       ],
       thresholds: {
         lines: 75,

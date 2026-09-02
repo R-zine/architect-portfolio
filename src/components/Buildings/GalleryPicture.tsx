@@ -1,6 +1,22 @@
 import { useEffect, useRef, useState } from "react";
+import type { Dispatch, SetStateAction } from "react";
 import { useReducedMotion } from "motion/react";
 import { useNavigate } from "react-router";
+
+import type {
+  CSSPropertiesWithVariables,
+  GalleryItem,
+  Language,
+  LocalizedText,
+} from "../../types";
+
+interface GalleryPictureProps {
+  building: GalleryItem;
+  language: Language;
+  openModal: Dispatch<SetStateAction<GalleryItem | null>>;
+  order: number;
+  setFooterLabel: Dispatch<SetStateAction<LocalizedText>>;
+}
 
 function GalleryPicture({
   building,
@@ -8,9 +24,9 @@ function GalleryPicture({
   openModal,
   order,
   setFooterLabel,
-}) {
+}: GalleryPictureProps) {
   const navigate = useNavigate();
-  const revealRef = useRef(null);
+  const revealRef = useRef<HTMLElement>(null);
   const reduceMotion = useReducedMotion();
   const [isVisible, setIsVisible] = useState(false);
   const supportsIntersectionObserver =
@@ -21,7 +37,7 @@ function GalleryPicture({
 
   const open = () => {
     if (building.path === "none") openModal(building);
-    else navigate(`/gallery/${building.path}`);
+    else void navigate(`/gallery/${building.path}`);
   };
 
   useEffect(() => {
@@ -29,7 +45,10 @@ function GalleryPicture({
     if (reduceMotion || !supportsIntersectionObserver || !picture) return;
 
     const observer = new IntersectionObserver(
-      ([entry]) => setIsVisible(entry.isIntersecting),
+      (entries) => {
+        const entry = entries[0];
+        if (entry) setIsVisible(entry.isIntersecting);
+      },
       {
         root: picture.closest(".Buildings"),
         rootMargin: "-150px 0px",
@@ -42,6 +61,9 @@ function GalleryPicture({
 
   const revealPicture =
     reduceMotion || !supportsIntersectionObserver || isVisible;
+  const animationStyle: CSSPropertiesWithVariables = {
+    "--animation-order": order,
+  };
 
   return (
     <article
@@ -51,16 +73,20 @@ function GalleryPicture({
       {building.desc && (
         <div className="mobile-label">{building.desc[language]}</div>
       )}
-      <div className="BuildingPicture" style={{ "--animation-order": order }}>
+      <div className="BuildingPicture" style={animationStyle}>
         <div className="box">
           <div
             role="button"
-            tabIndex="0"
+            tabIndex={0}
             className="box-inner"
             aria-label={label}
-            onMouseEnter={() => building.desc && setFooterLabel(building.desc)}
+            onMouseEnter={() => {
+              if (building.desc) setFooterLabel(building.desc);
+            }}
             onMouseLeave={() => setFooterLabel(["", ""])}
-            onFocus={() => building.desc && setFooterLabel(building.desc)}
+            onFocus={() => {
+              if (building.desc) setFooterLabel(building.desc);
+            }}
             onBlur={() => setFooterLabel(["", ""])}
             onClick={open}
             onKeyDown={(event) => {

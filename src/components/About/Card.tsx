@@ -6,8 +6,15 @@ import {
   useTransform,
 } from "motion/react";
 import { useEffect } from "react";
+import type { CSSPropertiesWithVariables } from "../../types";
 
-function Card({ num, text, id }) {
+interface CardProps {
+  num: number;
+  text: string;
+  id: number;
+}
+
+function Card({ num, text, id }: CardProps) {
   const reduceMotion = useReducedMotion();
   const value = useMotionValue(reduceMotion ? num : 0);
   const displayValue = useTransform(
@@ -29,8 +36,10 @@ function Card({ num, text, id }) {
     return () => controls.stop();
   }, [id, num, reduceMotion, value]);
 
+  const style: CSSPropertiesWithVariables = { "--animation-order": id };
+
   return (
-    <div className="Card" style={{ "--animation-order": id }}>
+    <div className="Card" style={style}>
       <motion.span className="number">{displayValue}</motion.span>
       <div className="cardText">{text}</div>
     </div>

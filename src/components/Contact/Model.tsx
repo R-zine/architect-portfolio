@@ -1,12 +1,17 @@
 import { useGLTF } from "@react-three/drei";
 import { useMemo } from "react";
+import { Mesh } from "three";
 
-export function Model(props) {
+interface ModelProps {
+  scale?: number;
+}
+
+export function Model(props: ModelProps) {
   const { scene } = useGLTF("/model.glb");
   const model = useMemo(() => {
     const clone = scene.clone(true);
     clone.traverse((child) => {
-      if (child.isMesh) {
+      if (child instanceof Mesh) {
         child.castShadow = true;
         child.receiveShadow = true;
       }

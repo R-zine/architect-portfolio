@@ -1,6 +1,11 @@
 import { motion, useReducedMotion } from "motion/react";
+import type { ReactNode } from "react";
 
-function AnimatedPage({ children }) {
+interface AnimatedPageProps {
+  children: ReactNode;
+}
+
+function AnimatedPage({ children }: AnimatedPageProps) {
   const reduceMotion = useReducedMotion();
 
   return (

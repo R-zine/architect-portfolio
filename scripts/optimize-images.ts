@@ -11,6 +11,20 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 import sharp from "sharp";
+import type { GalleryAsset } from "../src/types";
+
+type SourceMap = Record<string, string>;
+
+interface ImageVariant {
+  src: string;
+  width: number;
+  height: number;
+}
+
+interface SourceMapBuild {
+  aliases: SourceMap;
+  canonicalFiles: Map<string, string>;
+}
 
 const workspace = path.resolve(
   path.dirname(fileURLToPath(import.meta.url)),
@@ -28,9 +42,9 @@ const runtimeManifestPath = path.join(
 const supportedExtensions = new Set([".jpg", ".jpeg", ".png"]);
 const shouldDedupeSources = process.argv.includes("--dedupe-sources");
 
-async function listImages(directory) {
+async function listImages(directory: string): Promise<string[]> {
   const entries = await readdir(directory, { withFileTypes: true });
-  const files = [];
+  const files: string[] = [];
 
   for (const entry of entries) {
     const absolutePath = path.join(directory, entry.name);
@@ -43,32 +57,50 @@ async function listImages(directory) {
   return files;
 }
 
-function relativeSource(absolutePath) {
+function relativeSource(absolutePath: string): string {
   return path.relative(sourceRoot, absolutePath).split(path.sep).join("/");
 }
 
-function logicalPath(relativePath) {
+function logicalPath(relativePath: string): string {
   return `./img/${relativePath}`;
 }
 
-async function loadExistingSourceMap() {
+function isStringRecord(value: unknown): value is SourceMap {
+  return (
+    typeof value === "object" &&
+    value !== null &&
+    Object.values(value).every((entry) => typeof entry === "string")
+  );
+}
+
+function isErrnoException(error: unknown): error is NodeJS.ErrnoException {
+  return error instanceof Error && "code" in error;
+}
+
+async function loadExistingSourceMap(): Promise<SourceMap> {
   try {
-    return JSON.parse(await readFile(sourceMapPath, "utf8"));
+    const parsed: unknown = JSON.parse(await readFile(sourceMapPath, "utf8"));
+    if (!isStringRecord(parsed)) {
+      throw new Error("Gallery source map must contain string path mappings.");
+    }
+    return parsed;
   } catch (error) {
-    if (error.code === "ENOENT") return {};
+    if (isErrnoException(error) && error.code === "ENOENT") return {};
     throw error;
   }
 }
 
-async function hashFile(filePath) {
+async function hashFile(filePath: string): Promise<string> {
   return createHash("sha256")
     .update(await readFile(filePath))
     .digest("hex");
 }
 
-async function buildSourceMap(files) {
+async function buildSourceMap(
+  files: readonly string[],
+): Promise<SourceMapBuild> {
   const existing = await loadExistingSourceMap();
-  const groups = new Map();
+  const groups = new Map<string, string[]>();
 
   for (const filePath of files) {
     const hash = await hashFile(filePath);
@@ -79,7 +111,7 @@ async function buildSourceMap(files) {
   }
 
   const aliases = { ...existing };
-  const canonicalFiles = new Map();
+  const canonicalFiles = new Map<string, string>();
 
   for (const [hash, relativePaths] of groups) {
     relativePaths.sort((a, b) => a.localeCompare(b));
@@ -87,6 +119,7 @@ async function buildSourceMap(files) {
       relativePaths.includes(candidate),
     );
     const canonical = preferredExisting ?? relativePaths[0];
+    if (!canonical) throw new Error(`Image hash group ${hash} is empty.`);
     canonicalFiles.set(canonical, hash);
 
     for (const relativePath of relativePaths) {
@@ -105,7 +138,10 @@ async function buildSourceMap(files) {
   return { aliases, canonicalFiles };
 }
 
-async function createVariants(relativePath, hash) {
+async function createVariants(
+  relativePath: string,
+  hash: string,
+): Promise<GalleryAsset> {
   const inputPath = path.join(sourceRoot, relativePath);
   const metadata = await sharp(inputPath, { failOn: "warning" })
     .rotate()
@@ -120,7 +156,7 @@ async function createVariants(relativePath, hash) {
   const widths = [
     ...new Set([480, 960, 1920].map((width) => Math.min(width, sourceWidth))),
   ];
-  const variants = [];
+  const variants: ImageVariant[] = [];
 
   for (const width of widths) {
     const filename = `${hash.slice(0, 20)}-${width}.webp`;
@@ -144,12 +180,18 @@ async function createVariants(relativePath, hash) {
     });
   }
 
+  const firstVariant = variants[0];
+  const lastVariant = variants.at(-1);
+  if (!firstVariant || !lastVariant) {
+    throw new Error(`No responsive variants were created for ${relativePath}`);
+  }
+
   return {
-    src: variants[0].src,
-    full: variants.at(-1).src,
+    src: firstVariant.src,
+    full: lastVariant.src,
     srcSet: variants.map(({ src, width }) => `${src} ${width}w`).join(", "),
-    width: variants.at(-1).width,
-    height: variants.at(-1).height,
+    width: lastVariant.width,
+    height: lastVariant.height,
   };
 }
 
@@ -159,7 +201,7 @@ async function main() {
 
   const files = await listImages(sourceRoot);
   const { aliases, canonicalFiles } = await buildSourceMap(files);
-  const assetsByCanonical = new Map();
+  const assetsByCanonical = new Map<string, GalleryAsset>();
 
   for (const [relativePath, hash] of canonicalFiles) {
     assetsByCanonical.set(
@@ -168,21 +210,23 @@ async function main() {
     );
   }
 
-  const manifest = Object.fromEntries(
-    Object.entries(aliases)
-      .sort(([left], [right]) => left.localeCompare(right))
-      .map(([alias, canonical]) => [alias, assetsByCanonical.get(canonical)]),
-  );
-
-  if (Object.values(manifest).some((asset) => !asset)) {
-    throw new Error("Gallery source map points to a missing canonical image.");
-  }
+  const manifestEntries = Object.entries(aliases)
+    .sort(([left], [right]) => left.localeCompare(right))
+    .map(([alias, canonical]) => {
+      const asset = assetsByCanonical.get(canonical);
+      if (!asset) {
+        throw new Error(`Missing optimized asset for ${canonical}.`);
+      }
+      return [alias, asset] as const;
+    });
+  const manifest: Record<string, GalleryAsset> =
+    Object.fromEntries(manifestEntries);
 
   const expectedOutputs = new Set(
     Object.values(manifest).flatMap((asset) =>
       asset.srcSet
         .split(", ")
-        .map((entry) => path.basename(entry.split(" ")[0])),
+        .map((entry) => path.basename(entry.split(" ")[0] ?? entry)),
     ),
   );
 

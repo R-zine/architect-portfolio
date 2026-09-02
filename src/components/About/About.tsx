@@ -2,28 +2,46 @@ import { useEffect, useState } from "react";
 import { useReducedMotion } from "motion/react";
 
 import { getGalleryAsset } from "../../utils/galleryAssets";
+import type { Language, LocalizedText } from "../../types";
 import AnimatedPage from "../AnimatedPage";
 import Card from "./Card";
 import "./about.css";
 
-const cards = [
+interface AboutCard {
+  num: number;
+  label: LocalizedText;
+}
+
+interface TypewriterTextProps {
+  children: string;
+}
+
+interface AnimatedTypewriterProps {
+  text: string;
+}
+
+interface AboutProps {
+  language: Language;
+}
+
+const cards: readonly AboutCard[] = [
   { num: 40, label: ["Проектирани сгради", "Buildings Completed"] },
   { num: 200, label: ["Интериорни разработки", "Interior Projects"] },
   { num: 150000, label: ["кв.м. разгъната площ", "sq.m. of built area"] },
 ];
 
-const biography = [
+const biography: LocalizedText = [
   "Завърших архитектура във ВИАС през 1992 г. и оттогава работя по специалността. Независимо дали проектирам голяма сграда или детска стая, за мен е предизвикателство да намеря баланса между функционалност, естетика, ергономия и практичност — както за ползвателя, така и за изпълнителя. Опитът ми в строителна и мебелна компания ми дава поглед върху всички аспекти на един проект: от пазарното оценяване на парцела, през строителството върху него, до обзавеждането на имота според желанията на клиентите.",
   "I graduated in Architecture in 1992 and have worked in the field ever since. Whether I am designing a building or a child's room, I look for the balance between functionality, aesthetics, ergonomics, and practicality — for both the end user and the contractor. My experience in construction and furniture companies gives me a broad view of every project, from evaluating a plot and building on it to furnishing the completed property around the client's needs.",
 ];
 
 const profileImage = getGalleryAsset("./img/profile.jpg");
 
-function TypewriterText({ children }) {
+function TypewriterText({ children }: TypewriterTextProps) {
   const reduceMotion = useReducedMotion();
 
   return (
-    <div className="text" role="heading" aria-level="1" aria-label={children}>
+    <div className="text" role="heading" aria-level={1} aria-label={children}>
       {reduceMotion ? (
         children
       ) : (
@@ -33,12 +51,12 @@ function TypewriterText({ children }) {
   );
 }
 
-function AnimatedTypewriter({ text: completeText }) {
+function AnimatedTypewriter({ text: completeText }: AnimatedTypewriterProps) {
   const [text, setText] = useState("");
 
   useEffect(() => {
     let index = 0;
-    let interval;
+    let interval: number | undefined;
     const startTimer = window.setTimeout(() => {
       interval = window.setInterval(() => {
         index += 1;
@@ -49,14 +67,14 @@ function AnimatedTypewriter({ text: completeText }) {
 
     return () => {
       window.clearTimeout(startTimer);
-      window.clearInterval(interval);
+      if (interval !== undefined) window.clearInterval(interval);
     };
   }, [completeText]);
 
   return text;
 }
 
-function About({ language }) {
+function About({ language }: AboutProps) {
   const greeting = language
     ? "Hi! My name is Diana."
     : "Здравей! Аз съм Диана.";
@@ -65,7 +83,7 @@ function About({ language }) {
     <AnimatedPage>
       <main
         className="About"
-        tabIndex="0"
+        tabIndex={0}
         aria-label={language ? "About Diana Radeva" : "За Диана Радева"}
       >
         <section className="profile" aria-labelledby="about-heading">

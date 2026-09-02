@@ -1,8 +1,26 @@
 import { render, screen } from "@testing-library/react";
+import type { ReactNode } from "react";
 import { describe, expect, it, vi } from "vitest";
 
+interface CanvasMockProps {
+  camera: { fov: number };
+  children: ReactNode;
+  shadows: boolean;
+}
+
+interface StageMockProps {
+  children: ReactNode;
+  intensity: number;
+  preset: string;
+  shadows: string;
+}
+
+interface ModelMockProps {
+  scale: number;
+}
+
 vi.mock("@react-three/fiber", () => ({
-  Canvas: ({ camera, children, shadows }) => (
+  Canvas: ({ camera, children, shadows }: CanvasMockProps) => (
     <div
       data-testid="canvas"
       data-fov={camera.fov}
@@ -15,7 +33,7 @@ vi.mock("@react-three/fiber", () => ({
 
 vi.mock("@react-three/drei", () => ({
   OrbitControls: () => null,
-  Stage: ({ children, intensity, preset, shadows }) => (
+  Stage: ({ children, intensity, preset, shadows }: StageMockProps) => (
     <div
       data-testid="stage"
       data-intensity={intensity}
@@ -27,11 +45,13 @@ vi.mock("@react-three/drei", () => ({
   ),
 }));
 
-vi.mock("../src/components/Contact/Model.jsx", () => ({
-  Model: ({ scale }) => <div data-testid="model" data-scale={scale} />,
+vi.mock("../src/components/Contact/Model", () => ({
+  Model: ({ scale }: ModelMockProps) => (
+    <div data-testid="model" data-scale={scale} />
+  ),
 }));
 
-import ContactScene from "../src/components/Contact/ContactScene.jsx";
+import ContactScene from "../src/components/Contact/ContactScene";
 
 describe("contact scene", () => {
   it("uses normalized Rembrandt lighting and dynamic shadows", () => {

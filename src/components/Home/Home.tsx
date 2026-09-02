@@ -1,11 +1,16 @@
 import AnimatedPage from "../AnimatedPage";
 import { getGalleryAsset } from "../../utils/galleryAssets";
+import type { Language } from "../../types";
 import "./Home.css";
 
 const buildingsImage = getGalleryAsset("./img/buildings/7.jpg");
 const interiorsImage = getGalleryAsset("./img/furniture/8.jpg");
 
-function Home({ language }) {
+interface HomeProps {
+  language: Language;
+}
+
+function Home({ language }: HomeProps) {
   return (
     <AnimatedPage>
       <main className="Home">

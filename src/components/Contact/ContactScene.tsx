@@ -1,17 +1,29 @@
 import { OrbitControls, Stage } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { Component, Suspense } from "react";
+import type { ReactNode } from "react";
 
-import { Model } from "./Model.jsx";
+import { Model } from "./Model";
 
-class SceneErrorBoundary extends Component {
-  state = { failed: false };
+interface SceneErrorBoundaryProps {
+  children: ReactNode;
+}
+
+interface SceneErrorBoundaryState {
+  failed: boolean;
+}
+
+class SceneErrorBoundary extends Component<
+  SceneErrorBoundaryProps,
+  SceneErrorBoundaryState
+> {
+  override state = { failed: false };
 
   static getDerivedStateFromError() {
     return { failed: true };
   }
 
-  render() {
+  override render() {
     if (this.state.failed) {
       return null;
     }

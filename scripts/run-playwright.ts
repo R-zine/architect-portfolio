@@ -30,7 +30,7 @@ const preview = spawn(
   },
 );
 
-async function waitForPreview() {
+async function waitForPreview(): Promise<void> {
   const deadline = Date.now() + 30_000;
 
   while (Date.now() < deadline) {
@@ -47,17 +47,23 @@ async function waitForPreview() {
       // The preview process is still starting.
     }
 
-    await new Promise((resolve) => setTimeout(resolve, 200));
+    await new Promise<void>((resolve) => setTimeout(resolve, 200));
   }
 
   throw new Error(`Vite preview did not become ready at ${baseUrl}.`);
 }
 
-async function stopPreview() {
+async function stopPreview(): Promise<void> {
   if (preview.exitCode !== null) return;
 
+  const previewPid = preview.pid;
+  if (previewPid === undefined) {
+    preview.kill("SIGTERM");
+    return;
+  }
+
   if (process.platform === "win32") {
-    spawnSync("taskkill", ["/pid", String(preview.pid), "/T", "/F"], {
+    spawnSync("taskkill", ["/pid", String(previewPid), "/T", "/F"], {
       stdio: "ignore",
       windowsHide: true,
     });
@@ -65,13 +71,13 @@ async function stopPreview() {
     return;
   }
 
-  process.kill(-preview.pid, "SIGTERM");
+  process.kill(-previewPid, "SIGTERM");
   await Promise.race([
     once(preview, "exit"),
-    new Promise((resolve) => setTimeout(resolve, 5_000)),
+    new Promise<void>((resolve) => setTimeout(resolve, 5_000)),
   ]);
 
-  if (preview.exitCode === null) process.kill(-preview.pid, "SIGKILL");
+  if (preview.exitCode === null) process.kill(-previewPid, "SIGKILL");
 }
 
 let exitCode = 1;
@@ -88,7 +94,10 @@ try {
       windowsHide: true,
     },
   );
-  const [code] = await once(tests, "exit");
+  const code = await new Promise<number | null>((resolve, reject) => {
+    tests.once("error", reject);
+    tests.once("exit", resolve);
+  });
   exitCode = code ?? 1;
 } finally {
   await stopPreview();

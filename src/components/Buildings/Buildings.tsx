@@ -1,21 +1,38 @@
 import { useCallback, useEffect, useRef, useState } from "react";
+import type { Dispatch, SetStateAction } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { useNavigate, useParams } from "react-router";
 
+import type { GalleryItem, Language, LocalizedText } from "../../types";
 import AnimatedPage from "../AnimatedPage";
 import GalleryPicture from "./GalleryPicture";
-import data, { getCategoryLabel } from "./buildings.js";
+import data, { getCategoryLabel } from "./galleryData";
 import "./Buildings.scss";
 
-function PictureModal({ currentPicture, hide, language }) {
-  const buttonRef = useRef(null);
+interface PictureModalProps {
+  currentPicture: GalleryItem;
+  hide: () => void;
+  language: Language;
+}
+
+interface GalleryProps {
+  language: Language;
+  setCategoryLabel: Dispatch<SetStateAction<string>>;
+  setFooterLabel: Dispatch<SetStateAction<LocalizedText>>;
+}
+
+function PictureModal({ currentPicture, hide, language }: PictureModalProps) {
+  const buttonRef = useRef<HTMLDivElement>(null);
   const reduceMotion = useReducedMotion();
 
   useEffect(() => {
-    const previousFocus = document.activeElement;
+    const previousFocus =
+      document.activeElement instanceof HTMLElement
+        ? document.activeElement
+        : null;
     buttonRef.current?.focus();
 
-    const handleKeyDown = (event) => {
+    const handleKeyDown = (event: globalThis.KeyboardEvent) => {
       if (event.key === "Escape") hide();
       if (event.key === "Tab") {
         event.preventDefault();
@@ -26,7 +43,7 @@ function PictureModal({ currentPicture, hide, language }) {
     document.addEventListener("keydown", handleKeyDown);
     return () => {
       document.removeEventListener("keydown", handleKeyDown);
-      previousFocus?.focus?.();
+      previousFocus?.focus();
     };
   }, [hide]);
 
@@ -60,7 +77,7 @@ function PictureModal({ currentPicture, hide, language }) {
       <div
         ref={buttonRef}
         role="button"
-        tabIndex="0"
+        tabIndex={0}
         className="modal-btn"
         onClick={hide}
         onKeyDown={(event) => {
@@ -76,16 +93,18 @@ function PictureModal({ currentPicture, hide, language }) {
   );
 }
 
-function Gallery({ language, setCategoryLabel, setFooterLabel }) {
-  const [currentPicture, setCurrentPicture] = useState(null);
-  const { category } = useParams();
+function Gallery({ language, setCategoryLabel, setFooterLabel }: GalleryProps) {
+  const [currentPicture, setCurrentPicture] = useState<GalleryItem | null>(
+    null,
+  );
+  const { category } = useParams<{ category: string }>();
   const navigate = useNavigate();
-  const pictures = data[category];
+  const pictures = category ? data[category] : undefined;
   const closeModal = useCallback(() => setCurrentPicture(null), []);
 
   useEffect(() => {
-    if (!pictures) {
-      navigate("/", { replace: true });
+    if (!category || !pictures) {
+      void navigate("/", { replace: true });
       return;
     }
     setCategoryLabel(getCategoryLabel(category, language));
@@ -99,7 +118,7 @@ function Gallery({ language, setCategoryLabel, setFooterLabel }) {
     setFooterLabel,
   ]);
 
-  if (!pictures) return null;
+  if (!category || !pictures) return null;
 
   return (
     <AnimatedPage>

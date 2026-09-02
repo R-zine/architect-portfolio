@@ -26,6 +26,7 @@ WebP gallery assets from `assets/gallery-originals` before starting.
 
 ```sh
 yarn lint
+yarn typecheck
 yarn audit
 yarn test:coverage
 yarn build
@@ -35,8 +36,8 @@ yarn test:e2e
 Run all fast checks together with `yarn check`. Playwright requires its Chromium
 browser once per machine: `yarn playwright install chromium`.
 
-Husky runs `yarn check` before each commit, covering linting, formatting, unit
-tests with coverage thresholds, and a production build. Run the slower
+Husky runs `yarn check` before each commit, covering linting, formatting,
+TypeScript checking, unit tests with coverage thresholds, and a production build. Run the slower
 `yarn test:e2e` browser suite separately before opening a pull request.
 
 Yarn uses the compatibility-focused `node-modules` linker, disables dependency
@@ -46,7 +47,7 @@ release-age gate when resolving new package versions.
 ## Asset maintenance
 
 Add original JPG or PNG files beneath `assets/gallery-originals`, reference the
-logical `./img/...` path in `src/components/Buildings/buildings.js`, then run:
+logical `./img/...` path in `src/components/Buildings/galleryData.ts`, then run:
 
 ```sh
 yarn assets:build

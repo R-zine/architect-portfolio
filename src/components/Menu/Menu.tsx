@@ -1,10 +1,24 @@
 import { useEffect, useState } from "react";
+import type { Dispatch, KeyboardEvent, SetStateAction } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { NavLink, useLocation } from "react-router";
 
+import type { Language, LocalizedText } from "../../types";
 import "./menu.css";
 
-const menuItems = [
+interface MenuItem {
+  id: string;
+  to: string;
+  end?: boolean;
+  label: LocalizedText;
+}
+
+interface MenuProps {
+  language: Language;
+  setLanguage: Dispatch<SetStateAction<Language>>;
+}
+
+const menuItems: readonly MenuItem[] = [
   { id: "home", to: "/", end: true, label: ["Начало", "Home Page"] },
   { id: "about", to: "/about", label: ["За мен", "About"] },
   {
@@ -25,7 +39,7 @@ const menuItems = [
   { id: "contact", to: "/contact", label: ["Контакти", "Contact"] },
 ];
 
-function Menu({ setLanguage, language }) {
+function Menu({ setLanguage, language }: MenuProps) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
   const [loaded, setLoaded] = useState(false);
@@ -39,7 +53,10 @@ function Menu({ setLanguage, language }) {
   const snakeDuration = reduceMotion ? 0 : 0.5;
   const tailRetracted = menuOpen || isHovered;
 
-  const activateWithKeyboard = (event, action) => {
+  const activateWithKeyboard = (
+    event: KeyboardEvent<HTMLElement>,
+    action: () => void,
+  ) => {
     if (event.key === "Enter" || event.key === " ") {
       event.preventDefault();
       action();
@@ -61,7 +78,7 @@ function Menu({ setLanguage, language }) {
     >
       <div
         role="button"
-        tabIndex="0"
+        tabIndex={0}
         className="language-btn"
         onClick={() => setLanguage((current) => (current ? 0 : 1))}
         onKeyDown={(event) =>
@@ -76,7 +93,7 @@ function Menu({ setLanguage, language }) {
       <div className="curtain" aria-hidden="true" />
       <div
         role="button"
-        tabIndex="0"
+        tabIndex={0}
         className={
           menuOpen ? "menu--main--btn menu-btn-open" : "menu--main--btn"
         }

@@ -4,8 +4,16 @@ import react from "eslint-plugin-react";
 import reactHooks from "eslint-plugin-react-hooks";
 import reactRefresh from "eslint-plugin-react-refresh";
 import globals from "globals";
+import tseslint from "typescript-eslint";
 
-export default [
+const reactRecommended = react.configs.flat.recommended;
+const reactJsxRuntime = react.configs.flat["jsx-runtime"];
+
+if (!reactRecommended || !reactJsxRuntime) {
+  throw new Error("eslint-plugin-react did not provide its flat configs.");
+}
+
+export default tseslint.config(
   {
     ignores: [
       "coverage/**",
@@ -18,13 +26,18 @@ export default [
       "test-results/**",
     ],
   },
-  eslint.configs.recommended,
   {
-    files: ["**/*.{js,jsx,mjs}"],
+    files: ["**/*.{ts,tsx}"],
+    extends: [
+      eslint.configs.recommended,
+      ...tseslint.configs.recommendedTypeChecked,
+    ],
     languageOptions: {
-      ecmaVersion: "latest",
       globals: { ...globals.browser, ...globals.node },
-      parserOptions: { ecmaFeatures: { jsx: true }, sourceType: "module" },
+      parserOptions: {
+        projectService: true,
+        tsconfigRootDir: import.meta.dirname,
+      },
     },
     plugins: {
       "jsx-a11y": jsxA11y,
@@ -35,9 +48,14 @@ export default [
     rules: {
       ...reactHooks.configs.recommended.rules,
       ...jsxA11y.flatConfigs.recommended.rules,
-      ...react.configs.flat.recommended.rules,
-      ...react.configs.flat["jsx-runtime"].rules,
-      "no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
+      ...reactRecommended.rules,
+      ...reactJsxRuntime.rules,
+      "@typescript-eslint/consistent-type-imports": "error",
+      "@typescript-eslint/no-explicit-any": "error",
+      "@typescript-eslint/no-unused-vars": [
+        "error",
+        { argsIgnorePattern: "^_" },
+      ],
       "jsx-a11y/no-noninteractive-tabindex": ["error", { tags: ["main"] }],
       "react/no-unknown-property": "off",
       "react/prop-types": "off",
@@ -48,4 +66,4 @@ export default [
     },
     settings: { react: { version: "detect" } },
   },
-];
+);

@@ -6,16 +6,17 @@ import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Menu from "./components/Menu/Menu";
 import Scroll from "./components/Scroll";
+import type { Language, LocalizedText } from "./types";
 
-const About = lazy(() => import("./components/About/About.jsx"));
-const Contact = lazy(() => import("./components/Contact/Contact.jsx"));
-const Gallery = lazy(() => import("./components/Buildings/Buildings.jsx"));
-const Home = lazy(() => import("./components/Home/Home.jsx"));
+const About = lazy(() => import("./components/About/About"));
+const Contact = lazy(() => import("./components/Contact/Contact"));
+const Gallery = lazy(() => import("./components/Buildings/Buildings"));
+const Home = lazy(() => import("./components/Home/Home"));
 
 function App() {
-  const [footerLabel, setFooterLabel] = useState(["", ""]);
+  const [footerLabel, setFooterLabel] = useState<LocalizedText>(["", ""]);
   const [categoryLabel, setCategoryLabel] = useState("");
-  const [language, setLanguage] = useState(1);
+  const [language, setLanguage] = useState<Language>(1);
   const location = useLocation();
   const galleryMode = location.pathname.startsWith("/gallery/");
 
