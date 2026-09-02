@@ -621,3 +621,33 @@ test("homepage stays within initial transfer budgets and does not fetch 3D asset
   expect(imageBytes).toBeLessThan(2_000_000);
   expect(requests.some((url) => url.endsWith("/model.glb"))).toBe(false);
 });
+
+test("@desktop-only typography loads from the site itself", async ({
+  page,
+}) => {
+  const fontRequests: string[] = [];
+  page.on("request", (request) => {
+    if (request.resourceType() === "font") {
+      fontRequests.push(request.url());
+    }
+  });
+
+  await page.goto("/");
+  await page.evaluate(() => document.fonts.ready);
+
+  expect(
+    await page.evaluate(() =>
+      document.fonts.check('400 16px "Roboto Condensed"'),
+    ),
+  ).toBe(true);
+  expect(
+    fontRequests.some((url) =>
+      url.includes("/assets/fonts/roboto-condensed-latin.woff2"),
+    ),
+  ).toBe(true);
+
+  const pageOrigin = new URL(page.url()).origin;
+  expect(fontRequests.every((url) => new URL(url).origin === pageOrigin)).toBe(
+    true,
+  );
+});
