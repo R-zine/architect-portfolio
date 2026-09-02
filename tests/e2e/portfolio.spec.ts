@@ -588,7 +588,8 @@ test("@desktop-only visual layout remains stable", async ({ page }) => {
     .toBeGreaterThan(648);
   await expect(page).toHaveScreenshot("about-desktop.png", {
     animations: "disabled",
-    maxDiffPixelRatio: 0.01,
+    // This text-heavy page accumulates more cross-runner glyph rasterization.
+    maxDiffPixelRatio: 0.02,
   });
 });
 
